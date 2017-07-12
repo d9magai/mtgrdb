@@ -41,3 +41,22 @@ CREATE TABLE cards (
     setcode text DEFAULT ''
 );
 
+CREATE TABLE sets (
+    code               text PRIMARY KEY,
+    alternativeNames   text DEFAULT '' ,
+    name               text DEFAULT '' ,
+    gathererCode       text DEFAULT '' ,
+    oldCode            text DEFAULT '' ,
+    magicCardsInfoCode text DEFAULT '' ,
+    magicRaritiesCodes text DEFAULT '' ,
+    releaseDate        text DEFAULT '' ,
+    border             text DEFAULT '' ,
+    type               text DEFAULT '' ,
+    block              text DEFAULT '' ,
+    onlineOnly         text DEFAULT '' ,
+    booster            text DEFAULT '' ,
+    translations       text DEFAULT '' ,
+    mkm_name           text DEFAULT '' ,
+    mkm_id             text DEFAULT ''
+);
+
