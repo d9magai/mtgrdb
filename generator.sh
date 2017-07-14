@@ -12,10 +12,12 @@ for s in $(jq --raw-output 'keys[]' AllSets-x.json); do
     echo "
 INSERT INTO sets(
     name               ,
+    alternativeNames   ,
     code               ,
     gathererCode       ,
     oldCode            ,
     magicCardsInfoCode ,
+    magicRaritiesCodes ,
     releaseDate        ,
     border             ,
     type               ,
@@ -26,12 +28,14 @@ INSERT INTO sets(
     mkm_name           ,
     mkm_id
 )
-SELECT * FROM json_to_recordset('["$(jq '.["'$s'"]' AllSets-x.json  | jq -r 'del(.cards)' | sed -e "s/'/''/g;s/gathererCode/gatherercode/;s/magicCardsInfoCode/magiccardsinfocode/;s/releaseDate/releasedate/;s/onlineOnly/onlineonly/;" -)"]') AS x(
+SELECT * FROM json_to_recordset('["$(jq '.["'$s'"]' AllSets-x.json  | jq -r 'del(.cards)' | sed -e "s/'/''/g;s/alternativeNames/alternativenames/;s/gathererCode/gatherercode/;s/magicCardsInfoCode/magiccardsinfocode/;s/magicRaritiesCodes/magicraritiescodes/;s/releaseDate/releasedate/;s/onlineOnly/onlineonly/;" -)"]') AS x(
     name               text,
+    alternativeNames   text,
     code               text,
     gathererCode       text,
     oldCode            text,
     magicCardsInfoCode text,
+    magicRaritiesCodes text,
     releaseDate        text,
     border             text,
     type               text,
