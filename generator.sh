@@ -36,7 +36,7 @@ SELECT * FROM json_to_recordset('["$(jq '.["'$s'"]' AllSets-x.json  | jq -r 'del
     oldCode            text,
     magicCardsInfoCode text,
     magicRaritiesCodes text,
-    releaseDate        text,
+    releaseDate        date,
     border             text,
     type               text,
     block              text,

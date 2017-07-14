@@ -49,7 +49,7 @@ CREATE TABLE sets (
     oldCode            text DEFAULT '' ,
     magicCardsInfoCode text DEFAULT '' ,
     magicRaritiesCodes text DEFAULT '' ,
-    releaseDate        text DEFAULT '' ,
+    releaseDate        date DEFAULT null ,
     border             text DEFAULT '' ,
     type               text DEFAULT '' ,
     block              text DEFAULT '' ,
