@@ -1,13 +1,20 @@
 #!/bin/bash
 set -eu
+cd $(dirname $0)
 
-curl -sL https://mtgjson.com/json/AllSets-x.json.zip | bsdtar -xf-
+JSON_FILENAME=AllSets-x.json
+
+if [ ! -e $JSON_FILENAME ]; then
+    curl -sL https://mtgjson.com/json/${JSON_FILENAME}.zip | bsdtar -xf-
+fi
 
 mkdir -p json
 cp createtable.sql run.sql
 
-for s in $(jq --raw-output 'keys[]' AllSets-x.json); do
-    jq '.["'$s'"].cards' AllSets-x.json > json/$s.json
+for s in $(jq --raw-output 'keys[]' ${JSON_FILENAME}); do
+    if [ ! -e json/$s.json ]; then
+        jq '.["'$s'"].cards' ${JSON_FILENAME} > json/$s.json
+    fi
 
     echo "
 INSERT INTO sets(
@@ -28,7 +35,7 @@ INSERT INTO sets(
     mkm_name           ,
     mkm_id
 )
-SELECT * FROM json_to_recordset('["$(jq '.["'$s'"]' AllSets-x.json  | jq -r 'del(.cards)' | sed -e "s/'/''/g;s/alternativeNames/alternativenames/;s/gathererCode/gatherercode/;s/magicCardsInfoCode/magiccardsinfocode/;s/magicRaritiesCodes/magicraritiescodes/;s/releaseDate/releasedate/;s/onlineOnly/onlineonly/;" -)"]') AS x(
+SELECT * FROM json_to_recordset('["$(jq '.["'$s'"]' ${JSON_FILENAME} | jq -r 'del(.cards)' | sed -e "s/'/''/g;s/alternativeNames/alternativenames/;s/gathererCode/gatherercode/;s/magicCardsInfoCode/magiccardsinfocode/;s/magicRaritiesCodes/magicraritiescodes/;s/releaseDate/releasedate/;s/onlineOnly/onlineonly/;" -)"]') AS x(
     name               text,
     alternativeNames   text,
     code               text,
