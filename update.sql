@@ -508,10 +508,10 @@ UPDATE cards SET mcinumber='26' WHERE id='696a951c66ad907f7916ec2fe445c7895c01f2
 UPDATE cards SET mcinumber='27' WHERE id='1c1067d30cd1397298bbeb8775d7d2e428817090'; /*DDC plains2*/
 UPDATE cards SET mcinumber='28' WHERE id='41d70f58c3acd943e3c9339a1a55286e62c150a3'; /*DDC plains3*/
 UPDATE cards SET mcinumber='29' WHERE id='f6afed42592824bf9f94e4aeba076190685999fd'; /*DDC plains4*/
-UPDATE cards SET mcinumber='60' WHERE id='0becd4e6f67838e454b538397ff9c532bf455178'; /*DDC swamp1*/
-UPDATE cards SET mcinumber='61' WHERE id='9f6ace82997a17c4bb6d4c945c4cd1670dc3c761'; /*DDC swamp2*/
-UPDATE cards SET mcinumber='62' WHERE id='de7258e58a94ff08b945322908dd02dd680ea6f3'; /*DDC swamp3*/
-UPDATE cards SET mcinumber='63' WHERE id='26b17c3f3d2e8da6a939288bbb0e433819380f14'; /*DDC swamp4*/
+UPDATE cards SET mcinumber='59' WHERE id='0becd4e6f67838e454b538397ff9c532bf455178'; /*DDC swamp1*/
+UPDATE cards SET mcinumber='60' WHERE id='9f6ace82997a17c4bb6d4c945c4cd1670dc3c761'; /*DDC swamp2*/
+UPDATE cards SET mcinumber='61' WHERE id='de7258e58a94ff08b945322908dd02dd680ea6f3'; /*DDC swamp3*/
+UPDATE cards SET mcinumber='62' WHERE id='26b17c3f3d2e8da6a939288bbb0e433819380f14'; /*DDC swamp4*/
 UPDATE cards SET mcinumber='28' WHERE id='40eff88b0710d3a4b94ac575d796f86b6a111c43'; /*DDD forest1*/
 UPDATE cards SET mcinumber='29' WHERE id='815a6a98ac158d99592655440f9d9e07af7f0bb9'; /*DDD forest2*/
 UPDATE cards SET mcinumber='30' WHERE id='d3156c8de2189d0aa209dc78098fa16b9ea8c90a'; /*DDD forest3*/
@@ -5731,6 +5731,12 @@ UPDATE cards SET mcinumber='51a'  WHERE id='aacdad173cb5b527251c81cb6a86e4554e2a
 UPDATE cards SET mcinumber='51b'  WHERE id='51b9fa9d39e02c6a10079c09b4c6fd75bc0d2655';
 UPDATE cards SET mcinumber='52a'  WHERE id='ba2512471108717b428f4f82670ddbe3a4eebe00';
 UPDATE cards SET mcinumber='52b'  WHERE id='5abbca60eeeb85e9053e662a20eb36ae95e4a59c';
+UPDATE cards SET mcinumber='16a'  WHERE id='04793c9a00ca3cdda49168e95008b553ff3e3dff';
+UPDATE cards SET mcinumber='16b'  WHERE id='fa3525ef2bfba57a1a49e10b1c6894c0aa775184';
+UPDATE cards SET mcinumber='17a'  WHERE id='9265b33e2b094d6ded425a7874d34a16f14243a0';
+UPDATE cards SET mcinumber='17b'  WHERE id='f979bd8b4511ab033a7c5dccefea5864b8b4dca2';
+UPDATE cards SET mcinumber='3a'   WHERE id='fef7080c45c950f4284db4d458e350ed8b4813c5';
+UPDATE cards SET mcinumber='3b'   WHERE id='0ea041e28b6c92bd936eb94b2599202bde51b5f1';
 
 UPDATE cards SET mcinumber='78a' WHERE id='ae510c9e4f0d20a9acf93c6e5256e4e50e64459f';
 UPDATE cards SET mcinumber='78b' WHERE id='c4964b2820d21bb1659ae6d3ef8066650cdf5ed9';
