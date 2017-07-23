@@ -5727,6 +5727,10 @@ UPDATE cards SET mcinumber='156a' WHERE id='40e3e5d383706d3719d940c20952bff04046
 UPDATE cards SET mcinumber='156b' WHERE id='e011410174708e0fd22c4191d038bcd87b105edd'; /*HOU Cooperate*/
 UPDATE cards SET mcinumber='157a' WHERE id='6ef88ed4eb9446f6fd91b12e0cd96f73f26e3653'; /*HOU Driven*/
 UPDATE cards SET mcinumber='157b' WHERE id='83189eb27fb47755d9d1d702b271c7692ae2258f'; /*HOU Despair*/
+UPDATE cards SET mcinumber='51a'  WHERE id='aacdad173cb5b527251c81cb6a86e4554e2aa7f1';
+UPDATE cards SET mcinumber='51b'  WHERE id='51b9fa9d39e02c6a10079c09b4c6fd75bc0d2655';
+UPDATE cards SET mcinumber='52a'  WHERE id='ba2512471108717b428f4f82670ddbe3a4eebe00';
+UPDATE cards SET mcinumber='52b'  WHERE id='5abbca60eeeb85e9053e662a20eb36ae95e4a59c';
 
 UPDATE cards SET mcinumber='78a' WHERE id='ae510c9e4f0d20a9acf93c6e5256e4e50e64459f';
 UPDATE cards SET mcinumber='78b' WHERE id='c4964b2820d21bb1659ae6d3ef8066650cdf5ed9';
