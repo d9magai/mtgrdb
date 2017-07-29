@@ -1,0 +1,15 @@
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/66c228f137e60757d5d42a9122c548248cb8de77.jpg http://magiccards.info/scans/en/fvd/15.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/915f46d09ab7934c3c29d36d7aee8edb127ad0e7.jpg http://magiccards.info/scans/en/fvd/9.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/847e71a2d44b22ac0436e6892d6be901d951e12c.jpg http://magiccards.info/scans/en/fvd/10.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/b35a969f1f4f4025bc7f3376e34ae85dbfdbe882.jpg http://magiccards.info/scans/en/fvd/11.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/8d0e40ebbe5061bbf70514c43f83230df4f9f5a0.jpg http://magiccards.info/scans/en/fvd/12.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/2d7473881c61517329f5ca4e4a84398fd8ada86b.jpg http://magiccards.info/scans/en/fvd/13.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/af70813f8b3d43d041df2c57f183667e1fa964fc.jpg http://magiccards.info/scans/en/fvd/1.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/d34ffb961c0a77bafd7c7d7449d6d28c63a7a734.jpg http://magiccards.info/scans/en/fvd/2.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/e7e979679e91fdb167e03ae8c1a85804cda53ea7.jpg http://magiccards.info/scans/en/fvd/14.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/a034aecff0ce091c26f61be3e9d42b11f91dfb28.jpg http://magiccards.info/scans/en/fvd/3.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/23eba96da790d1822ef8b08eadf5203bb45b82a8.jpg http://magiccards.info/scans/en/fvd/4.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/61504157c57aad588ca2ad049a82e77a87b4e4cc.jpg http://magiccards.info/scans/en/fvd/5.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/cb9e5fbf9354847df83a7427a72ab8643a8de609.jpg http://magiccards.info/scans/en/fvd/6.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/2ab6ca3f600e108cecaa69e464c307e83c57b943.jpg http://magiccards.info/scans/en/fvd/7.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O DRB/c4b37f84111e8c84b2dd0ed6153892e0ebe3cdb8.jpg http://magiccards.info/scans/en/fvd/8.jpg

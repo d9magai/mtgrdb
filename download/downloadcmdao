@@ -1,0 +1,10 @@
+./POR.sh 1> ./POR.shstdout.log 2> ./POR.shstderr.log &
+./PTK.sh 1> ./PTK.shstdout.log 2> ./PTK.shstderr.log &
+./RAV.sh 1> ./RAV.shstdout.log 2> ./RAV.shstderr.log &
+./ROE.sh 1> ./ROE.shstdout.log 2> ./ROE.shstderr.log &
+./RQS.sh 1> ./RQS.shstdout.log 2> ./RQS.shstderr.log &
+./RTR.sh 1> ./RTR.shstdout.log 2> ./RTR.shstderr.log &
+./S00.sh 1> ./S00.shstdout.log 2> ./S00.shstderr.log &
+./S99.sh 1> ./S99.shstdout.log 2> ./S99.shstderr.log &
+./SCG.sh 1> ./SCG.shstdout.log 2> ./SCG.shstderr.log &
+./SHM.sh 1> ./SHM.shstdout.log 2> ./SHM.shstderr.log 

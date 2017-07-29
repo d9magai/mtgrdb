@@ -1,0 +1,10 @@
+./MMA.sh 1> ./MMA.shstdout.log 2> ./MMA.shstderr.log &
+./MMQ.sh 1> ./MMQ.shstdout.log 2> ./MMQ.shstderr.log &
+./MOR.sh 1> ./MOR.shstdout.log 2> ./MOR.shstderr.log &
+./MPS.sh 1> ./MPS.shstdout.log 2> ./MPS.shstderr.log &
+./MPS_AKH.sh 1> ./MPS_AKH.shstdout.log 2> ./MPS_AKH.shstderr.log &
+./MRD.sh 1> ./MRD.shstdout.log 2> ./MRD.shstderr.log &
+./NMS.sh 1> ./NMS.shstdout.log 2> ./NMS.shstderr.log &
+./NPH.sh 1> ./NPH.shstdout.log 2> ./NPH.shstderr.log &
+./ODY.sh 1> ./ODY.shstdout.log 2> ./ODY.shstderr.log &
+./OGW.sh 1> ./OGW.shstdout.log 2> ./OGW.shstderr.log 

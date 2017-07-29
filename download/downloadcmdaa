@@ -1,0 +1,10 @@
+./10E.sh 1> ./10E.shstdout.log 2> ./10E.shstderr.log &
+./2ED.sh 1> ./2ED.shstdout.log 2> ./2ED.shstderr.log &
+./3ED.sh 1> ./3ED.shstdout.log 2> ./3ED.shstderr.log &
+./4ED.sh 1> ./4ED.shstdout.log 2> ./4ED.shstderr.log &
+./5DN.sh 1> ./5DN.shstdout.log 2> ./5DN.shstderr.log &
+./5ED.sh 1> ./5ED.shstdout.log 2> ./5ED.shstderr.log &
+./6ED.sh 1> ./6ED.shstdout.log 2> ./6ED.shstderr.log &
+./7ED.sh 1> ./7ED.shstdout.log 2> ./7ED.shstderr.log &
+./8ED.sh 1> ./8ED.shstdout.log 2> ./8ED.shstderr.log &
+./9ED.sh 1> ./9ED.shstdout.log 2> ./9ED.shstderr.log &

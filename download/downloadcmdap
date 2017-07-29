@@ -1,0 +1,10 @@
+./SOI.sh 1> ./SOI.shstdout.log 2> ./SOI.shstderr.log &
+./SOK.sh 1> ./SOK.shstdout.log 2> ./SOK.shstderr.log &
+./SOM.sh 1> ./SOM.shstdout.log 2> ./SOM.shstderr.log &
+./STH.sh 1> ./STH.shstdout.log 2> ./STH.shstderr.log &
+./THS.sh 1> ./THS.shstdout.log 2> ./THS.shstderr.log &
+./TMP.sh 1> ./TMP.shstdout.log 2> ./TMP.shstderr.log &
+./TOR.sh 1> ./TOR.shstdout.log 2> ./TOR.shstderr.log &
+./TPR.sh 1> ./TPR.shstdout.log 2> ./TPR.shstderr.log &
+./TSB.sh 1> ./TSB.shstdout.log 2> ./TSB.shstderr.log &
+./TSP.sh 1> ./TSP.shstdout.log 2> ./TSP.shstderr.log 

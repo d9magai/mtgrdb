@@ -1,0 +1,10 @@
+./DDE.sh 1> ./DDE.shstdout.log 2> ./DDE.shstderr.log &
+./DDF.sh 1> ./DDF.shstdout.log 2> ./DDF.shstderr.log &
+./DDG.sh 1> ./DDG.shstdout.log 2> ./DDG.shstderr.log &
+./DDH.sh 1> ./DDH.shstdout.log 2> ./DDH.shstderr.log &
+./DDI.sh 1> ./DDI.shstdout.log 2> ./DDI.shstderr.log &
+./DDJ.sh 1> ./DDJ.shstdout.log 2> ./DDJ.shstderr.log &
+./DDK.sh 1> ./DDK.shstdout.log 2> ./DDK.shstderr.log &
+./DDL.sh 1> ./DDL.shstdout.log 2> ./DDL.shstderr.log &
+./DDM.sh 1> ./DDM.shstdout.log 2> ./DDM.shstderr.log &
+./DDN.sh 1> ./DDN.shstdout.log 2> ./DDN.shstderr.log &

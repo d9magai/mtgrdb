@@ -1,0 +1,10 @@
+./V14.sh 1> ./V14.shstdout.log 2> ./V14.shstderr.log &
+./V15.sh 1> ./V15.shstdout.log 2> ./V15.shstderr.log &
+./V16.sh 1> ./V16.shstdout.log 2> ./V16.shstderr.log &
+./VAN.sh 1> ./VAN.shstdout.log 2> ./VAN.shstderr.log &
+./VIS.sh 1> ./VIS.shstdout.log 2> ./VIS.shstderr.log &
+./VMA.sh 1> ./VMA.shstdout.log 2> ./VMA.shstderr.log &
+./W16.sh 1> ./W16.shstdout.log 2> ./W16.shstderr.log &
+./W17.sh 1> ./W17.shstdout.log 2> ./W17.shstderr.log &
+./WTH.sh 1> ./WTH.shstdout.log 2> ./WTH.shstderr.log &
+./WWK.sh 1> ./WWK.shstdout.log 2> ./WWK.shstderr.log 

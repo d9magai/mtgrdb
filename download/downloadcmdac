@@ -1,0 +1,10 @@
+./AVR.sh 1> ./AVR.shstdout.log 2> ./AVR.shstderr.log &
+./BFZ.sh 1> ./BFZ.shstdout.log 2> ./BFZ.shstderr.log &
+./BNG.sh 1> ./BNG.shstdout.log 2> ./BNG.shstderr.log &
+./BOK.sh 1> ./BOK.shstdout.log 2> ./BOK.shstderr.log &
+./BRB.sh 1> ./BRB.shstdout.log 2> ./BRB.shstderr.log &
+./BTD.sh 1> ./BTD.shstdout.log 2> ./BTD.shstderr.log &
+./C13.sh 1> ./C13.shstdout.log 2> ./C13.shstderr.log &
+./C14.sh 1> ./C14.shstdout.log 2> ./C14.shstderr.log &
+./C15.sh 1> ./C15.shstdout.log 2> ./C15.shstderr.log &
+./C16.sh 1> ./C16.shstdout.log 2> ./C16.shstderr.log &

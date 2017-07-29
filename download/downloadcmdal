@@ -1,0 +1,10 @@
+./MBS.sh 1> ./MBS.shstdout.log 2> ./MBS.shstderr.log &
+./MD1.sh 1> ./MD1.shstdout.log 2> ./MD1.shstderr.log &
+./ME2.sh 1> ./ME2.shstdout.log 2> ./ME2.shstderr.log &
+./ME3.sh 1> ./ME3.shstdout.log 2> ./ME3.shstderr.log &
+./ME4.sh 1> ./ME4.shstdout.log 2> ./ME4.shstderr.log &
+./MED.sh 1> ./MED.shstdout.log 2> ./MED.shstderr.log &
+./MGB.sh 1> ./MGB.shstdout.log 2> ./MGB.shstderr.log &
+./MIR.sh 1> ./MIR.shstdout.log 2> ./MIR.shstderr.log &
+./MM2.sh 1> ./MM2.shstdout.log 2> ./MM2.shstderr.log &
+./MM3.sh 1> ./MM3.shstdout.log 2> ./MM3.shstderr.log 

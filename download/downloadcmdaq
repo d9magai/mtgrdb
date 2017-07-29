@@ -1,0 +1,10 @@
+./UDS.sh 1> ./UDS.shstdout.log 2> ./UDS.shstderr.log &
+./UGL.sh 1> ./UGL.shstdout.log 2> ./UGL.shstderr.log &
+./ULG.sh 1> ./ULG.shstdout.log 2> ./ULG.shstderr.log &
+./UNH.sh 1> ./UNH.shstdout.log 2> ./UNH.shstderr.log &
+./USG.sh 1> ./USG.shstdout.log 2> ./USG.shstderr.log &
+./V09.sh 1> ./V09.shstdout.log 2> ./V09.shstderr.log &
+./V10.sh 1> ./V10.shstdout.log 2> ./V10.shstderr.log &
+./V11.sh 1> ./V11.shstdout.log 2> ./V11.shstderr.log &
+./V12.sh 1> ./V12.shstdout.log 2> ./V12.shstderr.log &
+./V13.sh 1> ./V13.shstdout.log 2> ./V13.shstderr.log 

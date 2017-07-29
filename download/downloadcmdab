@@ -1,0 +1,10 @@
+./AER.sh 1> ./AER.shstdout.log 2> ./AER.shstderr.log &
+./AKH.sh 1> ./AKH.shstdout.log 2> ./AKH.shstderr.log &
+./ALA.sh 1> ./ALA.shstdout.log 2> ./ALA.shstderr.log &
+./ALL.sh 1> ./ALL.shstdout.log 2> ./ALL.shstderr.log &
+./APC.sh 1> ./APC.shstdout.log 2> ./APC.shstderr.log &
+./ARB.sh 1> ./ARB.shstdout.log 2> ./ARB.shstderr.log &
+./ARC.sh 1> ./ARC.shstdout.log 2> ./ARC.shstderr.log &
+./ARN.sh 1> ./ARN.shstdout.log 2> ./ARN.shstderr.log &
+./ATH.sh 1> ./ATH.shstdout.log 2> ./ATH.shstderr.log &
+./ATQ.sh 1> ./ATQ.shstdout.log 2> ./ATQ.shstderr.log &

@@ -1,0 +1,10 @@
+./DDO.sh 1> ./DDO.shstdout.log 2> ./DDO.shstderr.log &
+./DDP.sh 1> ./DDP.shstdout.log 2> ./DDP.shstderr.log &
+./DDQ.sh 1> ./DDQ.shstdout.log 2> ./DDQ.shstderr.log &
+./DDR.sh 1> ./DDR.shstdout.log 2> ./DDR.shstderr.log &
+./DDS.sh 1> ./DDS.shstdout.log 2> ./DDS.shstderr.log &
+./DGM.sh 1> ./DGM.shstdout.log 2> ./DGM.shstderr.log &
+./DIS.sh 1> ./DIS.shstdout.log 2> ./DIS.shstderr.log &
+./DKA.sh 1> ./DKA.shstdout.log 2> ./DKA.shstderr.log &
+./DKM.sh 1> ./DKM.shstdout.log 2> ./DKM.shstderr.log &
+./DPA.sh 1> ./DPA.shstdout.log 2> ./DPA.shstderr.log &

@@ -1,0 +1,10 @@
+./HOU.sh 1> ./HOU.shstdout.log 2> ./HOU.shstderr.log &
+./ICE.sh 1> ./ICE.shstdout.log 2> ./ICE.shstderr.log &
+./INV.sh 1> ./INV.shstdout.log 2> ./INV.shstderr.log &
+./ISD.sh 1> ./ISD.shstdout.log 2> ./ISD.shstderr.log &
+./ITP.sh 1> ./ITP.shstdout.log 2> ./ITP.shstderr.log &
+./JOU.sh 1> ./JOU.shstdout.log 2> ./JOU.shstderr.log &
+./JUD.sh 1> ./JUD.shstdout.log 2> ./JUD.shstderr.log &
+./KLD.sh 1> ./KLD.shstdout.log 2> ./KLD.shstderr.log &
+./KTK.sh 1> ./KTK.shstdout.log 2> ./KTK.shstderr.log &
+./LEA.sh 1> ./LEA.shstdout.log 2> ./LEA.shstderr.log 

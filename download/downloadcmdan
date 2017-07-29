@@ -1,0 +1,10 @@
+./ONS.sh 1> ./ONS.shstdout.log 2> ./ONS.shstderr.log &
+./ORI.sh 1> ./ORI.shstdout.log 2> ./ORI.shstderr.log &
+./PC2.sh 1> ./PC2.shstdout.log 2> ./PC2.shstderr.log &
+./PCA.sh 1> ./PCA.shstdout.log 2> ./PCA.shstderr.log &
+./PCY.sh 1> ./PCY.shstdout.log 2> ./PCY.shstderr.log &
+./PD2.sh 1> ./PD2.shstdout.log 2> ./PD2.shstderr.log &
+./PD3.sh 1> ./PD3.shstdout.log 2> ./PD3.shstderr.log &
+./PLC.sh 1> ./PLC.shstdout.log 2> ./PLC.shstderr.log &
+./PLS.sh 1> ./PLS.shstdout.log 2> ./PLS.shstderr.log &
+./PO2.sh 1> ./PO2.shstdout.log 2> ./PO2.shstderr.log 

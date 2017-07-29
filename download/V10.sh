@@ -1,0 +1,15 @@
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/3997cc2458cc240100423f2b5cf5b54426179007.jpg http://magiccards.info/scans/en/fvr/1.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/d2d0ec30c55996a6bd5a53bf14277c3c9a14b38f.jpg http://magiccards.info/scans/en/fvr/8.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/f56f318dda8f29ed0045d4a21a1bdd816ef0109a.jpg http://magiccards.info/scans/en/fvr/2.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/e1ebacd63c3a241bdf99af78aaf040c165b8ffad.jpg http://magiccards.info/scans/en/fvr/3.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/9ee94cce5af6103cf5a02d220d0cafc126eee984.jpg http://magiccards.info/scans/en/fvr/4.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/e13f0e853012904871b79042cb78b8ab4487ea99.jpg http://magiccards.info/scans/en/fvr/5.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/225e9a390e34cfe10a16c64476c8c5e0486fecc5.jpg http://magiccards.info/scans/en/fvr/6.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/397878f5591bf74bbd62763759272b4cfa2f40f7.jpg http://magiccards.info/scans/en/fvr/7.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/1f43aae664dd863c8e8c598be0858f105fd4364e.jpg http://magiccards.info/scans/en/fvr/9.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/09cf56cac476b88b2cf7f781eaa3923c73741dea.jpg http://magiccards.info/scans/en/fvr/10.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/9879017460a59d61836ac46b05c688c7acd9ea44.jpg http://magiccards.info/scans/en/fvr/11.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/adf9f3d44547b48b9159d88ce9fe60836e016961.jpg http://magiccards.info/scans/en/fvr/12.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/e4b62510f5ae32392fe9b969393649d5f04f615b.jpg http://magiccards.info/scans/en/fvr/13.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/e58e8313047b368b4ca2f9383360064815d1be49.jpg http://magiccards.info/scans/en/fvr/14.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O V10/2aaaf1d14c2db41fdfc0beffea9237c85cbd0d69.jpg http://magiccards.info/scans/en/fvr/15.jpg

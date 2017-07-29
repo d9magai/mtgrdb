@@ -1,0 +1,12 @@
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/7ce9deec43db54994a1385e1187b527d3fb88a5f.jpg http://magiccards.info/scans/en/cp/1.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/c48040c2db2d5389e8e184d484e781220a14c476.jpg http://magiccards.info/scans/en/cp/2.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/6b4706a8cc6994c7185f527bfb2972cbcbc2793f.jpg http://magiccards.info/scans/en/cp/8.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/d6a5efc0eae4576120edc4c252ba5c42ab3fe63e.jpg http://magiccards.info/scans/en/cp/9.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/392ebff2cc938e20a76616b67bfee93cd884d78f.jpg http://magiccards.info/scans/en/cp/3.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/ce9fd8f8358e11341a5f731e43b7fee070a4690b.jpg http://magiccards.info/scans/en/cp/4.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/9242fd7305f4f3846659ac9bfc15d892578e6a1c.jpg http://magiccards.info/scans/en/cp/5.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/3d20219fb93c4369498e205445daa70d605268ea.jpg http://magiccards.info/scans/en/cp/6.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/a89622671383a8701db63994c7d2525121c91120.jpg http://magiccards.info/scans/en/cp/7.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/3f07d376bee1f7a0834662d3b21fbb08b0c7bb20.jpg http://magiccards.info/scans/en/cp/10.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/54771d916967e4adbac88d9792e6fd9d9bd995ab.jpg http://magiccards.info/scans/en/cp/11.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pCMP/166acabab88d9be21228ef2f2712919dc35e2850.jpg http://magiccards.info/scans/en/cp/12.jpg

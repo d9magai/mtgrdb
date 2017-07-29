@@ -1,0 +1,10 @@
+./CED.sh 1> ./CED.shstdout.log 2> ./CED.shstderr.log &
+./CEI.sh 1> ./CEI.shstdout.log 2> ./CEI.shstderr.log &
+./CHK.sh 1> ./CHK.shstdout.log 2> ./CHK.shstderr.log &
+./CHR.sh 1> ./CHR.shstdout.log 2> ./CHR.shstderr.log &
+./CM1.sh 1> ./CM1.shstdout.log 2> ./CM1.shstderr.log &
+./CMA.sh 1> ./CMA.shstdout.log 2> ./CMA.shstderr.log &
+./CMD.sh 1> ./CMD.shstdout.log 2> ./CMD.shstderr.log &
+./CN2.sh 1> ./CN2.shstdout.log 2> ./CN2.shstderr.log &
+./CNS.sh 1> ./CNS.shstdout.log 2> ./CNS.shstderr.log &
+./CON.sh 1> ./CON.shstdout.log 2> ./CON.shstderr.log &

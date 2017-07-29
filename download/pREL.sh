@@ -1,0 +1,14 @@
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/818ed0bc0cda0e6d4304ed75e3fd10dd2a376c61.jpg http://magiccards.info/scans/en/rep/5.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/f857c933c1443d04a9cd586a8a8b4798afe4446b.jpg http://magiccards.info/scans/en/rep/11.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/0b7696e2738d1ca11205fff6c15feefb9bebf371.jpg http://magiccards.info/scans/en/rep/1.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/28e6c82e4d05d55efa6732080a894072f62b0b58.jpg http://magiccards.info/scans/en/rep/2.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/8e00ff9af3941126c60bae9211a91470a0344601.jpg http://magiccards.info/scans/en/rep/4.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/0ea041e28b6c92bd936eb94b2599202bde51b5f1.jpg http://magiccards.info/scans/en/rep/3b.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/a21815b1686e2708f6cd69930139631287770e42.jpg http://magiccards.info/scans/en/rep/6.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/709b86f66e222afc66fd5015675f75537ec3429f.jpg http://magiccards.info/scans/en/rep/7.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/e22680a7690202b7d17b11fba8aacf760586403f.jpg http://magiccards.info/scans/en/rep/8.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/69503212497b0c1858365a92517c82e3dc5231c7.jpg http://magiccards.info/scans/en/rep/9.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/7b086c5e1da264028536ed4665173be8737a6ee1.jpg http://magiccards.info/scans/en/rep/10.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/f778f8838eb664fff8d70d59659ac8d2ebffb029.jpg http://magiccards.info/scans/en/rep/12.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/5d32959e84cd9976ee0ec7d78d06b06ff0f3247b.jpg http://magiccards.info/scans/en/rep/13.jpg
+sleep 1s && wget --retry-connrefused --tries=60 --waitretry=1 -O pREL/fef7080c45c950f4284db4d458e350ed8b4813c5.jpg http://magiccards.info/scans/en/rep/3a.jpg
