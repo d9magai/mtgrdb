@@ -5634,29 +5634,6 @@ INSERT INTO cards (id,artist,coloridentity,imagename,layout,legalities,mcinumber
 INSERT INTO cards (id,artist,coloridentity,imagename,layout,legalities,mcinumber,name,originaltext,originaltype,printings,rarity,subtypes,supertypes,type,types,setcode) VALUES(	'912d58716d3d01a33b02ffa6e425b2e122992716','Jesper Myrfors','[ "W" ]','plains3','normal','[ { "format": "Amonkhet Block", "legality": "Legal" }, { "format": "Battle for Zendikar Block", "legality": "Legal" }, { "format": "Commander", "legality": "Legal" }, { "format": "Ice Age Block", "legality": "Legal" }, { "format": "Innistrad Block", "legality": "Legal" }, { "format": "Invasion Block", "legality": "Legal" }, { "format": "Kaladesh Block", "legality": "Legal" }, { "format": "Kamigawa Block", "legality": "Legal" }, { "format": "Khans of Tarkir Block", "legality": "Legal" }, { "format": "Legacy", "legality": "Legal" }, { "format": "Lorwyn-Shadowmoor Block", "legality": "Legal" }, { "format": "Masques Block", "legality": "Legal" }, { "format": "Mirage Block", "legality": "Legal" }, { "format": "Mirrodin Block", "legality": "Legal" }, { "format": "Modern", "legality": "Legal" }, { "format": "Odyssey Block", "legality": "Legal" }, { "format": "Onslaught Block", "legality": "Legal" }, { "format": "Ravnica Block", "legality": "Legal" }, { "format": "Return to Ravnica Block", "legality": "Legal" }, { "format": "Scars of Mirrodin Block", "legality": "Legal" }, { "format": "Shadows over Innistrad Block", "legality": "Legal" }, { "format": "Shards of Alara Block", "legality": "Legal" }, { "format": "Standard", "legality": "Legal" }, { "format": "Tempest Block", "legality": "Legal" }, { "format": "Theros Block", "legality": "Legal" }, { "format": "Time Spiral Block", "legality": "Legal" }, { "format": "Un-Sets", "legality": "Legal" }, { "format": "Urza Block", "legality": "Legal" }, { "format": "Vintage", "legality": "Legal" }, { "format": "Zendikar Block", "legality": "Legal" } ]','44','Plains','{T}: Add {W} to your mana pool.','Land','[ "LEA", "LEB", "2ED", "CED", "CEI", "3ED", "4ED", "ICE", "RQS", "pARL", "MIR", "ITP", "5ED", "POR", "pPRE", "TMP", "pJGP", "PO2", "UGL", "pALP", "USG", "ATH", "6ED", "PTK", "pGRU", "S99", "MMQ", "BRB", "pELP", "S00", "INV", "7ED", "ODY", "ONS", "8ED", "MRD", "CHK", "UNH", "9ED", "RAV", "CST", "TSP", "10E", "MED", "LRW", "SHM", "ALA", "DDC", "M10", "HOP", "ME3", "ZEN", "H09", "DDE", "ROE", "ARC", "M11", "DDF", "SOM", "MBS", "DDG", "NPH", "CMD", "M12", "DDH", "ISD", "DDI", "AVR", "PC2", "M13", "RTR", "DDK", "M14", "DDL", "THS", "C13", "MD1", "M15", "DDN", "KTK", "C14", "DD3_DVD", "FRF", "DDO", "DTK", "TPR", "ORI", "DDP", "BFZ", "C15", "DDQ", "SOI", "KLD", "C16", "PCA", "CMA", "E01", "HOU" ]','Basic Land','[ "Plains" ]','[ "Basic" ]','Basic Land — Plains','[ "Land" ]','ITP');
 INSERT INTO cards (id,artist,coloridentity,imagename,layout,legalities,mcinumber,name,originaltext,originaltype,printings,rarity,subtypes,supertypes,type,types,setcode) VALUES(	'b893495d80920a22cbe24c974ad07923524d943c','Dan Frazier','[ "B" ]','swamp2','normal','[ { "format": "Amonkhet Block", "legality": "Legal" }, { "format": "Battle for Zendikar Block", "legality": "Legal" }, { "format": "Commander", "legality": "Legal" }, { "format": "Ice Age Block", "legality": "Legal" }, { "format": "Innistrad Block", "legality": "Legal" }, { "format": "Invasion Block", "legality": "Legal" }, { "format": "Kaladesh Block", "legality": "Legal" }, { "format": "Kamigawa Block", "legality": "Legal" }, { "format": "Khans of Tarkir Block", "legality": "Legal" }, { "format": "Legacy", "legality": "Legal" }, { "format": "Lorwyn-Shadowmoor Block", "legality": "Legal" }, { "format": "Masques Block", "legality": "Legal" }, { "format": "Mirage Block", "legality": "Legal" }, { "format": "Mirrodin Block", "legality": "Legal" }, { "format": "Modern", "legality": "Legal" }, { "format": "Odyssey Block", "legality": "Legal" }, { "format": "Onslaught Block", "legality": "Legal" }, { "format": "Ravnica Block", "legality": "Legal" }, { "format": "Return to Ravnica Block", "legality": "Legal" }, { "format": "Scars of Mirrodin Block", "legality": "Legal" }, { "format": "Shadows over Innistrad Block", "legality": "Legal" }, { "format": "Shards of Alara Block", "legality": "Legal" }, { "format": "Standard", "legality": "Legal" }, { "format": "Tempest Block", "legality": "Legal" }, { "format": "Theros Block", "legality": "Legal" }, { "format": "Time Spiral Block", "legality": "Legal" }, { "format": "Un-Sets", "legality": "Legal" }, { "format": "Urza Block", "legality": "Legal" }, { "format": "Vintage", "legality": "Legal" }, { "format": "Zendikar Block", "legality": "Legal" } ]','53','Swamp','{T}: Add {B} to your mana pool.','Land','[ "LEA", "LEB", "2ED", "CED", "CEI", "3ED", "4ED", "ICE", "RQS", "pARL", "MIR", "ITP", "5ED", "POR", "TMP", "pJGP", "PO2", "UGL", "pALP", "USG", "ATH", "6ED", "PTK", "pGRU", "S99", "MMQ", "BRB", "pELP", "S00", "BTD", "INV", "7ED", "ODY", "DKM", "ONS", "8ED", "MRD", "CHK", "UNH", "9ED", "RAV", "CST", "TSP", "10E", "MED", "LRW", "SHM", "ALA", "DDC", "M10", "HOP", "ME3", "ZEN", "DDD", "H09", "DDE", "ROE", "DPA", "ARC", "M11", "SOM", "MBS", "NPH", "CMD", "M12", "DDH", "ISD", "PD3", "AVR", "PC2", "M13", "DDJ", "RTR", "DDK", "M14", "THS", "C13", "DDM", "MD1", "M15", "DDN", "KTK", "C14", "DD3_DVD", "DD3_GVL", "FRF", "DTK", "TPR", "ORI", "DDP", "BFZ", "C15", "DDQ", "SOI", "DDR", "KLD", "C16", "PCA", "CMA", "E01", "HOU" ]','Basic Land','[ "Swamp" ]','[ "Basic" ]','Basic Land — Swamp','[ "Land" ]','ITP');
 INSERT INTO cards (id,artist,coloridentity,imagename,layout,legalities,mcinumber,name,originaltext,originaltype,printings,rarity,subtypes,supertypes,type,types,setcode) VALUES(	'1bd3adfb2ae0c46d37446de286aea3e1d2b282e6','Dan Frazier','[ "B" ]','swamp3','normal','[ { "format": "Amonkhet Block", "legality": "Legal" }, { "format": "Battle for Zendikar Block", "legality": "Legal" }, { "format": "Commander", "legality": "Legal" }, { "format": "Ice Age Block", "legality": "Legal" }, { "format": "Innistrad Block", "legality": "Legal" }, { "format": "Invasion Block", "legality": "Legal" }, { "format": "Kaladesh Block", "legality": "Legal" }, { "format": "Kamigawa Block", "legality": "Legal" }, { "format": "Khans of Tarkir Block", "legality": "Legal" }, { "format": "Legacy", "legality": "Legal" }, { "format": "Lorwyn-Shadowmoor Block", "legality": "Legal" }, { "format": "Masques Block", "legality": "Legal" }, { "format": "Mirage Block", "legality": "Legal" }, { "format": "Mirrodin Block", "legality": "Legal" }, { "format": "Modern", "legality": "Legal" }, { "format": "Odyssey Block", "legality": "Legal" }, { "format": "Onslaught Block", "legality": "Legal" }, { "format": "Ravnica Block", "legality": "Legal" }, { "format": "Return to Ravnica Block", "legality": "Legal" }, { "format": "Scars of Mirrodin Block", "legality": "Legal" }, { "format": "Shadows over Innistrad Block", "legality": "Legal" }, { "format": "Shards of Alara Block", "legality": "Legal" }, { "format": "Standard", "legality": "Legal" }, { "format": "Tempest Block", "legality": "Legal" }, { "format": "Theros Block", "legality": "Legal" }, { "format": "Time Spiral Block", "legality": "Legal" }, { "format": "Un-Sets", "legality": "Legal" }, { "format": "Urza Block", "legality": "Legal" }, { "format": "Vintage", "legality": "Legal" }, { "format": "Zendikar Block", "legality": "Legal" } ]','54','Swamp','{T}: Add {B} to your mana pool.','Land','[ "LEA", "LEB", "2ED", "CED", "CEI", "3ED", "4ED", "ICE", "RQS", "pARL", "MIR", "ITP", "5ED", "POR", "TMP", "pJGP", "PO2", "UGL", "pALP", "USG", "ATH", "6ED", "PTK", "pGRU", "S99", "MMQ", "BRB", "pELP", "S00", "BTD", "INV", "7ED", "ODY", "DKM", "ONS", "8ED", "MRD", "CHK", "UNH", "9ED", "RAV", "CST", "TSP", "10E", "MED", "LRW", "SHM", "ALA", "DDC", "M10", "HOP", "ME3", "ZEN", "DDD", "H09", "DDE", "ROE", "DPA", "ARC", "M11", "SOM", "MBS", "NPH", "CMD", "M12", "DDH", "ISD", "PD3", "AVR", "PC2", "M13", "DDJ", "RTR", "DDK", "M14", "THS", "C13", "DDM", "MD1", "M15", "DDN", "KTK", "C14", "DD3_DVD", "DD3_GVL", "FRF", "DTK", "TPR", "ORI", "DDP", "BFZ", "C15", "DDQ", "SOI", "DDR", "KLD", "C16", "PCA", "CMA", "E01", "HOU" ]','Basic Land','[ "Swamp" ]','[ "Basic" ]','Basic Land — Swamp','[ "Land" ]','ITP');
-DELETE FROM cards
-WHERE id IN
-(
-'5dcb66f2dc71d5250dd6f35aa27cd0838c37078b',
-'3075450df68a6121254c21d3235b8e34e31ccb79',
-'23cc484aad08a5e3dd14ab21b0b57d2350a0b5ff',
-'a7a869089b8fa95c638b919c2a66123eb89b4ee7',
-'4e6e2e9662f7b3c99b1ab065f3c1d4bcd8836776',
-'2979be20151a221abedc1317e7120f34187763c7'
-);
-
-UPDATE cards SET mcinumber='15a', layout='meld' WHERE id='408e43c56377f68af1d2f1a71733626f9c629ae8'; /*EMN Bruna, the Fading Light*/
-UPDATE cards SET mcinumber='15b', layout='meld' WHERE id='9a50ffe3772a2cd29b7943f4069dc601fd3a3619'; /*EMN Brisela, Voice of Nightmares*/
-UPDATE cards SET mcinumber='28a', layout='meld' WHERE id='d946fb0811546f20dfb6201b6d3bda566b8edf3d'; /*EMN Gisela, the Broken Blade*/
-UPDATE cards SET mcinumber='28b', layout='meld' WHERE id='38a29be3be049fe2a9607eeb50e7c71dd91cbf17'; /*EMN Brisela, Voice of Nightmares*/
-UPDATE cards SET mcinumber='91a', layout='meld' WHERE id='2e60098bb359244b2b37ab6957a5bce68f8700cb'; /*EMN Graf Rats*/
-UPDATE cards SET mcinumber='91b', layout='meld' WHERE id='d460e682b196030d3af831f6349cb9a05c9014e8'; /*EMN Chittering Host*/
-UPDATE cards SET mcinumber='96a', layout='meld' WHERE id='f115c20f97d0d52716104977649d057cdb68c3c4'; /*EMN Midnight Scavengers*/
-UPDATE cards SET mcinumber='96b', layout='meld' WHERE id='3fb73f0474282abe2ea9e7e0b2cc98ccbbde4788'; /*EMN Chittering Host*/
-UPDATE cards SET mcinumber='130a',layout='meld' WHERE id='934eea85142a2e58db34845400bc229113150766'; /*EMN Hanweir Garrison*/
-UPDATE cards SET mcinumber='130b',layout='meld' WHERE id='87eff301a0943cefb4e5474d4d878e6210b12c25'; /*EMN Hanweir, the Writhing Township*/
-UPDATE cards SET mcinumber='204a',layout='meld' WHERE id='08eaa622a64fe528063c991819d810efc2b320bd'; /*EMN Hanweir Battlements*/
-UPDATE cards SET mcinumber='204b',layout='meld' WHERE id='d6ef2240493078f4412546a7e73c9abe11b27f9d'; /*EMN Hanweir, the Writhing Township*/
 
 UPDATE cards SET mcinumber='1', setcode='8EB' WHERE id='0c354bb03991d149b9fa24c2941ed047e5eaea65';
 UPDATE cards SET mcinumber='6', setcode='8EB' WHERE id='aaf4c8d27a30aaba3029e3bb98783e2eac115f8d';
@@ -5744,57 +5721,4 @@ UPDATE cards SET mcinumber='79a' WHERE id='7c3c53907413f0596fe74aee2de3b5ac8d4c2
 UPDATE cards SET mcinumber='79b' WHERE id='3a31915971cb9c774a530a4bdd5bd34f01e6deff';
 UPDATE cards SET mcinumber='22a' WHERE id='04f4779c0c2a10ac2f3162e0da7acc5b514f4dae';
 UPDATE cards SET mcinumber='22b' WHERE id='40217db1b72f0590ee336d5d4cc07ee1ef4c46b1';
-UPDATE cards SET name='Ice', mcinumber='128b' WHERE id='5946faf4a19969a616aa2cb3bc436a56f5587718';
-UPDATE cards SET name='Reality', mcinumber='129b' WHERE id='ea82d799e8b36b2119385c9b5aeeef3af62d04e8';
-UPDATE cards SET name='Death', mcinumber='130b' WHERE id='2041ed345b8a5d67c21cca407a6a914a276f2cce';
-UPDATE cards SET name='Day', mcinumber='131b' WHERE id='99a6b2ec3a22917546faa553f7402ac8fef17121';
-UPDATE cards SET name='Chaos', mcinumber='132b' WHERE id='11a1b38402ad2c032bf23b5651063c2396257746';
-UPDATE cards SET name='Wane', mcinumber='101b' WHERE id='079696930eaf21d74149a01b45c8297314193c64';
-UPDATE cards SET name='Tumble', mcinumber='118b' WHERE id='26ef3bdd842635b0ec3da303cd98a4310cde7fa8';
-UPDATE cards SET name='Ice', mcinumber='198b' WHERE id='dfd648d58cf66563d6b09d301a355ee5b6a5c44f';
-UPDATE cards SET name='Malice', mcinumber='71b' WHERE id='1252f04f1df986d56fc44167aa421099d9ebd30b';
-UPDATE cards SET name='Suffering', mcinumber='72b' WHERE id='0025f763b3dcf2ab3ae459337e2e0b17168bab1b';
-UPDATE cards SET name='Fall', mcinumber='73b' WHERE id='53ec55a852c9b1509bce0f0254b379aa35199720';
-UPDATE cards SET name='Ice', mcinumber='32b' WHERE id='c528e3bc6220ea0bccc77bbf74ed0322d7b76e0b';
-UPDATE cards SET name='Death', mcinumber='77b' WHERE id='1e906b014495e7e2ead67d58b9f9d7b506ab8138';
-UPDATE cards SET name='Well', mcinumber='121b' WHERE id='06871a821d91f7c3b20b84a2f7615db64eead45d';
-UPDATE cards SET name='Dangerous', mcinumber='122b' WHERE id='60b8d6181ec8501c3e18fa197558fddfd5f79509';
-UPDATE cards SET name='Call', mcinumber='123b' WHERE id='96054022be32586826c89bfdbb51bc375a2762b0';
-UPDATE cards SET name='Entering', mcinumber='124b' WHERE id='bfbfc215857c627d3179a213700c97216cf0a69d';
-UPDATE cards SET name='Release', mcinumber='125b' WHERE id='c227572f9cb021401545897d56bad1ee7e5e27ce';
-UPDATE cards SET name='Dirty', mcinumber='126b' WHERE id='e8bc416108dec49df279ac02db1b6bb77b32e2b5';
-UPDATE cards SET name='Away', mcinumber='127b' WHERE id='5f2d8f23453f8d092a8d723c97076c17614b4320';
-UPDATE cards SET name='Blood', mcinumber='128b' WHERE id='b3102a80fdef34597bffe1fcf57c2faf20f9e530';
-UPDATE cards SET name='Take', mcinumber='129b' WHERE id='aedcbe9751942c155eafc7e0cd18406f7ee1388e';
-UPDATE cards SET name='Loss', mcinumber='130b' WHERE id='a664c1b72d7bd1a3f6130baed9bbe0dc9507d5a4';
-UPDATE cards SET name='Serve', mcinumber='131b' WHERE id='eafff59647e9c8f7129c9a3ba3a88eb50ce935f8';
-UPDATE cards SET name='Willing', mcinumber='132b' WHERE id='91544b05aa9c63724a21ae86f2c14981b69b83ce';
-UPDATE cards SET name='Trouble', mcinumber='133b' WHERE id='4ff6203523f1d9deb5da33d1171fa5577a3a48bd';
-UPDATE cards SET name='Burn', mcinumber='134b' WHERE id='7f6167c00772039929cf57f43a009458a2d51445';
-UPDATE cards SET name='Tear', mcinumber='135b' WHERE id='9ef36f7051e9d7fad2939a3e06fd379363c1ad5e';
-UPDATE cards SET name='Determined', mcinumber='149b' WHERE id='266a1515eeccf294b8d1edb6a4bbfbef12bab679';
-UPDATE cards SET name='Punishment', mcinumber='150b' WHERE id='0a6f3ca74eadb1f54cb1adbb8ee4102e86cc8080';
-UPDATE cards SET name='Seek', mcinumber='151b' WHERE id='1299d5bc7ef3873b6eecf8dbc2cb142d22d63ec4';
-UPDATE cards SET name='Run', mcinumber='152b' WHERE id='ce81efce3723b771a88ae42c7dd19c84912eb8e2';
-UPDATE cards SET name='Ends', mcinumber='153b' WHERE id='63482b62aad036a45b0d8638d5141dc9655e772a';
-UPDATE cards SET name='Simple', mcinumber='154b' WHERE id='af74da978170cb89dc26545c691a0c2298eb777e';
-UPDATE cards SET name='Development', mcinumber='155b' WHERE id='dd82c128c6e63f17cf3cab7a671c25a0d5e985cd';
-UPDATE cards SET name='Fall', mcinumber='156b' WHERE id='b9f151ecc4af5bdefc63b39e132340617e34cb5b';
-UPDATE cards SET name='Demand', mcinumber='157b' WHERE id='20012f426bcb181955e9832bf8f4b1e74660f0fd';
-UPDATE cards SET name='Error', mcinumber='158b' WHERE id='1497e3966cef9a24784d952b08a8d974ead350fe';
-UPDATE cards SET name='Battery', mcinumber='103b' WHERE id='86d9ab2c22e0a9330fe70b42e1077a2a72e7bf15';
-UPDATE cards SET name='Chaos', mcinumber='104b' WHERE id='3335647f68525bf2b7cdb1b127def59dd23ab3bf';
-UPDATE cards SET name='Deliver', mcinumber='292b' WHERE id='55d032167c7302c53a637418fcd159f15c04f88e';
-UPDATE cards SET name='Malice', mcinumber='293b' WHERE id='23610ca09f579997e805c2ae833d97a7da62a29a';
-UPDATE cards SET name='Suffering', mcinumber='294b' WHERE id='e483f55c315b00cefd64bad56716f25c831f7529';
-UPDATE cards SET name='Battery', mcinumber='295b' WHERE id='da28bf7a8feefa8e18812c66065765939a30eb4c';
-UPDATE cards SET name='Wane', mcinumber='296b' WHERE id='aff5cdb16ad1181532760a3ac4fc8fc356f09564';
-UPDATE cards SET name='Bust', mcinumber='112b' WHERE id='a7fdc43c2c2ca2c3f3f94cef75e68fc2929caec7';
-UPDATE cards SET name='Gone', mcinumber='113b' WHERE id='da4c76e9fefe61f541c5c496163a010237e79600';
-UPDATE cards SET name='Tumble', mcinumber='114b' WHERE id='98f1b437af312a184d405fb42f9ac93a9299dcc4';
-UPDATE cards SET name='Battery', mcinumber='106b' WHERE id='c4da1fa15551b1ec71a4d4549e2f7d60fc12ef89';
-UPDATE cards SET                mcinumber='239a' WHERE id='d60af8152c52510a16bf8276edb04b48c0c6d067';
-UPDATE cards SET name='Error',  mcinumber='239b' WHERE id='14c6984e392c9290e8c012c4c5b5c92b170b23d7';
-UPDATE cards SET                mcinumber='240a' WHERE id='dc19b442806f83da6658e64052ae2cf68e50c4ad';
-UPDATE cards SET name='Chaos',  mcinumber='240b' WHERE id='53fe3b05ea7628b0ccfb0f4be43419b99e1e940d';
 
