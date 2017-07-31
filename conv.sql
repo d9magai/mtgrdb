@@ -1,4 +1,12 @@
-SELECT 'convert -crop 254x207+29+34 ~/wd/mtgrdb/download/' || s.code || '/' || c.id || '.jpg ' || s.code || '/' || c.id || '.jpg' 
+SELECT
+    CASE COALESCE(c.names, '')
+        WHEN '' THEN 'convert -crop 254x207+29+34 ~/wd/mtgrdb/download/'
+    ELSE
+        CASE c.name
+            WHEN TRIM(BOTH '"' from CAST(c.names::json->0 AS text)) THEN 'convert -crop 115x170+32+247 ~/wd/mtgrdb/download/'
+            WHEN TRIM(BOTH '"' from CAST(c.names::json->1 AS text)) THEN 'convert -crop 115x170+32+24  ~/wd/mtgrdb/download/'
+        END
+    END || s.code || '/' || c.id || '.jpg ' || s.code || '/' || c.id || '.jpg'
 FROM sets s JOIN cards c ON c.setcode=s.code WHERE s.releasedate<='2003-05-26'
 AND
 (
