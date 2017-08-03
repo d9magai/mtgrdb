@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eu
+set -eux
 cd $(dirname $0)
 
 mkdir -p download
@@ -143,4 +143,33 @@ ORDER BY setcode;
 chmod +x $set.sh
 
 done
+
+find ./download -name "*.sh" | split -l 20 
+
+mv ./xaa download
+mv ./xab download
+mv ./xac download
+mv ./xad download
+mv ./xae download
+mv ./xaf download
+mv ./xag download
+mv ./xah download
+mv ./xai download
+mv ./xaj download
+mv ./xak download
+
+echo " 
+ chmod +x ./xaa && ./xaa &
+ chmod +x ./xab && ./xab &
+ chmod +x ./xac && ./xac &
+ chmod +x ./xad && ./xad &
+ chmod +x ./xae && ./xae &
+ chmod +x ./xaf && ./xaf &
+ chmod +x ./xag && ./xag &
+ chmod +x ./xah && ./xah &
+ chmod +x ./xai && ./xai &
+ chmod +x ./xaj && ./xaj &
+ chmod +x ./xak && ./xak &
+" > download/get.sh
+chmod +x download/get.sh
 
