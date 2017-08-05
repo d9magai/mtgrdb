@@ -1,11 +1,16 @@
 #!/bin/bash
-set -eux
+set -eu
 cd $(dirname $0)
 
 mkdir -p download
 cd download
 
-for set in $(curl -sL https://mtgjson.com/json/AllSets.json.zip | gunzip | jq --raw-output 'keys[]'); do
+JSON_FILENAME=AllSets-x.json
+if [ ! -e $JSON_FILENAME ]; then
+    curl -sL https://mtgjson.com/json/${JSON_FILENAME}.zip | bsdtar -xf-
+fi
+
+for set in $(jq --raw-output 'keys[]' ${JSON_FILENAME}); do
 mkdir -p $set;
 
 PGPASSWORD=secret psql -h localhost -p 15432 -U postgres -t  -A -F $'\t' -c "SELECT
@@ -26,7 +31,9 @@ CASE setcode
   WHEN 'pCEL' THEN 'uqc' 
   WHEN 'pCMP' THEN 'cp' 
   WHEN 'CHR' THEN 'ch' 
-  WHEN 'CPK' THEN 'clash' 
+  WHEN 'CP1' THEN 'clash' 
+  WHEN 'CP2' THEN 'clash' 
+  WHEN 'CP3' THEN 'mbp' 
   WHEN '6ED' THEN '6e' 
   WHEN 'CSP' THEN 'cs' 
   WHEN 'CST' THEN 'cstd' 
@@ -126,7 +133,6 @@ CASE setcode
   WHEN 'VIS' THEN 'vi' 
   WHEN 'VAN' THEN '' 
   WHEN 'WTH' THEN 'wl' 
-  WHEN 'W17' THEN '' 
   WHEN 'pWCQ' THEN 'wmcq' 
   WHEN 'pWOR' THEN 'wrl' 
   WHEN 'pWOS' THEN 'wotc' 
@@ -144,32 +150,31 @@ chmod +x $set.sh
 
 done
 
-find ./download -name "*.sh" | split -l 20 
+find ./ -name "*.sh" | split -l 10 
 
-mv ./xaa download
-mv ./xab download
-mv ./xac download
-mv ./xad download
-mv ./xae download
-mv ./xaf download
-mv ./xag download
-mv ./xah download
-mv ./xai download
-mv ./xaj download
-mv ./xak download
-
-echo " 
- chmod +x ./xaa && ./xaa &
- chmod +x ./xab && ./xab &
- chmod +x ./xac && ./xac &
- chmod +x ./xad && ./xad &
- chmod +x ./xae && ./xae &
- chmod +x ./xaf && ./xaf &
- chmod +x ./xag && ./xag &
- chmod +x ./xah && ./xah &
- chmod +x ./xai && ./xai &
- chmod +x ./xaj && ./xaj &
- chmod +x ./xak && ./xak &
-" > download/get.sh
-chmod +x download/get.sh
+echo "
+chmod +x ./xaa* && ./xaa* 1> ./outxaa* 2> ./errxaa* &
+chmod +x ./xab* && ./xab* 1> ./outxab* 2> ./errxab* &
+chmod +x ./xac* && ./xac* 1> ./outxac* 2> ./errxac* &
+chmod +x ./xad* && ./xad* 1> ./outxad* 2> ./errxad* &
+chmod +x ./xae* && ./xae* 1> ./outxae* 2> ./errxae* &
+chmod +x ./xaf* && ./xaf* 1> ./outxaf* 2> ./errxaf* &
+chmod +x ./xag* && ./xag* 1> ./outxag* 2> ./errxag* &
+chmod +x ./xah* && ./xah* 1> ./outxah* 2> ./errxah* &
+chmod +x ./xai* && ./xai* 1> ./outxai* 2> ./errxai* &
+chmod +x ./xaj* && ./xaj* 1> ./outxaj* 2> ./errxaj* &
+chmod +x ./xak* && ./xak* 1> ./outxak* 2> ./errxak* &
+chmod +x ./xal* && ./xal* 1> ./outxal* 2> ./errxal* &
+chmod +x ./xam* && ./xam* 1> ./outxam* 2> ./errxam* &
+chmod +x ./xan* && ./xan* 1> ./outxan* 2> ./errxan* &
+chmod +x ./xao* && ./xao* 1> ./outxao* 2> ./errxao* &
+chmod +x ./xap* && ./xap* 1> ./outxap* 2> ./errxap* &
+chmod +x ./xaq* && ./xaq* 1> ./outxaq* 2> ./errxaq* &
+chmod +x ./xar* && ./xar* 1> ./outxar* 2> ./errxar* &
+chmod +x ./xas* && ./xas* 1> ./outxas* 2> ./errxas* &
+chmod +x ./xat* && ./xat* 1> ./outxat* 2> ./errxat* &
+chmod +x ./xau* && ./xau* 1> ./outxau* 2> ./errxau* &
+chmod +x ./xav* && ./xav* 1> ./outxav* 2> ./errxav* &
+" > get.sh
+chmod +x get.sh
 
