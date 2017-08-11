@@ -2,9 +2,14 @@ SELECT
     CASE 
         WHEN (c.layout='normal' OR c.layout='leveler' OR c.layout='double-faced') THEN 'convert -crop 276x203+18+45 ~/wd/mtgrdb/download/'
         WHEN (c.layout='flip') THEN
-        CASE SUBSTR(mcinumber, LENGTH(mcinumber))
-            WHEN 'a' THEN 'convert -crop 273x160+19+136 ~/wd/mtgrdb/download/'
-            WHEN 'b' THEN 'convert -crop 273x160+19+143 ~/wd/mtgrdb/download/'
+            CASE SUBSTR(mcinumber, LENGTH(mcinumber))
+                WHEN 'a' THEN 'convert -crop 273x160+19+136 ~/wd/mtgrdb/download/'
+                WHEN 'b' THEN 'convert -crop 273x160+19+143 ~/wd/mtgrdb/download/'
+        END
+        WHEN (c.layout='split') THEN
+            CASE c.name
+                WHEN TRIM(BOTH '"' from CAST(c.names::json->0 AS text)) THEN 'convert -crop 133x192+42+238 ~/wd/mtgrdb/download/'
+                WHEN TRIM(BOTH '"' from CAST(c.names::json->1 AS text)) THEN 'convert -crop 133x192+41+14  ~/wd/mtgrdb/download/'
         END
     END
     || s.code || '/' || c.id || '.jpg ' || s.code || '/' || c.id || '.jpg'
