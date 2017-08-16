@@ -5741,3 +5741,8 @@ UPDATE cards SET mcinumber='16' WHERE id='33e285b1559e81e033247ab71090ad36a27cd1
 UPDATE cards SET mcinumber='17' WHERE id='b9901ec7a1bbab53b3dad60cf08bdec239e574ea';
 UPDATE cards SET mcinumber='18' WHERE id='6930db07d49d217aab12f95d8f080da8c013eb28';
 
+UPDATE cards SET mcinumber='239a' WHERE id='d1572b464ca1a55a767042da48e7e082b129023b';
+UPDATE cards SET mcinumber='239b' WHERE id='eff6c7350747b5a5c628aa334c6a25874a26566c';
+UPDATE cards SET mcinumber='240a' WHERE id='6a7153caa4c17fe984506cea3889c5f079f20e20';
+UPDATE cards SET mcinumber='240b' WHERE id='d37ac21d35e2c932d5c5b730443c90251c54edae';
+
