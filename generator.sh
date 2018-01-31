@@ -5,7 +5,7 @@ cd $(dirname $0)
 JSON_FILENAME=AllSets-x.json
 
 if [ ! -e $JSON_FILENAME ]; then
-    curl -sL https://mtgjson.com/json/${JSON_FILENAME}.zip | bsdtar -xf-
+    curl -sL https://mtgjson.com/json/${JSON_FILENAME}.zip | gunzip - > ${JSON_FILENAME}
 fi
 
 mkdir -p json
