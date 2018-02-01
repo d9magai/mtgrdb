@@ -1,48 +1,41 @@
+import aiofiles
 import aiohttp
+import async_timeout
 import asyncio
-import random
-import string
+import os
 import tqdm
-
 from urldict import *
 
 
-def write_to_file(filename, content):
-    f = open(filename, 'wb')
-    f.write(content)
-    f.close()
-
-
-@asyncio.coroutine
-def get(*args, **kwargs):
-    response = yield from aiohttp.request('GET', *args, **kwargs)
-    return (yield from response.read())
-
-
-@asyncio.coroutine
-def download_file(dic):
+async def download_coroutine(session, dic):
     url = dic['url']
-    with (yield from r_semaphore):
-        content = yield from asyncio.async(get(url))
-        if not os.path.exists(dic['setcode']):
-            os.mkdir(dic['setcode'])
-        filename = '{}/downloads/{}/{}.jpg'.format(
-            os.getcwd(),
-            dic['setcode'],
-            dic['id']
-        )
-
-        write_to_file(filename, content)
+    with async_timeout.timeout(10):
+        async with session.get(url, verify_ssl=False) as response:
+            filename = os.path.basename(url)
+            async with aiofiles.open(filename, 'wb') as fd:
+                while True:
+                    chunk = await response.content.read(1024)
+                    if not chunk:
+                        break
+                    await fd.write(chunk)
+            return await response.release()
 
 
 @asyncio.coroutine
-def wait_with_progressbar(coros):
+def wait_with_progress(coros):
     for f in tqdm.tqdm(asyncio.as_completed(coros), total=len(coros)):
         yield from f
 
 
-r_semaphore = asyncio.Semaphore(10)
-coroutines = [download_file(dic) for dic in get_dict_resultset()]
-eloop = asyncio.get_event_loop()
-eloop.run_until_complete(wait_with_progressbar(coroutines))
-eloop.close()
+async def main(loop):
+    #coroutines = [download_file(dic) for dic in get_dict_resultset()]
+
+    async with aiohttp.ClientSession(loop=loop) as session:
+
+        for dic in get_dict_resultset():
+            await download_coroutine(session, dic)
+
+
+if __name__ == '__main__':
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main(loop))
