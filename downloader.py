@@ -27,16 +27,10 @@ def wait_with_progress(coros):
         yield from f
 
 
-async def main(loop):
-    async with aiohttp.ClientSession(loop=loop) as session:
-        for dic in get_dict_resultset():
-            await download_coroutine(session, dic)
-
-
 if __name__ == '__main__':
-
-    connector = aiohttp.TCPConnector()
-    with aiohttp.ClientSession(connector=connector) as client:
-        loop = asyncio.get_event_loop()
-        coroutines = [download_coroutine(client, dic) for dic in get_dict_resultset()]
-        loop.run_until_complete(wait_with_progress(coroutines))
+    loop = asyncio.get_event_loop()
+    session = aiohttp.ClientSession(loop=loop)
+    coroutines = [download_coroutine(session, dic) for dic in get_dict_resultset()]
+    loop.run_until_complete(wait_with_progress(coroutines))
+    session.close()
+    loop.close()
