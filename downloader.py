@@ -7,10 +7,13 @@ import tqdm
 from urldict import *
 
 
+sema = asyncio.BoundedSemaphore(5)
+
+
 async def download_coroutine(session, dic):
     url = dic['url']
     with async_timeout.timeout(10):
-        async with session.get(url, verify_ssl=False) as response:
+        async with sema, session.get(url, verify_ssl=False) as response:
             filename = os.path.basename(url)
             async with aiofiles.open(filename, 'wb') as fd:
                 while True:
