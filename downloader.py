@@ -12,9 +12,19 @@ sema = asyncio.BoundedSemaphore(5)
 
 async def download_coroutine(session, dic):
     url = dic['url']
+    dirname = '{}/downloads/{}'.format(
+        os.getcwd(),
+        dic['setcode'],
+    )
+    if not os.path.exists(dirname):
+        os.mkdir(dirname)
+    filename = '{}/{}.jpg'.format(
+        dirname,
+        dic['id'],
+    )
+
     with async_timeout.timeout(10):
         async with sema, session.get(url, verify_ssl=False) as response:
-            filename = os.path.basename(url)
             async with aiofiles.open(filename, 'wb') as fd:
                 while True:
                     chunk = await response.content.read(1024)
