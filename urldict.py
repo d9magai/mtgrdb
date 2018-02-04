@@ -139,7 +139,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE COALESCE(mcinumber, '')!='' LIMIT 30
+WHERE COALESCE(mcinumber, '')!='' 
 ''')
 
 

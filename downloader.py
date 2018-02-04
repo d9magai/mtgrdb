@@ -7,7 +7,15 @@ import tqdm
 from urldict import *
 
 
-sema = asyncio.BoundedSemaphore(5)
+sema = asyncio.BoundedSemaphore(2)
+
+
+def get(session, url):
+    try:
+        return session.get(url, verify_ssl=False)
+    except Exception:
+        print(url)
+        pass
 
 
 async def download_coroutine(session, dic):
@@ -23,21 +31,29 @@ async def download_coroutine(session, dic):
         dic['id'],
     )
 
-    with async_timeout.timeout(10):
-        async with sema, session.get(url, verify_ssl=False) as response:
+    with async_timeout.timeout(None):
+        async with sema, get(session, url) as response:
             async with aiofiles.open(filename, 'wb') as fd:
                 while True:
-                    chunk = await response.content.read(1024)
+                    try:
+                        chunk = await response.content.read(1024)
+                    except Exception:
+                        print(url)
+                        pass
                     if not chunk:
                         break
                     await fd.write(chunk)
+
             return await response.release()
 
 
 @asyncio.coroutine
 def wait_with_progress(coros):
     for f in tqdm.tqdm(asyncio.as_completed(coros), total=len(coros)):
-        yield from f
+        try:
+            yield from f
+        except Exception:
+            pass
 
 
 if __name__ == '__main__':
