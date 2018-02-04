@@ -2145,3 +2145,318 @@ UPDATE cards SET mcinumber='16' WHERE id='33e285b1559e81e033247ab71090ad36a27cd1
 UPDATE cards SET mcinumber='17' WHERE id='b9901ec7a1bbab53b3dad60cf08bdec239e574ea';
 UPDATE cards SET mcinumber='18' WHERE id='6930db07d49d217aab12f95d8f080da8c013eb28';
 
+UPDATE cards SET mcinumber='239a' WHERE id='d1572b464ca1a55a767042da48e7e082b129023b';
+UPDATE cards SET mcinumber='239b' WHERE id='eff6c7350747b5a5c628aa334c6a25874a26566c';
+UPDATE cards SET mcinumber='240a' WHERE id='6a7153caa4c17fe984506cea3889c5f079f20e20';
+UPDATE cards SET mcinumber='240b' WHERE id='d37ac21d35e2c932d5c5b730443c90251c54edae';
+
+UPDATE cards SET mcinumber='145' WHERE id='f9ba80fc8aff2670208afaadb1934cd8d25c554c'; /*C17 Abundance*/
+UPDATE cards SET mcinumber='233' WHERE id='c979935a751d58f8ce812f43f86b179eb5607bb7'; /*C17 Akoum Refuge*/
+UPDATE cards SET mcinumber='1' WHERE id='d5f9b6bdccb6cc462df264d01273ca3a1abc4a42'; /*C17 Alms Collector*/
+UPDATE cards SET mcinumber='95' WHERE id='5fc00266c3ad9d673f7d371c25207015886776f5'; /*C17 Ambition's Cost*/
+UPDATE cards SET mcinumber='96' WHERE id='81a0bf6ef515c088634be25a914071f4e572936e'; /*C17 Anowon, the Ruin Sage*/
+UPDATE cards SET mcinumber='97' WHERE id='ad8c302c94f5dfcf990d07d46ebddedc6eb22084'; /*C17 Apprentice Necromancer*/
+UPDATE cards SET mcinumber='35' WHERE id='762ac8e0ce6019e853a4bdecefbbe110f521f1dc'; /*C17 Arahbo, Roar of the World*/
+UPDATE cards SET mcinumber='234' WHERE id='d63050c3e9887b394b3f7e76488dfbbda1e9c5bb'; /*C17 Arcane Sanctum*/
+UPDATE cards SET mcinumber='80' WHERE id='3e316305d9b6c618c373da5f703834779e45de4d'; /*C17 Arcanis the Omnipotent*/
+UPDATE cards SET mcinumber='81' WHERE id='8bb7573693f5fa22b66ad0ece52461d9958e73fb'; /*C17 Archaeomancer*/
+UPDATE cards SET mcinumber='202' WHERE id='769853a2f64ee2192b6b3c654e40bb3165ea609e'; /*C17 Argentum Armor*/
+UPDATE cards SET mcinumber='203' WHERE id='08c77e646df411e908a2e5c318a1b771d891afaa'; /*C17 Armillary Sphere*/
+UPDATE cards SET mcinumber='161' WHERE id='a8c0415ce5c8ebf148c3dff4196228ea00138b14'; /*C17 Atarka, World Render*/
+UPDATE cards SET mcinumber='82' WHERE id='1b5d2f82ca829fb505c5556adfb638d3ae0b9ca5'; /*C17 Azami, Lady of Scrolls*/
+UPDATE cards SET mcinumber='2' WHERE id='ed91eca7695f10e6257ef0cbf167347f3bf4da29'; /*C17 Balan, Wandering Knight*/
+UPDATE cards SET mcinumber='162' WHERE id='2016ce1225400fb5984dacbdb1638d399c0c4cd3'; /*C17 Behemoth Sledge*/
+UPDATE cards SET mcinumber='98' WHERE id='f08849379f4e32e1b0875a47d776fd1046d47db4'; /*C17 Black Market*/
+UPDATE cards SET mcinumber='204' WHERE id='cf0a9fab71503fe5378b4a39a30760b09b6477d8'; /*C17 Blade of the Bloodchief*/
+UPDATE cards SET mcinumber='163' WHERE id='758d1be7c770e6d2a9bfe7e725a19bd9a2535926'; /*C17 Bladewing the Risen*/
+UPDATE cards SET mcinumber='235' WHERE id='92ab964a98b270c70cd6f99bef06c8ddc0b63386'; /*C17 Blighted Woodland*/
+UPDATE cards SET mcinumber='57' WHERE id='8fefada46d291a1fbc5dcf2556ebbc22033a41fe'; /*C17 Blind Obedience*/
+UPDATE cards SET mcinumber='99' WHERE id='11bac414e65aaf252b5c8198f19f7a581a52404e'; /*C17 Blood Artist*/
+UPDATE cards SET mcinumber='164' WHERE id='1f5570a428bef1775f57c321b3303cb91edefb85'; /*C17 Blood Baron of Vizkopa*/
+UPDATE cards SET mcinumber='100' WHERE id='97a8fca06f6e96e4a8b35f612806add6099e65ea'; /*C17 Blood Tribute*/
+UPDATE cards SET mcinumber='236' WHERE id='416619f70a5ba8f0d17dd50beb9cef24737632cb'; /*C17 Bloodfell Caves*/
+UPDATE cards SET mcinumber='50' WHERE id='c46a64f257bae4d8ec389592b3ba6768fb4cb966'; /*C17 Bloodforged Battle-Axe*/
+UPDATE cards SET mcinumber='101' WHERE id='d2d5886bf7aa364c814a5215d176006facbbace0'; /*C17 Bloodhusk Ritualist*/
+UPDATE cards SET mcinumber='14' WHERE id='c08638c1e1c53edd25a9eb67aa4cde1320358b5f'; /*C17 Bloodline Necromancer*/
+UPDATE cards SET mcinumber='102' WHERE id='5fd39c3d59779ddf230850dc3ec30e85e3f97641'; /*C17 Bloodlord of Vaasgoth*/
+UPDATE cards SET mcinumber='22' WHERE id='ccaeab19822cbcfd3ca837f2a2bba92b3490b6eb'; /*C17 Bloodsworn Steward*/
+UPDATE cards SET mcinumber='237' WHERE id='994295443274726464d8d387212d69bc256ab447'; /*C17 Blossoming Sands*/
+UPDATE cards SET mcinumber='83' WHERE id='03e3053e1ed0656b317a4479d28f3f9f427362e5'; /*C17 Body Double*/
+UPDATE cards SET mcinumber='238' WHERE id='84fa034a19933b278bcf7fce85707c45199c220c'; /*C17 Bojuka Bog*/
+UPDATE cards SET mcinumber='15' WHERE id='fe6f07d006f1392f69354314543d4c1b5464ade5'; /*C17 Boneyard Scourge*/
+UPDATE cards SET mcinumber='239' WHERE id='6c624ca34a3d0fcea04ef041a8c45b7b7ae82121'; /*C17 Boros Garrison*/
+UPDATE cards SET mcinumber='240' WHERE id='7bcbc53c6927b37a6074462499b98a15969d7527'; /*C17 Boros Guildgate*/
+UPDATE cards SET mcinumber='205' WHERE id='51531328954bf3786e607850f31f730a91088d25'; /*C17 Boros Signet*/
+UPDATE cards SET mcinumber='165' WHERE id='371a3d00c7025dbe5f4e00f6000b0c70b26a63f9'; /*C17 Broodmate Dragon*/
+UPDATE cards SET mcinumber='103' WHERE id='44cfed8c9d33ce4ce84b293384d184cc3b94fe63'; /*C17 Butcher of Malakir*/
+UPDATE cards SET mcinumber='104' WHERE id='bbe20578875fcb8e060ca20937d6c60426ee12b9'; /*C17 Captivating Vampire*/
+UPDATE cards SET mcinumber='166' WHERE id='67dffc46242138ab92b5707e04e117df11d806dd'; /*C17 Cauldron Dance*/
+UPDATE cards SET mcinumber='131' WHERE id='c5c8b69fb951bfbcc92bf13e73d880cd0420d1d0'; /*C17 Chaos Warp*/
+UPDATE cards SET mcinumber='241' WHERE id='7e418d145b9e3d1f571c3d47e37008c9222e4323'; /*C17 Cinder Barrens*/
+UPDATE cards SET mcinumber='84' WHERE id='2cb685b48fcf0f1ef4be5b4da5c9a1c634396870'; /*C17 Clone Legion*/
+UPDATE cards SET mcinumber='132' WHERE id='eb7dc0393cbbcb84bbcddb13fd3f5d4dfd403f87'; /*C17 Comet Storm*/
+UPDATE cards SET mcinumber='242' WHERE id='8dc283e771d12897e12ae158542510858dd7ecb7'; /*C17 Command Tower*/
+UPDATE cards SET mcinumber='206' WHERE id='e15e5d18fec236ba8fc4d802b8c1e0a278a0a29a'; /*C17 Commander's Sphere*/
+UPDATE cards SET mcinumber='58' WHERE id='9ff29400c0257f81204c41d612e4ed1130bf10a4'; /*C17 Condemn*/
+UPDATE cards SET mcinumber='105' WHERE id='6f6a50206b14dc7a0aa0fbb01f68724e351c4804'; /*C17 Consuming Vapors*/
+UPDATE cards SET mcinumber='106' WHERE id='3ffbcc1eb59f68038b188ec0b7d6b339f77af0a3'; /*C17 Corpse Augur*/
+UPDATE cards SET mcinumber='167' WHERE id='548f42b95f220e9f6e8a483be6ce28ec2721b9fb'; /*C17 Crackling Doom*/
+UPDATE cards SET mcinumber='23' WHERE id='9fa2bdd9bacd6183e5c97c812387cd702c09dc7e'; /*C17 Crimson Honor Guard*/
+UPDATE cards SET mcinumber='168' WHERE id='91a2a3df823989f04ead3f2cd83abb53f5760030'; /*C17 Crosis, the Purger*/
+UPDATE cards SET mcinumber='169' WHERE id='3b5ff75c8e62da906cf0aa1c1dc79eabafdc6133'; /*C17 Crosis's Charm*/
+UPDATE cards SET mcinumber='133' WHERE id='49f8085da938ede87e8e3394fe558ff2931dd3ea'; /*C17 Crucible of Fire*/
+UPDATE cards SET mcinumber='243' WHERE id='3337c4870540e044725411eb5048cfeee62f0198'; /*C17 Crucible of the Spirit Dragon*/
+UPDATE cards SET mcinumber='244' WHERE id='4958e29b8ccd626241c911eb3910954f6c566690'; /*C17 Crumbling Necropolis*/
+UPDATE cards SET mcinumber='146' WHERE id='4cfdb448c472590ce43cbf69428d7e8c677a50ce'; /*C17 Crushing Vines*/
+UPDATE cards SET mcinumber='107' WHERE id='e5b03e9d7ef4a3a07116a00673b687b2e68bf126'; /*C17 Crux of Fate*/
+UPDATE cards SET mcinumber='147' WHERE id='bfb53a3969846d8326175a179b4ed04338a3cbfe'; /*C17 Cultivate*/
+UPDATE cards SET mcinumber='30' WHERE id='d1916dad1ac55c49b80984b7e8266866fa054052'; /*C17 Curse of Bounty*/
+UPDATE cards SET mcinumber='16' WHERE id='1134a816222a007daec7058bd577b9ad90c02569'; /*C17 Curse of Disturbance*/
+UPDATE cards SET mcinumber='24' WHERE id='cccdcac442134bab73657c580856d819b97febff'; /*C17 Curse of Opulence*/
+UPDATE cards SET mcinumber='9' WHERE id='6020efec1ca4824a2dc2fafaa64b5b5d6ff06692'; /*C17 Curse of Verbosity*/
+UPDATE cards SET mcinumber='3' WHERE id='10b292c9152ed4a85e73dd52e78ff49c0b69cb84'; /*C17 Curse of Vitality*/
+UPDATE cards SET mcinumber='108' WHERE id='fd2e94e5348eb7937b19e4987e288c1b7b7f3b16'; /*C17 Damnable Pact*/
+UPDATE cards SET mcinumber='109' WHERE id='c4e3457de68a1a484d519f926cf1281224d65434'; /*C17 Dark Impostor*/
+UPDATE cards SET mcinumber='207' WHERE id='ae98071f85f3106a070830a3367124dcc71eb685'; /*C17 Darksteel Ingot*/
+UPDATE cards SET mcinumber='110' WHERE id='4c6d4d53430028853f537b9e7d5a7261c74b0837'; /*C17 Deathbringer Regent*/
+UPDATE cards SET mcinumber='111' WHERE id='9a2029cdca46e6b836fd178aec091253c05eda5d'; /*C17 Decree of Pain*/
+UPDATE cards SET mcinumber='245' WHERE id='474754152b8194bd4b89046f8aa3df9b5f81ea7b'; /*C17 Dimir Aqueduct*/
+UPDATE cards SET mcinumber='246' WHERE id='c04b6c1d6123f5e9ec419f4f1bc80f0bf3c2299b'; /*C17 Dismal Backwater*/
+UPDATE cards SET mcinumber='25' WHERE id='b90c220a01d2a109644b784f4c59dc03a2b4eebf'; /*C17 Disrupt Decorum*/
+UPDATE cards SET mcinumber='59' WHERE id='451a771cbb8215f32b8cb5a0afb665dd147a4b2d'; /*C17 Divine Reckoning*/
+UPDATE cards SET mcinumber='208' WHERE id='19b6c529cc849d378fea8df3220e3b1ed91535a0'; /*C17 Door of Destinies*/
+UPDATE cards SET mcinumber='134' WHERE id='66962c99a49b909ebf026d9a7208712b5466d8bc'; /*C17 Dragon Tempest*/
+UPDATE cards SET mcinumber='135' WHERE id='e73e5199132c608727189a907e1fd6228f73b78a'; /*C17 Dragonlord's Servant*/
+UPDATE cards SET mcinumber='136' WHERE id='8859e4b3e4b2a69d820c709ae9e61ea43498fca2'; /*C17 Dragonspeaker Shaman*/
+UPDATE cards SET mcinumber='112' WHERE id='d9695240c329fe33b6e8507428891c6fe9309ffb'; /*C17 Drana, Kalastria Bloodchief*/
+UPDATE cards SET mcinumber='209' WHERE id='bc81c767922b085e283887e65bfb4b6b400deb3e'; /*C17 Dreamstone Hedron*/
+UPDATE cards SET mcinumber='170' WHERE id='3ce27a99aaefe5d18dbb699a70018c8e828f9d8a'; /*C17 Dromoka, the Eternal*/
+UPDATE cards SET mcinumber='137' WHERE id='4f4fce66b5975d644cc08511a3f567a3c6c329cb'; /*C17 Earthquake*/
+UPDATE cards SET mcinumber='36' WHERE id='031b73a975e634427096acba6cb5b5c2639d778e'; /*C17 Edgar Markov*/
+UPDATE cards SET mcinumber='148' WHERE id='8ac94c2fa8694b0864b354f83736aafb67e81032'; /*C17 Elemental Bond*/
+UPDATE cards SET mcinumber='247' WHERE id='bf849e9370f0b189013ae531f78f5ea25569e369'; /*C17 Elfhame Palace*/
+UPDATE cards SET mcinumber='171' WHERE id='c656d3c047b839c1c5ad724d596cdf1717b39d2d'; /*C17 Etherium-Horn Sorcerer*/
+UPDATE cards SET mcinumber='248' WHERE id='604f6b62ac80d2ba32c85967d916524bff69ceb4'; /*C17 Evolving Wilds*/
+UPDATE cards SET mcinumber='249' WHERE id='a59ed3afdfe0c76297b30d46ac04f840cf96c01f'; /*C17 Exotic Orchard*/
+UPDATE cards SET mcinumber='113' WHERE id='885a2d2cd2337d3d3db9cc20bb08683a9ae1ca00'; /*C17 Falkenrath Noble*/
+UPDATE cards SET mcinumber='149' WHERE id='bf6f9402e430184e096cd51e2a6de61b2b157975'; /*C17 Farseek*/
+UPDATE cards SET mcinumber='60' WHERE id='661cfea0d895f67c1e47b4248ba6a5d1a3de838e'; /*C17 Fell the Mighty*/
+UPDATE cards SET mcinumber='210' WHERE id='8c3f2bf37a9268738e57c14c21b1f7928fba3b24'; /*C17 Fellwar Stone*/
+UPDATE cards SET mcinumber='211' WHERE id='4ade9898238faaecbe8026d83474337fad8733df'; /*C17 Fist of Suns*/
+UPDATE cards SET mcinumber='172' WHERE id='907be2e8f005756d51635a1bb2aae388f6873893'; /*C17 Fleecemane Lion*/
+UPDATE cards SET mcinumber='307' WHERE id='5de1a0fed3bafbd915ca6e8c5342b6f50fbff115'; /*C17 Forest*/
+UPDATE cards SET mcinumber='308' WHERE id='8b9b2c7a71b272c116c306f0a5015b2b4edfa113'; /*C17 Forest*/
+UPDATE cards SET mcinumber='309' WHERE id='5de13a2e82ec0481526a9972ad599d25cac955ee'; /*C17 Forest*/
+UPDATE cards SET mcinumber='250' WHERE id='282d191527258a3316a96e8dc3f77d03e8896c0a'; /*C17 Forsaken Sanctuary*/
+UPDATE cards SET mcinumber='4' WHERE id='afd72f51d22d81b1f583540675420c22af3dea02'; /*C17 Fortunate Few*/
+UPDATE cards SET mcinumber='37' WHERE id='22d9f4dab32703f61015515f944d118e1517141d'; /*C17 Fractured Identity*/
+UPDATE cards SET mcinumber='251' WHERE id='cba90cecc12dc84e02ba27fa97677ad5fb574167'; /*C17 Frontier Bivouac*/
+UPDATE cards SET mcinumber='150' WHERE id='61f5eceb7ffe7b8f94502a7048c92e0a0ecad9ba'; /*C17 Frontier Siege*/
+UPDATE cards SET mcinumber='10' WHERE id='975e1a2508558fa448529b0347c39789afb8b50f'; /*C17 Galecaster Colossus*/
+UPDATE cards SET mcinumber='114' WHERE id='f93c32f0d3bde85c66244205aeaac92be493aa07'; /*C17 Go for the Throat*/
+UPDATE cards SET mcinumber='212' WHERE id='d0763956b9e245fefa203a1d2f80b8365cf94e7c'; /*C17 Grappling Hook*/
+UPDATE cards SET mcinumber='252' WHERE id='9841c71c0c4b16949126667cc792d6701202e5d6'; /*C17 Grasslands*/
+UPDATE cards SET mcinumber='253' WHERE id='d6865bba60e1a8f4a6d64513e4bfb3472d9f6f9e'; /*C17 Graypelt Refuge*/
+UPDATE cards SET mcinumber='254' WHERE id='aa84ffafb5af0be8a315142187681076c633cd6a'; /*C17 Grixis Panorama*/
+UPDATE cards SET mcinumber='51' WHERE id='14890af777da3bc5265573d27b8f5866e7efb013'; /*C17 Hammer of Nazahn*/
+UPDATE cards SET mcinumber='85' WHERE id='2a141b392bad929dc9a597367a953876519c1c8c'; /*C17 Harbinger of the Tides*/
+UPDATE cards SET mcinumber='151' WHERE id='da04d7c8655444d4c5ffc5885c20dd1488e2335f'; /*C17 Harmonize*/
+UPDATE cards SET mcinumber='255' WHERE id='10bd125c6da0ea21b8d3efc21acc2fa71cb603aa'; /*C17 Haven of the Spirit Dragon*/
+UPDATE cards SET mcinumber='173' WHERE id='ce91741df12397bb78cc4a57fe1801c081cb73a8'; /*C17 Havengul Lich*/
+UPDATE cards SET mcinumber='213' WHERE id='0f453b6a4871f6094225ecf2d43487f4d5d7682d'; /*C17 Hedron Archive*/
+UPDATE cards SET mcinumber='52' WHERE id='f0a715f323b79519f0d8d5caa8e6d0b22f0540ba'; /*C17 Heirloom Blade*/
+UPDATE cards SET mcinumber='138' WHERE id='49dbfc2868b104690a2206d73c26a35abb20fb58'; /*C17 Hellkite Charger*/
+UPDATE cards SET mcinumber='53' WHERE id='96cb634cdd4dbf3c2d57205fc013a33b16784986'; /*C17 Herald's Horn*/
+UPDATE cards SET mcinumber='214' WHERE id='52dbae28817088b1598bc402104170eefb877773'; /*C17 Hero's Blade*/
+UPDATE cards SET mcinumber='31' WHERE id='d813356ae10f0cc8f982bbe7ce0705e32ed50017'; /*C17 Hungry Lynx*/
+UPDATE cards SET mcinumber='152' WHERE id='4d41cf3537fd36416896b62ad2ea2b189498d1b4'; /*C17 Hunter's Prowess*/
+UPDATE cards SET mcinumber='38' WHERE id='9626d9bb3bd9d77b848f68ba16da258bb66a1c45'; /*C17 Inalla, Archmage Ritualist*/
+UPDATE cards SET mcinumber='174' WHERE id='82b8f3a43b04aff19f0e13277bb3cb9a73dbe9ef'; /*C17 Intet, the Dreamer*/
+UPDATE cards SET mcinumber='86' WHERE id='98f9bc36d92b967f7243aa87c1a7ced643d24d90'; /*C17 Into the Roil*/
+UPDATE cards SET mcinumber='298' WHERE id='4c03b2e79f92e8b16963208e1e8554d59061c81d'; /*C17 Island*/
+UPDATE cards SET mcinumber='299' WHERE id='ebf3f8fc8e5692c0326850a5c724ada31eaff8ce'; /*C17 Island*/
+UPDATE cards SET mcinumber='300' WHERE id='7ef3b8c5dc215663f32ecb80c73fa7d2d26797b6'; /*C17 Island*/
+UPDATE cards SET mcinumber='256' WHERE id='2b1b319caa205d2fa6a5c69c387949a7f4a4b578'; /*C17 Izzet Boilerworks*/
+UPDATE cards SET mcinumber='26' WHERE id='80a8a93ec205b69bdb0eb6db0d6bcf3591f61145'; /*C17 Izzet Chemister*/
+UPDATE cards SET mcinumber='175' WHERE id='e5c64848d3b7f082ae5e71a70e067762481b4ac7'; /*C17 Izzet Chronarch*/
+UPDATE cards SET mcinumber='61' WHERE id='0153d3ebf92b82cbaf9bfe068d8ef0123b0076bf'; /*C17 Jareth, Leonine Titan*/
+UPDATE cards SET mcinumber='62' WHERE id='77cf1cf5b0080f1520a3a9b2a28e31075dfccd43'; /*C17 Jazal Goldmane*/
+UPDATE cards SET mcinumber='153' WHERE id='96635ac5012ab22baa0297ced0054404c1eea91c'; /*C17 Jedit Ojanen of Efrava*/
+UPDATE cards SET mcinumber='257' WHERE id='3c1d2d0c5c6e6f61d2c7f8ed0e1bb0455b990533'; /*C17 Jungle Shrine*/
+UPDATE cards SET mcinumber='258' WHERE id='675bf4f21692cdcb4ba65c97ddb5a8f7e2f33b6c'; /*C17 Jwar Isle Refuge*/
+UPDATE cards SET mcinumber='259' WHERE id='31ae836ee36b965ef86d1475b56331d75e6f545f'; /*C17 Kabira Crossroads*/
+UPDATE cards SET mcinumber='63' WHERE id='a1537ca5b3f482026ed90f4455d56114883f3705'; /*C17 Kemba, Kha Regent*/
+UPDATE cards SET mcinumber='39' WHERE id='340aef33d211e71af583487a7d57ee6a7d392a85'; /*C17 Kess, Dissident Mage*/
+UPDATE cards SET mcinumber='17' WHERE id='ebc1c39ad84f66c489e575bf17c15cf2bee11290'; /*C17 Kheru Mind-Eater*/
+UPDATE cards SET mcinumber='5' WHERE id='60bd1f30b483c5ddcdcabc05b49793b36ee79713'; /*C17 Kindred Boon*/
+UPDATE cards SET mcinumber='27' WHERE id='99783af7d94e09563a07e3aebe6956e3fe95f0e4'; /*C17 Kindred Charge*/
+UPDATE cards SET mcinumber='11' WHERE id='51c8696423b4aa6f8b0a52c86ebcb3323d7e41cf'; /*C17 Kindred Discovery*/
+UPDATE cards SET mcinumber='18' WHERE id='d79ea1c1451c880a855aee4a36dc61119f3e9ed5'; /*C17 Kindred Dominance*/
+UPDATE cards SET mcinumber='32' WHERE id='6c447d00141159558cedea5efe6d0505a7c30daf'; /*C17 Kindred Summons*/
+UPDATE cards SET mcinumber='154' WHERE id='f2a554beadf94a4e8cc7e6a154bcd74bb9ed5933'; /*C17 Kodama's Reach*/
+UPDATE cards SET mcinumber='176' WHERE id='a86308d048c43f5658f97cae67f68c510a3aebc8'; /*C17 Kolaghan, the Storm's Fury*/
+UPDATE cards SET mcinumber='260' WHERE id='99b5bfae207dfcfee02257603b1288cebdc536c7'; /*C17 Krosan Verge*/
+UPDATE cards SET mcinumber='64' WHERE id='6b14a6d01ed01cb73a58073b9470c7fabf6a8049'; /*C17 Leonin Arbiter*/
+UPDATE cards SET mcinumber='65' WHERE id='e6ba2eb1688836eda343479cd5afbc0e9ca89d33'; /*C17 Leonin Relic-Warder*/
+UPDATE cards SET mcinumber='66' WHERE id='ef442060ce434faf2c98fef024f5b1e71fc809a2'; /*C17 Leonin Shikari*/
+UPDATE cards SET mcinumber='40' WHERE id='389cd0c6ab02a2db6ab0c3e66786e9bddc714444'; /*C17 Licia, Sanguine Tribune*/
+UPDATE cards SET mcinumber='215' WHERE id='51ff2dc1257e8f8cf7b2b4547d224b6ee6703731'; /*C17 Lightning Greaves*/
+UPDATE cards SET mcinumber='216' WHERE id='d46cc96bfc9b3b9fd076fbf8ec9b56b71979f60e'; /*C17 Loxodon Warhammer*/
+UPDATE cards SET mcinumber='115' WHERE id='74f2cf3ce46d3086c8708649618d10b02642ca00'; /*C17 Magus of the Abyss*/
+UPDATE cards SET mcinumber='12' WHERE id='3de7394ab1c6ab1f440b340e1c5d7fc36df69905'; /*C17 Magus of the Mind*/
+UPDATE cards SET mcinumber='41' WHERE id='54f0a5996e813a0583ee438c413626e5a189dba6'; /*C17 Mairsil, the Pretender*/
+UPDATE cards SET mcinumber='116' WHERE id='74738609156e4427e03d8ba2c4d4b8d3bac845de'; /*C17 Malakir Bloodwitch*/
+UPDATE cards SET mcinumber='177' WHERE id='ef3d91e6e9878fae472e730c08bde8abecba244c'; /*C17 Marchesa, the Black Rose*/
+UPDATE cards SET mcinumber='42' WHERE id='e89299513f3f67c5570bbedc5dc04f568eee69c1'; /*C17 Mathas, Fiend Seeker*/
+UPDATE cards SET mcinumber='178' WHERE id='0b9cff24fe6a282a9ddd9d93b23874b138ffc222'; /*C17 Memory Plunder*/
+UPDATE cards SET mcinumber='87' WHERE id='7bc56b8207d9b0b8e8e4155ca82a54ba562b9785'; /*C17 Merchant of Secrets*/
+UPDATE cards SET mcinumber='179' WHERE id='c17e3e8274d84f2fbc2023a22e6512e0d2e03ad2'; /*C17 Merciless Eviction*/
+UPDATE cards SET mcinumber='180' WHERE id='432d938b0171e407cce05261ee2d855473413efc'; /*C17 Mercurial Chemister*/
+UPDATE cards SET mcinumber='181' WHERE id='490d0c2a9b20321be1cc026ab5607d51f315c1f9'; /*C17 Mirari's Wake*/
+UPDATE cards SET mcinumber='43' WHERE id='d49bcffcbdf3c3bba67121136c34c9e67bd7fbb7'; /*C17 Mirri, Weatherlight Duelist*/
+UPDATE cards SET mcinumber='54' WHERE id='f8e7fe1dd3a97796cbeb56ff2d10b5a0e409d20d'; /*C17 Mirror of the Forebears*/
+UPDATE cards SET mcinumber='88' WHERE id='e40dfaf882f156e711b5e810be5bea5833228ca7'; /*C17 Monastery Siege*/
+UPDATE cards SET mcinumber='182' WHERE id='10ba2b123d2f549f69499e1fbff79b101f505a47'; /*C17 Mortify*/
+UPDATE cards SET mcinumber='261' WHERE id='d41420f51ced5f801ecfdfafb05d9f6c3487b18e'; /*C17 Mosswort Bridge*/
+UPDATE cards SET mcinumber='304' WHERE id='740335ade18ac82d17663ab74e5a49b8a1127703'; /*C17 Mountain*/
+UPDATE cards SET mcinumber='305' WHERE id='41a492dc20a08a425e89cba338580999ea2553ea'; /*C17 Mountain*/
+UPDATE cards SET mcinumber='306' WHERE id='8a49a4aded40865173ae00cf39c06fa73a912c0d'; /*C17 Mountain*/
+UPDATE cards SET mcinumber='262' WHERE id='54c6f71660d00eaf30c96f1082d444d7100eadef'; /*C17 Myriad Landscape*/
+UPDATE cards SET mcinumber='263' WHERE id='99ac82fbd53db81e5e1040f1606763e734cbf04a'; /*C17 Mystic Monastery*/
+UPDATE cards SET mcinumber='264' WHERE id='ce737165fc8ef8ad94cd3742b0619b130e109b6c'; /*C17 Mystifying Maze*/
+UPDATE cards SET mcinumber='44' WHERE id='70a4157d26341384baf0cfeaa4088d73faf7863a'; /*C17 Nazahn, Revered Bladesmith*/
+UPDATE cards SET mcinumber='117' WHERE id='9841903c8ede12d2fbb07686a388f3be4901332b'; /*C17 Necromantic Selection*/
+UPDATE cards SET mcinumber='217' WHERE id='14db1dc0f1edeb39f7efe87cd9557ee09ae42568'; /*C17 Nevinyrral's Disk*/
+UPDATE cards SET mcinumber='19' WHERE id='33dcfa2773469f92aca64a7f17b60eece4d7514d'; /*C17 New Blood*/
+UPDATE cards SET mcinumber='218' WHERE id='e07038322a5736724e7c9a07a5c53d12a983d6f1'; /*C17 Nihil Spellbomb*/
+UPDATE cards SET mcinumber='183' WHERE id='59d5fc789351b620eceee0671ad1ed6115df264c'; /*C17 Nin, the Pain Artist*/
+UPDATE cards SET mcinumber='155' WHERE id='014f22bbccce437e304d18ef538165f068b1f2c8'; /*C17 Nissa's Pilgrimage*/
+UPDATE cards SET mcinumber='184' WHERE id='4f33ee80d299dad6fd0988d2fc24e12c0798b94c'; /*C17 Niv-Mizzet, Dracogenius*/
+UPDATE cards SET mcinumber='185' WHERE id='c0e9fff352a07099ee4c0c356fe49558beeada20'; /*C17 Niv-Mizzet, the Firemind*/
+UPDATE cards SET mcinumber='186' WHERE id='fec14ecf7dff359829a83715c07171015f16d2d5'; /*C17 Nivix Guildmage*/
+UPDATE cards SET mcinumber='265' WHERE id='86af9f4f52b853f248bc6284e625e831d3b23be2'; /*C17 Nomad Outpost*/
+UPDATE cards SET mcinumber='45' WHERE id='ed1d05035bd34145dfd23e3fba3d212477758828'; /*C17 O-Kagachi, Vengeful Kami*/
+UPDATE cards SET mcinumber='187' WHERE id='095c4af55ca510eed57c5e68d96902ec2c51bdc9'; /*C17 Ojutai, Soul of Winter*/
+UPDATE cards SET mcinumber='266' WHERE id='3c08097f3c2b258239523b692656e031351b4814'; /*C17 Opal Palace*/
+UPDATE cards SET mcinumber='89' WHERE id='4336ea8a5e2c1605e9db6fbb6a99e2aa2f45268e'; /*C17 Opportunity*/
+UPDATE cards SET mcinumber='267' WHERE id='1bf8badf72a41f1495f0e671d47a4db9c059db41'; /*C17 Opulent Palace*/
+UPDATE cards SET mcinumber='67' WHERE id='d0b48b45b6b0dc1148df14176f210effff3ede99'; /*C17 Orator of Ojutai*/
+UPDATE cards SET mcinumber='68' WHERE id='6a547391b480f7235d7691f4c3c6e626fa50436f'; /*C17 Oreskos Explorer*/
+UPDATE cards SET mcinumber='268' WHERE id='35e6ab9b981ffc4008e301f57b1f8801742ad7ac'; /*C17 Orzhov Basilica*/
+UPDATE cards SET mcinumber='269' WHERE id='2971cc896cffc02c77640cb219d7f232ae514109'; /*C17 Orzhov Guildgate*/
+UPDATE cards SET mcinumber='219' WHERE id='b7faa35000c375f5630dab5322ad31e39a8b0eb6'; /*C17 Orzhov Signet*/
+UPDATE cards SET mcinumber='139' WHERE id='09ce2b5f8e7954d25cf71598275b787e1c29d2e0'; /*C17 Outpost Siege*/
+UPDATE cards SET mcinumber='118' WHERE id='cc1a4ec2c334d803ead07929a799bfbd2b2f8f66'; /*C17 Painful Truths*/
+UPDATE cards SET mcinumber='119' WHERE id='1041f5c87fa0867f391e5935c9712598e56d3a6c'; /*C17 Palace Siege*/
+UPDATE cards SET mcinumber='56' WHERE id='b63da548117f12e0852c5cbd1c500bcc8821f432'; /*C17 Path of Ancestry*/
+UPDATE cards SET mcinumber='20' WHERE id='97576064d21ab100f91a4cf58927169bb92ed09d'; /*C17 Patron of the Vein*/
+UPDATE cards SET mcinumber='120' WHERE id='b32ee8e96097763fae19e52c15c76ab8f3ecc578'; /*C17 Pawn of Ulamog*/
+UPDATE cards SET mcinumber='188' WHERE id='ee56069ba1944664444070a56e1689c36018a013'; /*C17 Phantom Nishoba*/
+UPDATE cards SET mcinumber='295' WHERE id='cb163b34dd57e1ac91514d65cd5bc2e3eb5dc482'; /*C17 Plains*/
+UPDATE cards SET mcinumber='296' WHERE id='826d29c3435b50a2f2b0646b148a048cf74ef9f3'; /*C17 Plains*/
+UPDATE cards SET mcinumber='297' WHERE id='f6478c5001440aa8c1b8c54d4e0846fe8c473175'; /*C17 Plains*/
+UPDATE cards SET mcinumber='90' WHERE id='ebaefa48e9b638653ad4ebd980707c146ef88468'; /*C17 Polymorphist's Jest*/
+UPDATE cards SET mcinumber='13' WHERE id='15cf6d8e7e3081f8a05a63c429772a2a5619059d'; /*C17 Portal Mage*/
+UPDATE cards SET mcinumber='121' WHERE id='65e6cdee5423919eb1032ca66b1d256e0af56284'; /*C17 Puppeteer Clique*/
+UPDATE cards SET mcinumber='189' WHERE id='3007a3d1e1890f63e73a71c9bc2bfc8873845362'; /*C17 Qasali Pridemage*/
+UPDATE cards SET mcinumber='33' WHERE id='87bcd254d4f9cc338ebe0b69923627acc171ca1a'; /*C17 Qasali Slingers*/
+UPDATE cards SET mcinumber='220' WHERE id='2b6bd140814025c1cc94ba6a313a01974b81d5d2'; /*C17 Quietus Spike*/
+UPDATE cards SET mcinumber='156' WHERE id='1d4fc942b70ac0f275b3987f96d63cf56d0d0103'; /*C17 Rain of Thorns*/
+UPDATE cards SET mcinumber='270' WHERE id='93449639bbb7d15b112788a976f44496aa6da34f'; /*C17 Rakdos Carnarium*/
+UPDATE cards SET mcinumber='190' WHERE id='846fa27d6a59667e4c92432d253dd0ad4b399847'; /*C17 Rakdos Charm*/
+UPDATE cards SET mcinumber='271' WHERE id='793a7dc1c11946281d92239b47b2203761243dcf'; /*C17 Rakdos Guildgate*/
+UPDATE cards SET mcinumber='221' WHERE id='295868d02ff230203d1223a0c0cd2009c004e466'; /*C17 Rakdos Signet*/
+UPDATE cards SET mcinumber='140' WHERE id='5d88d4149ae0e64819a84295b338852873075617'; /*C17 Rakish Heir*/
+UPDATE cards SET mcinumber='69' WHERE id='3109284748d279f964380bba4cb43bc9d3a061be'; /*C17 Raksha Golden Cub*/
+UPDATE cards SET mcinumber='55' WHERE id='b2c8f8fc5dee18c0a6bf9d4b28655872aa1a7f62'; /*C17 Ramos, Dragon Engine*/
+UPDATE cards SET mcinumber='122' WHERE id='708f6143d121ca2503f5b8b4140139d2b5e160de'; /*C17 Read the Bones*/
+UPDATE cards SET mcinumber='91' WHERE id='16eaaf9db25e19fa869bd6b9a60eeca99a6289f5'; /*C17 Reality Shift*/
+UPDATE cards SET mcinumber='157' WHERE id='015844554c4b4204558df2a2cdfcf1d39d2cf4cc'; /*C17 Relic Crush*/
+UPDATE cards SET mcinumber='70' WHERE id='1a955e8b7e998e3fce4a9dec7282e9a5a40b8646'; /*C17 Return to Dust*/
+UPDATE cards SET mcinumber='272' WHERE id='fea98dca62adafb2606902aba90e997bc591bdb7'; /*C17 Rogue's Passage*/
+UPDATE cards SET mcinumber='71' WHERE id='77787ff651a3817927ccbd4eaaf09cccf77bc585'; /*C17 Rout*/
+UPDATE cards SET mcinumber='141' WHERE id='2bfeab589da5c8584e1c9f56ce068bfe8caae43d'; /*C17 Ryusei, the Falling Star*/
+UPDATE cards SET mcinumber='273' WHERE id='0d3a01b0945e2f1f2f0a93b187c7cf5f8b6a45e1'; /*C17 Saltcrusted Steppe*/
+UPDATE cards SET mcinumber='274' WHERE id='d4020b6db89cf26a72de775b081627ef79a88aa0'; /*C17 Sandsteppe Citadel*/
+UPDATE cards SET mcinumber='123' WHERE id='cce9fee9a9df5ff2f8db7e627496dc8cf2e6418a'; /*C17 Sangromancer*/
+UPDATE cards SET mcinumber='124' WHERE id='d3e1a297bb16a38eae4d6b7a1a6cdffb7111277f'; /*C17 Sanguine Bond*/
+UPDATE cards SET mcinumber='275' WHERE id='0e6a2b020e136e9b1f60fbfb831273bfb3f47e88'; /*C17 Savage Lands*/
+UPDATE cards SET mcinumber='191' WHERE id='a62ed100c5a99d6847d656551433eaa3c56a3437'; /*C17 Savage Ventmaw*/
+UPDATE cards SET mcinumber='6' WHERE id='9f8c5dfe3c9e93712cd78b3866d353f2d877522f'; /*C17 Scalelord Reckoner*/
+UPDATE cards SET mcinumber='192' WHERE id='336e6281311712c0158477ff820f55fa06586c38'; /*C17 Scion of the Ur-Dragon*/
+UPDATE cards SET mcinumber='276' WHERE id='888c8663b7e11bdd6e96382cebfed90e773debdc'; /*C17 Scoured Barrens*/
+UPDATE cards SET mcinumber='142' WHERE id='13644acdac7cb7ee5f1747bd86f36729a6d526c8'; /*C17 Scourge of Valkas*/
+UPDATE cards SET mcinumber='92' WHERE id='fcd4677031bcb6e75d9776c48d6a9f35c1ab894b'; /*C17 Sea Gate Oracle*/
+UPDATE cards SET mcinumber='277' WHERE id='5d7ae5aa2a7fdb97649c634b2dfc79db8a755c7c'; /*C17 Seaside Citadel*/
+UPDATE cards SET mcinumber='278' WHERE id='bad6843a28573695a33717bd96097ccc5c32e8df'; /*C17 Secluded Steppe*/
+UPDATE cards SET mcinumber='72' WHERE id='4ee2fd5ea36ce66d0589ab7dfd956c9f056f6c27'; /*C17 Seht's Tiger*/
+UPDATE cards SET mcinumber='279' WHERE id='b5a41c13714db2d86d1149fb664009174df36d36'; /*C17 Selesnya Guildgate*/
+UPDATE cards SET mcinumber='280' WHERE id='2a59f85549575e82943294fc3c7c05d279bab6ae'; /*C17 Selesnya Sanctuary*/
+UPDATE cards SET mcinumber='93' WHERE id='bae5ba4e39cb9252d7f7c58bcd585afc7de96d83'; /*C17 Serendib Sorcerer*/
+UPDATE cards SET mcinumber='193' WHERE id='57059dc2ffde59753e71c4e467789d498e505abb'; /*C17 Shadowmage Infiltrator*/
+UPDATE cards SET mcinumber='28' WHERE id='e0cf0514d22b80584267aa52ba7712c41652a4df'; /*C17 Shifting Shadow*/
+UPDATE cards SET mcinumber='194' WHERE id='878a74fdbc0861dfbd1e081ef980a5bd1f3b4c14'; /*C17 Silumgar, the Drifting Death*/
+UPDATE cards SET mcinumber='195' WHERE id='d742bda488f13ec5f57e5c752584440e873db9ef'; /*C17 Silumgar's Command*/
+UPDATE cards SET mcinumber='125' WHERE id='dfa399e18dbaf49145ab1c4211ac9bbaf3f96e76'; /*C17 Skeletal Scrying*/
+UPDATE cards SET mcinumber='126' WHERE id='ac53886f64eba0870f9907f62b0743d8334054e2'; /*C17 Skeletal Vampire*/
+UPDATE cards SET mcinumber='222' WHERE id='68e54ffa877485cd611add6e9b331f790ced703d'; /*C17 Skullclamp*/
+UPDATE cards SET mcinumber='223' WHERE id='475000775958eca2c9c932f0a767f7152855216e'; /*C17 Sol Ring*/
+UPDATE cards SET mcinumber='158' WHERE id='31aa4419a35af0db5c14a20e8983e8afd5796c82'; /*C17 Soul's Majesty*/
+UPDATE cards SET mcinumber='196' WHERE id='1997863c855a8f95c3750ac577c2d44c266370ba'; /*C17 Spellbound Dragon*/
+UPDATE cards SET mcinumber='94' WHERE id='30c0fc744bff65b65337dfd195059476b0840c71'; /*C17 Spelltwine*/
+UPDATE cards SET mcinumber='73' WHERE id='b96f6290d0288cff8dc6446a304cd0fe0f1a5f73'; /*C17 Spirit of the Hearth*/
+UPDATE cards SET mcinumber='224' WHERE id='e8fd0a8e89404e041e7154f477b0e02ae07cd30e'; /*C17 Staff of Nin*/
+UPDATE cards SET mcinumber='7' WHERE id='98a7e91c0ebb2091a02a5b495a5102899979b2bc'; /*C17 Stalking Leonin*/
+UPDATE cards SET mcinumber='225' WHERE id='e83f85ea4cf181cc859afc153beea6e559753240'; /*C17 Steel Hellkite*/
+UPDATE cards SET mcinumber='281' WHERE id='1aad8fb9885bab26098189350d51403ba1197b34'; /*C17 Stirring Wildwood*/
+UPDATE cards SET mcinumber='282' WHERE id='b05a38659c1e8e22e8c30b2b53c48d1460ad18e9'; /*C17 Stone Quarry*/
+UPDATE cards SET mcinumber='197' WHERE id='6d7d6f1a531495089027619b0a39d3a2a331d05b'; /*C17 Stromkirk Captain*/
+UPDATE cards SET mcinumber='74' WHERE id='46573fbf342f26aaa81c1cae61c61fcd941ccbaf'; /*C17 Sunscorch Regent*/
+UPDATE cards SET mcinumber='75' WHERE id='701766804ac6b83cd06ed6074c474cef8fdc667f'; /*C17 Sunspear Shikari*/
+UPDATE cards SET mcinumber='301' WHERE id='8cb527c51cb872985103a37f7d58ed2e886d91c6'; /*C17 Swamp*/
+UPDATE cards SET mcinumber='302' WHERE id='c84657c9db58cb235c3a75d4463797dbdb7d8535'; /*C17 Swamp*/
+UPDATE cards SET mcinumber='303' WHERE id='4642eece95ac233a52209cefb62279b9396ff940'; /*C17 Swamp*/
+UPDATE cards SET mcinumber='226' WHERE id='96f07c6b69f1c264ba4d32f412bb5b0f106e7e6d'; /*C17 Swiftfoot Boots*/
+UPDATE cards SET mcinumber='283' WHERE id='6f020e292719d65b32b7015c717562dead60f4d9'; /*C17 Swiftwater Cliffs*/
+UPDATE cards SET mcinumber='227' WHERE id='986b12a94c35fe929f32f93a480a53dbb27a7498'; /*C17 Sword of the Animist*/
+UPDATE cards SET mcinumber='228' WHERE id='db60ba564ec768a298234aba11b4176728261668'; /*C17 Sword of Vengeance*/
+UPDATE cards SET mcinumber='76' WHERE id='289bf06bb5a9b1d0e696da85eb69d8afd6d3a5f3'; /*C17 Swords to Plowshares*/
+UPDATE cards SET mcinumber='127' WHERE id='ea61bb57e63bde6b6051da07b800e46d99b84af8'; /*C17 Syphon Mind*/
+UPDATE cards SET mcinumber='46' WHERE id='85f425f21afaa32c2aa3f6e84f12dca6d1371b8a'; /*C17 Taigam, Ojutai Master*/
+UPDATE cards SET mcinumber='47' WHERE id='8f1dddb3520c80ad6c524653a9c3c0b034b57c2b'; /*C17 Taigam, Sidisi's Hand*/
+UPDATE cards SET mcinumber='77' WHERE id='1c0ce12a6c68b13b7fdf27ce0d9333f45c270cbc'; /*C17 Taj-Nar Swordsmith*/
+UPDATE cards SET mcinumber='8' WHERE id='e0c1eeb28b53b0497a622a0817fb1070ccbf7de0'; /*C17 Teferi's Protection*/
+UPDATE cards SET mcinumber='284' WHERE id='3c9fd62488115c4396883844dee00ac68bab2870'; /*C17 Temple of the False God*/
+UPDATE cards SET mcinumber='159' WHERE id='d27bf68f56980c097b9d58d4d1a16c96fb290331'; /*C17 Temur Sabertooth*/
+UPDATE cards SET mcinumber='198' WHERE id='94582fcd2cfd6c53841c67395f07e791fde13701'; /*C17 Teneb, the Harvester*/
+UPDATE cards SET mcinumber='199' WHERE id='fc6ab5489d0566a6c3dc92520d207092b5304487'; /*C17 Terminate*/
+UPDATE cards SET mcinumber='285' WHERE id='eca4d4d6cb287ec80059b05c7d63fce3b5217909'; /*C17 Terramorphic Expanse*/
+UPDATE cards SET mcinumber='29' WHERE id='10ed4f23f93d64262ccf82ce45bc6ff7bfa488ad'; /*C17 Territorial Hellkite*/
+UPDATE cards SET mcinumber='48' WHERE id='ea62ab569fe5ab22fe2e7fd6339f249407204de3'; /*C17 The Ur-Dragon*/
+UPDATE cards SET mcinumber='200' WHERE id='9b05969f85bc28f5ac11ef0c7e07c3e0d5b6c2f1'; /*C17 Tithe Drinker*/
+UPDATE cards SET mcinumber='286' WHERE id='236669d1f41c32083018148d088526ac2e8ed175'; /*C17 Tranquil Expanse*/
+UPDATE cards SET mcinumber='287' WHERE id='f32882d13d0030c6773447e113cca8149547dd3a'; /*C17 Tranquil Thicket*/
+UPDATE cards SET mcinumber='34' WHERE id='f04eee3e24d542b06760ca7c894a2635ec0a4238'; /*C17 Traverse the Outlands*/
+UPDATE cards SET mcinumber='143' WHERE id='8a2135463c2f3324d080908a7e5b5236d060c839'; /*C17 Tyrant's Familiar*/
+UPDATE cards SET mcinumber='128' WHERE id='99016a035362b23cdeac2f80c6f027386a7b76d4'; /*C17 Underworld Connections*/
+UPDATE cards SET mcinumber='229' WHERE id='b28e96cb9a5c25961ffa32ce37357626cb82d63e'; /*C17 Unstable Obelisk*/
+UPDATE cards SET mcinumber='288' WHERE id='3a2ae948c525c077e273d29a802b660d724fb094'; /*C17 Urborg Volcano*/
+UPDATE cards SET mcinumber='144' WHERE id='ca3d173b84c27fc48d3a4c1d6a32b28fa80d451a'; /*C17 Utvara Hellkite*/
+UPDATE cards SET mcinumber='129' WHERE id='603fc42cb08969b2dc0c4eaeab5fcb7a59e561b9'; /*C17 Vampire Nighthawk*/
+UPDATE cards SET mcinumber='130' WHERE id='91bc36f7569d6f67054f60d41fd1ccebe741763a'; /*C17 Vein Drinker*/
+UPDATE cards SET mcinumber='201' WHERE id='da388915206862ad7cb062e7b83ba8cbad6be3c0'; /*C17 Vela the Night-Clad*/
+UPDATE cards SET mcinumber='21' WHERE id='d14300afbd8bb4000d67ca617d6a24cbacde13ab'; /*C17 Vindictive Lich*/
+UPDATE cards SET mcinumber='289' WHERE id='1c2d689e740a88fdcc6e985312a492969677146a'; /*C17 Vivid Crag*/
+UPDATE cards SET mcinumber='290' WHERE id='14a985d1688d5f1fc0e4e3cf730e510788a8e96c'; /*C17 Vivid Creek*/
+UPDATE cards SET mcinumber='291' WHERE id='a60b4a31ac99698060a5d948ed6b8cb5a10b4d2a'; /*C17 Vivid Grove*/
+UPDATE cards SET mcinumber='292' WHERE id='f2476515e2093cfa238807527f9e92ae5413ec2d'; /*C17 Vivid Marsh*/
+UPDATE cards SET mcinumber='293' WHERE id='675f396310b4d791b188741233c9d787c2627f1c'; /*C17 Vivid Meadow*/
+UPDATE cards SET mcinumber='49' WHERE id='a4d1bfc110a83368a1b913300f09912d75d2b9ca'; /*C17 Wasitora, Nekoru Queen*/
+UPDATE cards SET mcinumber='230' WHERE id='0dc98624485045486add78f9a5db3630c280ad24'; /*C17 Wayfarer's Bauble*/
+UPDATE cards SET mcinumber='231' WHERE id='4b867fd93892ef977da15d23b23c4c5e2092ac63'; /*C17 Well of Lost Dreams*/
+UPDATE cards SET mcinumber='78' WHERE id='2342f30f7a3c4ca679e166d4c3489cf96a9ed1f8'; /*C17 White Sun's Zenith*/
+UPDATE cards SET mcinumber='294' WHERE id='fe9dc23f5b55d228b5d555d958824ab851832003'; /*C17 Wind-Scarred Crag*/
+UPDATE cards SET mcinumber='79' WHERE id='bd6a90d20dbecda594b5c4f406af2a09d9775f29'; /*C17 Wing Shards*/
+UPDATE cards SET mcinumber='232' WHERE id='714d7d141d92bfb8f3afe34a19e2b7678f288290'; /*C17 Worn Powerstone*/
+UPDATE cards SET mcinumber='160' WHERE id='a7adfad246222e32e6c815805cbfaf7b0c82f2c7'; /*C17 Zendikar Resurgent*/
+
