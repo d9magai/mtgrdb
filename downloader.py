@@ -45,7 +45,7 @@ async def download_coroutine(session, dic):
     url = get_url(dic)
     filename = '{}/{}.jpg'.format(
         dirname,
-        dic['id'],
+        dic['name'],
     )
 
     with async_timeout.timeout(None):
@@ -67,10 +67,7 @@ async def download_coroutine(session, dic):
 @asyncio.coroutine
 def wait_with_progress(coros):
     for f in tqdm.tqdm(asyncio.as_completed(coros), total=len(coros)):
-        try:
-            yield from f
-        except Exception:
-            pass
+        yield from f
 
 
 if __name__ == '__main__':

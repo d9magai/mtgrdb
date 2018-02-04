@@ -141,7 +141,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE COALESCE(mcinumber, '')!='' 
+WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (type='Scheme' AND setcode='E01')
 ''')
 
 
