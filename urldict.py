@@ -11,6 +11,7 @@ import tqdm
 
 string = textwrap.dedent('''
 SELECT
+name,
 id,
 setcode,
 'https://magiccards.info/scans/en/' ||
@@ -158,6 +159,7 @@ def get_dict_resultset():
     sql = string
     cur.execute(sql)
     columns = (
+        'name',
         'id',
         'setcode',
         'url',
