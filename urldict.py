@@ -14,6 +14,7 @@ SELECT
 name,
 id,
 setcode,
+type,
 'https://magiccards.info/scans/en/' ||
 CASE setcode
   WHEN 'p15A' THEN '15ann'
@@ -162,6 +163,7 @@ def get_dict_resultset():
         'name',
         'id',
         'setcode',
+        'type',
         'url',
     )
     results = []
