@@ -18,6 +18,8 @@ scheme_archemy = {
 
 plane_table = {
     'HOP': 'planechase-anthology',
+    'PC2': 'planechase-anthology',
+    'PCA': 'planechase-anthology',
 }
 
 
@@ -156,7 +158,8 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP', 'VAN', 'DD2') AND 1=0) OR layout='token'
+WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP', 'VAN', 'DD2') AND 1=0) OR
+(setcode IN ('PC2', 'PCA'))
 ''')
 
 
@@ -193,7 +196,8 @@ def get_dict_resultset():
 
 
 def get_url(dic):
-    if len(getattr(dic, 'types', [])) == 1 and dic['types'][0] == 'Scheme':
+    types = dic.get('types', [])
+    if types[0] == 'Scheme':
         table = str.maketrans('', '', punctuation)
         url = 'https://magiccards.info/extras/scheme/{}/{}.jpg'.format(
             scheme_archemy[dic['setcode']],
@@ -201,11 +205,19 @@ def get_url(dic):
         )
         return url
 
-    if len(getattr(dic, 'types', [])) == 1 and dic['types'][0] == 'Plane':
+    if types[0] == 'Phenomenon':
         table = str.maketrans('', '', punctuation)
         url = 'https://magiccards.info/extras/plane/{}/{}.jpg'.format(
             plane_table[dic['setcode']],
-            dic['name'].translate(table).lower().replace(" ", "-"),
+            dic['name'].replace("-", " ").translate(table).lower().replace(" ", "-"),
+        )
+        return url
+
+    if types[0] == 'Plane':
+        table = str.maketrans('', '', punctuation)
+        url = 'https://magiccards.info/extras/plane/{}/{}.jpg'.format(
+            plane_table[dic['setcode']],
+            dic['name'].replace("-", " ").translate(table).lower().replace(" ", "-"),
         )
         return url
 

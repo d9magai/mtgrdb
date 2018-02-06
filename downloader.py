@@ -26,7 +26,7 @@ async def download_coroutine(session, dic):
         os.mkdir(dirname)
     filename = '{}/{}.jpg'.format(
         dirname,
-        dic['id'],
+        dic['name'],
     )
 
     with async_timeout.timeout(None):
