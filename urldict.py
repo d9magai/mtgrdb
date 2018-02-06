@@ -16,6 +16,10 @@ scheme_archemy = {
     'E01': 'archenemy-nicol-bolas',
 }
 
+plane_table = {
+    'HOP': 'planechase-anthology',
+}
+
 
 string = textwrap.dedent('''
 SELECT
@@ -150,7 +154,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (type='Scheme' AND setcode='E01')
+WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP'))
 ''')
 
 
@@ -189,6 +193,14 @@ def get_url(dic):
         table = str.maketrans('', '', punctuation)
         url = 'https://magiccards.info/extras/scheme/{}/{}.jpg'.format(
             scheme_archemy[dic['setcode']],
+            dic['name'].translate(table).lower().replace(" ", "-"),
+        )
+        return url
+
+    if len(dic['types']) == 1 and dic['types'][0] == 'Plane':
+        table = str.maketrans('', '', punctuation)
+        url = 'https://magiccards.info/extras/plane/{}/{}.jpg'.format(
+            plane_table[dic['setcode']],
             dic['name'].translate(table).lower().replace(" ", "-"),
         )
         return url

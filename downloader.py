@@ -9,7 +9,7 @@ import tqdm
 from urldict import *
 
 
-sema = asyncio.BoundedSemaphore(2)
+sema = asyncio.BoundedSemaphore(5)
 
 
 def get(session, url):
