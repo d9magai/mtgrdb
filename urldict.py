@@ -29,6 +29,7 @@ setcode,
 type,
 types,
 multiverseid,
+layout,
 'https://magiccards.info/scans/en/' ||
 CASE setcode
   WHEN 'p15A' THEN '15ann'
@@ -155,7 +156,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP', 'VAN'))
+WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP', 'VAN', 'DD2') AND 1=0) OR layout='token'
 ''')
 
 
@@ -180,6 +181,7 @@ def get_dict_resultset():
         'type',
         'types',
         'multiverseid',
+        'layout',
         'url',
     )
     results = []
@@ -191,7 +193,7 @@ def get_dict_resultset():
 
 
 def get_url(dic):
-    if len(dic['types']) == 1 and dic['types'][0] == 'Scheme':
+    if len(getattr(dic, 'types', [])) == 1 and dic['types'][0] == 'Scheme':
         table = str.maketrans('', '', punctuation)
         url = 'https://magiccards.info/extras/scheme/{}/{}.jpg'.format(
             scheme_archemy[dic['setcode']],
@@ -199,7 +201,7 @@ def get_url(dic):
         )
         return url
 
-    if len(dic['types']) == 1 and dic['types'][0] == 'Plane':
+    if len(getattr(dic, 'types', [])) == 1 and dic['types'][0] == 'Plane':
         table = str.maketrans('', '', punctuation)
         url = 'https://magiccards.info/extras/plane/{}/{}.jpg'.format(
             plane_table[dic['setcode']],
@@ -207,7 +209,13 @@ def get_url(dic):
         )
         return url
 
-    if len(dic['types']) == 1 and dic['types'][0] == 'Vanguard':
+    if len(getattr(dic, 'types', [])) == 1 and dic['types'][0] == 'Vanguard':
+        url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
+            dic['multiverseid'],
+        )
+        return url
+
+    if dic['layout'] == 'token':
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
