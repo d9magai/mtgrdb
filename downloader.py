@@ -1,9 +1,9 @@
-from string import punctuation
 import aiofiles
 import aiohttp
 import async_timeout
 import asyncio
 import os
+from string import punctuation
 import tqdm
 
 from urldict import *
@@ -11,25 +11,9 @@ from urldict import *
 
 sema = asyncio.BoundedSemaphore(2)
 
-scheme_archemy = {
-    'ARC': 'archenemy',
-    'E01': 'archenemy-nicol-bolas',
-}
-
 
 def get(session, url):
     return session.get(url, verify_ssl=False)
-
-
-def get_url(dic):
-    if not dic['type'] == 'Scheme':
-        return dic['url']
-    table = str.maketrans('', '', punctuation)
-    url = 'https://magiccards.info/extras/scheme/{}/{}.jpg'.format(
-        scheme_archemy[dic['setcode']],
-        dic['name'].translate(table).lower().replace(" ", "-"),
-    )
-    return url
 
 
 async def download_coroutine(session, dic):
@@ -40,9 +24,6 @@ async def download_coroutine(session, dic):
     )
     if not os.path.exists(dirname):
         os.mkdir(dirname)
-    # https://magiccards.info/extras/scheme/archenemy/tooth-claw-and-tail.jpg
-
-    url = get_url(dic)
     filename = '{}/{}.jpg'.format(
         dirname,
         dic['name'],

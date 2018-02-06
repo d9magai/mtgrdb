@@ -1,13 +1,21 @@
-from requests import get
 import aiohttp
 import asyncio
 import os
 import psycopg2
 import random
+from requests import get
 import requests
+from string import punctuation
 import string
 import textwrap
 import tqdm
+
+
+scheme_archemy = {
+    'ARC': 'archenemy',
+    'E01': 'archenemy-nicol-bolas',
+}
+
 
 string = textwrap.dedent('''
 SELECT
@@ -15,6 +23,7 @@ name,
 id,
 setcode,
 type,
+types,
 'https://magiccards.info/scans/en/' ||
 CASE setcode
   WHEN 'p15A' THEN '15ann'
@@ -164,9 +173,25 @@ def get_dict_resultset():
         'id',
         'setcode',
         'type',
+        'types',
         'url',
     )
     results = []
     for row in cur.fetchall():
-        results.append(dict(zip(columns, row)))
+        dic = dict(zip(columns, row))
+        dic['url'] = get_url(dic)
+        results.append(dic)
     return results
+
+
+def get_url(dic):
+    if len(dic['types']) == 1 and dic['types'][0] == 'Scheme':
+        table = str.maketrans('', '', punctuation)
+        url = 'https://magiccards.info/extras/scheme/{}/{}.jpg'.format(
+            scheme_archemy[dic['setcode']],
+            dic['name'].translate(table).lower().replace(" ", "-"),
+        )
+        return url
+
+    url = dic['url']
+    return url
