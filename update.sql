@@ -2729,3 +2729,216 @@ UPDATE cards SET mcinumber='99' WHERE id='8884473a508d2c6e8dc7e8186be4b21b012b80
 UPDATE cards SET mcinumber='130' WHERE id='b4340a578475edd9a68deaee223155e387f7f405'; /*UST X*/
 UPDATE cards SET mcinumber='201' WHERE id='1b1f9cf5274739637dc5524af7334ec89f9cd49b'; /*UST Zombified*/
 
+UPDATE cards SET mcinumber='31' WHERE id='4ae5d8e2fa3d327826129438603eb13939ddc504'; /*RIX Admiral's Order*/
+UPDATE cards SET mcinumber='122' WHERE id='4c3fc427d61ec814d8885646a9dcead8e66dee70'; /*RIX Aggressive Urge*/
+UPDATE cards SET mcinumber='201' WHERE id='cfc1a88ce9fdcb2cb9e04a543cd3da0f7ed22316'; /*RIX Angrath, Minotaur Pirate*/
+UPDATE cards SET mcinumber='152' WHERE id='a5ada46964663106708a4ef54770c5f42cc6d6e3'; /*RIX Angrath, the Flame-Chained*/
+UPDATE cards SET mcinumber='202' WHERE id='a0d8e3e90bb744a790253d83f5975e3e3ebf60de'; /*RIX Angrath's Ambusher*/
+UPDATE cards SET mcinumber='204' WHERE id='702c0bd6bfb8266229e6fd161332a9bce27ef368'; /*RIX Angrath's Fury*/
+UPDATE cards SET mcinumber='32' WHERE id='2d415f1f8a9bc4b6f0c34fac56d13ce2724b7be0'; /*RIX Aquatic Incursion*/
+UPDATE cards SET mcinumber='185' WHERE id='c4a5e2bddc7250171a2b37dfc8208214a37919f3'; /*RIX Arch of Orazca*/
+UPDATE cards SET mcinumber='62' WHERE id='0fdddf3a48810eb06b4ba8ba2413da859fe214e0'; /*RIX Arterial Flow*/
+UPDATE cards SET mcinumber='160b' WHERE id='5ea9f85d40b8fc167188fb9947405c9118fde390'; /*RIX Atzal, Cave of Eternity*/
+UPDATE cards SET mcinumber='153' WHERE id='033400e0ece86a534a4bf10b0fda7309fdb08097'; /*RIX Atzocan Seer*/
+UPDATE cards SET mcinumber='175' WHERE id='ef2af826e7ee60ff2989fec9d2ad73c165a601c0'; /*RIX Awakened Amalgam*/
+UPDATE cards SET mcinumber='154' WHERE id='987a778c9f0944e76bd2ea5a51c48cf5a8b2f418'; /*RIX Azor, the Lawbringer*/
+UPDATE cards SET mcinumber='176a' WHERE id='ebaa23af9f3010b1279e2dc3749dd1e3d58e1405'; /*RIX Azor's Gateway*/
+UPDATE cards SET mcinumber='1' WHERE id='56f1ce954141e316edd1ea017ec47b7defa367e5'; /*RIX Baffling End*/
+UPDATE cards SET mcinumber='2' WHERE id='8fc61b9efef5eb2d170b24e676179c7060905209'; /*RIX Bishop of Binding*/
+UPDATE cards SET mcinumber='3' WHERE id='38f261e669270bf98d284fdb22f4f528d8db5d85'; /*RIX Blazing Hope*/
+UPDATE cards SET mcinumber='92' WHERE id='664b421ee444c5c74b946605affaf203336cf3b2'; /*RIX Blood Sun*/
+UPDATE cards SET mcinumber='93' WHERE id='db93215790e98b2d0462b9439023cfa01e9b6981'; /*RIX Bombard*/
+UPDATE cards SET mcinumber='94' WHERE id='1706d587a3ef62a15922c3a865485698284f3f6a'; /*RIX Brass's Bounty*/
+UPDATE cards SET mcinumber='95' WHERE id='58781752c1ee1b97e57f68fb0005636767814921'; /*RIX Brazen Freebooter*/
+UPDATE cards SET mcinumber='96' WHERE id='88f37ce127a71d202e21116e85aee57923e99037'; /*RIX Buccaneer's Bravado*/
+UPDATE cards SET mcinumber='123' WHERE id='c5b17fb5c6b0394c7d243e1ceda0322a062fec88'; /*RIX Cacophodon*/
+UPDATE cards SET mcinumber='63' WHERE id='55915459e7ce2abdc6368bb30405bba770a87c77'; /*RIX Canal Monitor*/
+UPDATE cards SET mcinumber='177' WHERE id='a21f58c53e4852f1bff1a33b1939677b9dda6c3e'; /*RIX Captain's Hook*/
+UPDATE cards SET mcinumber='64' WHERE id='e376a4dc39f23bacde2dd12d727c6b55a5f800a8'; /*RIX Champion of Dusk*/
+UPDATE cards SET mcinumber='97' WHERE id='3da393fc22f0e4ffef5d4dc235c2c4cea44c884b'; /*RIX Charging Tuskodon*/
+UPDATE cards SET mcinumber='124' WHERE id='62b5ed6e30ff068516a992e0ce2c1c51139c9b7e'; /*RIX Cherished Hatchling*/
+UPDATE cards SET mcinumber='205' WHERE id='deb2be37a70ffdcb204aa43e317305473110e97c'; /*RIX Cinder Barrens*/
+UPDATE cards SET mcinumber='4' WHERE id='2d6a8a62c4401466bd6a65f443ffba8d8998292d'; /*RIX Cleansing Ray*/
+UPDATE cards SET mcinumber='125' WHERE id='a0af8d5f5ab61cfede6c33b1721c878175d39498'; /*RIX Colossal Dreadmaw*/
+UPDATE cards SET mcinumber='33' WHERE id='308bbe5f4277dcd9524d1fb40f9cb5328bc5517c'; /*RIX Crafty Cutpurse*/
+UPDATE cards SET mcinumber='34' WHERE id='0c560df0b29758ebf2b063fb7baa38f4631eb664'; /*RIX Crashing Tide*/
+UPDATE cards SET mcinumber='126' WHERE id='166c8989f12c9cc16bb4737d2ca284a0786f3765'; /*RIX Crested Herdcaller*/
+UPDATE cards SET mcinumber='35' WHERE id='6dcdb37bb663cbb4644e2d27a0af41c67cf24dd4'; /*RIX Curious Obsession*/
+UPDATE cards SET mcinumber='98' WHERE id='3409e67e56b065ec09fc45296ec765ab076bcc89'; /*RIX Daring Buccaneer*/
+UPDATE cards SET mcinumber='65' WHERE id='167645d01b93ff4a85fe3e137207f70d1393b6ff'; /*RIX Dark Inquiry*/
+UPDATE cards SET mcinumber='66' WHERE id='00dce7edbba97e272c6e43c5b15adeb82f11fac7'; /*RIX Dead Man's Chest*/
+UPDATE cards SET mcinumber='155' WHERE id='47027d735b771d695d86715f3ab1386c2a0208db'; /*RIX Deadeye Brawler*/
+UPDATE cards SET mcinumber='36' WHERE id='3797d5149a5caf1a7dcda173ac5bea8d5c25c1e3'; /*RIX Deadeye Rig-Hauler*/
+UPDATE cards SET mcinumber='127' WHERE id='83fd0ef0bce665e3ec073eb73f339205b988f15c'; /*RIX Deeproot Elite*/
+UPDATE cards SET mcinumber='67' WHERE id='baf714bbc07cbb69b8772822a935c11c45ff0ac1'; /*RIX Dinosaur Hunter*/
+UPDATE cards SET mcinumber='99' WHERE id='1750e648b2405739ff07f2e5dae99ba9bf91eb60'; /*RIX Dire Fleet Daredevil*/
+UPDATE cards SET mcinumber='156' WHERE id='ba53271f4351849df01aeff0c70c7fef5ad7a7b6'; /*RIX Dire Fleet Neckbreaker*/
+UPDATE cards SET mcinumber='68' WHERE id='1e90d356c020319b07ec68301244271ffd2640ad'; /*RIX Dire Fleet Poisoner*/
+UPDATE cards SET mcinumber='5' WHERE id='d58269682851a50dcc97e8ec4bd054682c3e4d9a'; /*RIX Divine Verdict*/
+UPDATE cards SET mcinumber='69' WHERE id='2218392e42fae5f77f920050c513f99b16d3778a'; /*RIX Dusk Charger*/
+UPDATE cards SET mcinumber='70' WHERE id='c87a3235a8dd82aaa5e8b04cc09ac589de73860f'; /*RIX Dusk Legion Zealot*/
+UPDATE cards SET mcinumber='157' WHERE id='fedd02c6a9dad034ef3cf524640201f838783f67'; /*RIX Elenda, the Dusk Rose*/
+UPDATE cards SET mcinumber='128' WHERE id='4647d28561052569c2a88ecc1f30b042b60c51cb'; /*RIX Enter the Unknown*/
+UPDATE cards SET mcinumber='100' WHERE id='5fed51e2c879137b3ae3697bfc7644df291c03d8'; /*RIX Etali, Primal Storm*/
+UPDATE cards SET mcinumber='6' WHERE id='ac75b8855edbfe2310d1b21855e2c5289b9bb51d'; /*RIX Everdawn Champion*/
+UPDATE cards SET mcinumber='186' WHERE id='4f9f784004e13bad2130029a4c19fa8566f7a7fd'; /*RIX Evolving Wilds*/
+UPDATE cards SET mcinumber='37' WHERE id='7ed931c6f8e4b958fbb1731a0c7b9e45afbd2e90'; /*RIX Expel from Orazca*/
+UPDATE cards SET mcinumber='7' WHERE id='a197508171ddb459f2e9d8c6378f12f232a242f5'; /*RIX Exultant Skymarcher*/
+UPDATE cards SET mcinumber='8' WHERE id='eb7e7d4f242e970750d7cbd638590ca3a61812cc'; /*RIX Famished Paladin*/
+UPDATE cards SET mcinumber='101' WHERE id='24e1a9e7388453823502677e85fb72a62a4c4bdc'; /*RIX Fanatical Firebrand*/
+UPDATE cards SET mcinumber='71' WHERE id='2fdf9b3515c6e3c5c015562b83520f18d97783ad'; /*RIX Fathom Fleet Boarder*/
+UPDATE cards SET mcinumber='38' WHERE id='b53cefe2973e937b515b7a90d8fa5c66a6bda17f'; /*RIX Flood of Recollection*/
+UPDATE cards SET mcinumber='72' WHERE id='918cea3d569f7c5c0de64559fb5a878b9de82acc'; /*RIX Forerunner of the Coalition*/
+UPDATE cards SET mcinumber='102' WHERE id='2749110829366a210e81ba1a10743ad73ac7eb36'; /*RIX Forerunner of the Empire*/
+UPDATE cards SET mcinumber='129' WHERE id='c462df02f17193bc040ff550bf42f4f467600259'; /*RIX Forerunner of the Heralds*/
+UPDATE cards SET mcinumber='9' WHERE id='c301718003d6466bda684ccd917d0ef6ea63b487'; /*RIX Forerunner of the Legion*/
+UPDATE cards SET mcinumber='196' WHERE id='f1c35b14c1049b837b64a74d6e13d53571fbc8f5'; /*RIX Forest*/
+UPDATE cards SET mcinumber='103' WHERE id='9ccbc9ac7ed11413a4dad191644cbf0f9809d10b'; /*RIX Form of the Dinosaur*/
+UPDATE cards SET mcinumber='187' WHERE id='cbd257b5b29c34b6924628dc5a1fad674c391bc1'; /*RIX Forsaken Sanctuary*/
+UPDATE cards SET mcinumber='188' WHERE id='ff3496dd3d5ee41eeb9c3bfefcc6b3e6afd670b0'; /*RIX Foul Orchard*/
+UPDATE cards SET mcinumber='104' WHERE id='3520b19f3a9492ce5bdbfcab93466419cc2e233c'; /*RIX Frilled Deathspitter*/
+UPDATE cards SET mcinumber='130' WHERE id='84bd6ba951f030a291aa80121274f93fc10b8c83'; /*RIX Ghalta, Primal Hunger*/
+UPDATE cards SET mcinumber='131' WHERE id='b3876b9dfcd36a69a2a3bc4ccdfcba97a35316e6'; /*RIX Giltgrove Stalker*/
+UPDATE cards SET mcinumber='178' WHERE id='f392c5d969b5e65a1a9029080984aac41e663c29'; /*RIX Gleaming Barrier*/
+UPDATE cards SET mcinumber='105' WHERE id='13da227e3d6bb06c1718fdac0431c84686665799'; /*RIX Goblin Trailblazer*/
+UPDATE cards SET mcinumber='179b' WHERE id='938e3384e676ab2e2e3ff0cd4402ddd4d0667467'; /*RIX Gold-Forge Garrison*/
+UPDATE cards SET mcinumber='73' WHERE id='408c0c9805e75d6d7f362faf453c6a7a77d17a94'; /*RIX Golden Demise*/
+UPDATE cards SET mcinumber='179a' WHERE id='d22ce6bb41e06f90704132b8cd62dc690d1292ac'; /*RIX Golden Guardian*/
+UPDATE cards SET mcinumber='74' WHERE id='8696124ab17148dca764d98e733b4f94a461cde9'; /*RIX Grasping Scoundrel*/
+UPDATE cards SET mcinumber='75' WHERE id='695d07db27bd1a046c08f17c436de3773d74a546'; /*RIX Gruesome Fate*/
+UPDATE cards SET mcinumber='158a' WHERE id='5d8820a0fa40e0fd57784c3556c854c95bb7a61b'; /*RIX Hadana's Climb*/
+UPDATE cards SET mcinumber='132' WHERE id='1dce24e5ee021652a647031434cc748f5f65437f'; /*RIX Hardy Veteran*/
+UPDATE cards SET mcinumber='189' WHERE id='9c450fc00ed57f548c5ec8ca07cc47efafd39a26'; /*RIX Highland Lake*/
+UPDATE cards SET mcinumber='39' WHERE id='007fc7ce434932c00bafb92a1ff6f6ce05068296'; /*RIX Hornswoggle*/
+UPDATE cards SET mcinumber='159' WHERE id='02867303bf360d7451c66f59fac1bbd1fb3fdf74'; /*RIX Huatli, Radiant Champion*/
+UPDATE cards SET mcinumber='133' WHERE id='a27cafff745b8a05920d5b4439c23950b1e40402'; /*RIX Hunt the Weak*/
+UPDATE cards SET mcinumber='76' WHERE id='6e386dc9136f2bbd59bb0ac8a5a347f6920c082d'; /*RIX Impale*/
+UPDATE cards SET mcinumber='10' WHERE id='7b332dc8d5afd11c2fae3363767cc6e0414f8961'; /*RIX Imperial Ceratops*/
+UPDATE cards SET mcinumber='40' WHERE id='060f33127a8d82519d4f0f3eb831d5010ca88549'; /*RIX Induced Amnesia*/
+UPDATE cards SET mcinumber='193' WHERE id='eeba96ca95b485973dd5b2776874e1327d4d3a07'; /*RIX Island*/
+UPDATE cards SET mcinumber='134' WHERE id='1b0d6dc70c3b0cbf408ce52d74c46f6b9667f247'; /*RIX Jade Bearer*/
+UPDATE cards SET mcinumber='135' WHERE id='8b544be46f8153fa37fb31f03834437fc79bac3d'; /*RIX Jadecraft Artisan*/
+UPDATE cards SET mcinumber='136' WHERE id='42be4350081d4d2b8a1d3dffc14a30ada74cfb8f'; /*RIX Jadelight Ranger*/
+UPDATE cards SET mcinumber='160a' WHERE id='1a7a966967b8c34cdfef5d5c9603a28f9d200629'; /*RIX Journey to Eternity*/
+UPDATE cards SET mcinumber='161' WHERE id='35c7b21023ad08dfd08a4409244d6ed3d8a4d58e'; /*RIX Jungle Creeper*/
+UPDATE cards SET mcinumber='137' WHERE id='0aa3edcc25e43f4c32c02236899af1ee57e8afd2'; /*RIX Jungleborn Pioneer*/
+UPDATE cards SET mcinumber='41' WHERE id='dd6657519b5a82e97e2e066f80472aa37cfcd13b'; /*RIX Kitesail Corsair*/
+UPDATE cards SET mcinumber='138' WHERE id='b811413148b524d0abef55b45c128534601b6caa'; /*RIX Knight of the Stampede*/
+UPDATE cards SET mcinumber='162' WHERE id='a69d22a16211feb62785d2bb9c89b6814e50f042'; /*RIX Kumena, Tyrant of Orazca*/
+UPDATE cards SET mcinumber='42' WHERE id='5790aeb19ef59c228764ae3036a683e1a937a959'; /*RIX Kumena's Awakening*/
+UPDATE cards SET mcinumber='11' WHERE id='f45c794b3fc1e585b56a2f407dbdd39def13c794'; /*RIX Legion Conquistador*/
+UPDATE cards SET mcinumber='163' WHERE id='c4a85148f6017dd2d6a1caf57e22319c3b4772e1'; /*RIX Legion Lieutenant*/
+UPDATE cards SET mcinumber='12' WHERE id='8e8e1d3987df17865e4e0479f872ca1d934347e1'; /*RIX Luminous Bonds*/
+UPDATE cards SET mcinumber='13' WHERE id='f508fe3ca65a79848d6470f11734d5d73b84c2b4'; /*RIX Majestic Heliopterus*/
+UPDATE cards SET mcinumber='14' WHERE id='69c28017cbd6d6bf76ea6c4b6d5e61ef817daa35'; /*RIX Martyr of Dusk*/
+UPDATE cards SET mcinumber='77' WHERE id='c374ec572d58e23620f7932676137c58c32aba31'; /*RIX Mastermind's Acquisition*/
+UPDATE cards SET mcinumber='78' WHERE id='dba2749f4206f1a4680929f92a96bde9e9c0cefe'; /*RIX Mausoleum Harpy*/
+UPDATE cards SET mcinumber='164' WHERE id='a40df4b787688c418959bd2f00843de84bbd444c'; /*RIX Merfolk Mistbinder*/
+UPDATE cards SET mcinumber='165b' WHERE id='fedc6b08b41faa17f7f741784c9341c87889cb9e'; /*RIX Metzali, Tower of Triumph*/
+UPDATE cards SET mcinumber='43' WHERE id='07561e4ea85b27d84d7ecb7e11ba86634ca22617'; /*RIX Mist-Cloaked Herald*/
+UPDATE cards SET mcinumber='79' WHERE id='8891db43dee16abd392b7dec9452951504aac2eb'; /*RIX Moment of Craving*/
+UPDATE cards SET mcinumber='15' WHERE id='b64a58630bd1a8cbd7985db5638eb36ff6e3aeff'; /*RIX Moment of Triumph*/
+UPDATE cards SET mcinumber='195' WHERE id='e48f25a2f50688afa64b5974fcbb8f4640bad951'; /*RIX Mountain*/
+UPDATE cards SET mcinumber='106' WHERE id='6c42253d5a7f72aedaf5047ff150aa2de6ac284d'; /*RIX Mutiny*/
+UPDATE cards SET mcinumber='139' WHERE id='dae9cbc96cc41a619605ac673a0d9d773adbc1f6'; /*RIX Naturalize*/
+UPDATE cards SET mcinumber='107' WHERE id='411d8e651313dc58e3c99c4235131e85ea41d7de'; /*RIX Needletooth Raptor*/
+UPDATE cards SET mcinumber='44' WHERE id='3d2c4f5e2989c5090adcfbedf646d4f62cdac3fa'; /*RIX Negate*/
+UPDATE cards SET mcinumber='45' WHERE id='f814ea4fb3880b55537125852d82e63782c8a1dc'; /*RIX Nezahal, Primal Tide*/
+UPDATE cards SET mcinumber='80' WHERE id='a0030f640d23e83196808d070de8d30d32a3b49d'; /*RIX Oathsworn Vampire*/
+UPDATE cards SET mcinumber='140' WHERE id='3868b10c4cf5bc908bc31adcc97cc4c8c0225614'; /*RIX Orazca Frillback*/
+UPDATE cards SET mcinumber='108' WHERE id='2bf7a53072c4eac71c8412fbfd3aa133fb24c179'; /*RIX Orazca Raptor*/
+UPDATE cards SET mcinumber='181' WHERE id='792ee7c4f1870d682898a3f484855d16e2b338f6'; /*RIX Orazca Relic*/
+UPDATE cards SET mcinumber='141' WHERE id='e731945bd67ab5196cf8168d339d3da70a18f34c'; /*RIX Overgrown Armasaur*/
+UPDATE cards SET mcinumber='16' WHERE id='88cba0ad2cdf192bf4a5b257f318106d495aca2e'; /*RIX Paladin of Atonement*/
+UPDATE cards SET mcinumber='142' WHERE id='5dc5a781177041cb81ecade95a016fc0fa3c91f4'; /*RIX Path of Discovery*/
+UPDATE cards SET mcinumber='165a' WHERE id='0083f19836ec00d485aaef5e3a60017ec81b40cc'; /*RIX Path of Mettle*/
+UPDATE cards SET mcinumber='109' WHERE id='892f1a1b7e0ac126fd9079929e220efd7f802444'; /*RIX Pirate's Pillage*/
+UPDATE cards SET mcinumber='81' WHERE id='e6804b2e9122aa61ecd14196a52c0a92f2706242'; /*RIX Pitiless Plunderer*/
+UPDATE cards SET mcinumber='192' WHERE id='a4ae9c2666cd8bb0c756ac4ee33a6e0b13505d73'; /*RIX Plains*/
+UPDATE cards SET mcinumber='143' WHERE id='2dbe16ad5f09bf1d47a3da2fdcb880731d24fdf4'; /*RIX Plummet*/
+UPDATE cards SET mcinumber='144' WHERE id='cc8e46693bbb55732b7ab037fd5cc648b91a9a9a'; /*RIX Polyraptor*/
+UPDATE cards SET mcinumber='17' WHERE id='315b94bb206f6e2f7cc30c3e39e3c8de715fb8ad'; /*RIX Pride of Conquerors*/
+UPDATE cards SET mcinumber='166a' WHERE id='a51faa43e4f8f402ac97ce9f8a37b2bae5a0ef91'; /*RIX Profane Procession*/
+UPDATE cards SET mcinumber='167' WHERE id='5fe0025440d74ad9c6c9871926fb0967a0d683ec'; /*RIX Protean Raider*/
+UPDATE cards SET mcinumber='18' WHERE id='95d7d2566866dd311ca706a707d9ccee603def7b'; /*RIX Radiant Destiny*/
+UPDATE cards SET mcinumber='168' WHERE id='2144a5624015ef353afa811d59b25b6e238e1864'; /*RIX Raging Regisaur*/
+UPDATE cards SET mcinumber='19' WHERE id='661ccaa126e443d21f0f6d7ca4c968e63d541aac'; /*RIX Raptor Companion*/
+UPDATE cards SET mcinumber='82' WHERE id='5c2a24c24be89fb8aae139b665ed0caefffdcc46'; /*RIX Ravenous Chupacabra*/
+UPDATE cards SET mcinumber='83' WHERE id='80f63abc17c5d904cca46ad9e5693b8bcaf566ea'; /*RIX Reaver Ambush*/
+UPDATE cards SET mcinumber='110' WHERE id='558f5d871157df6835b8924b633b5aa7f5bc82cc'; /*RIX Reckless Rage*/
+UPDATE cards SET mcinumber='84' WHERE id='36e461f15a8f48240437dd7611da42a2eeff0fd5'; /*RIX Recover*/
+UPDATE cards SET mcinumber='111' WHERE id='7c64ec73d911634b689c09993c94a5df1e808323'; /*RIX Rekindling Phoenix*/
+UPDATE cards SET mcinumber='46' WHERE id='6da8d56710e13a78a65a26c82d3a707e6a715312'; /*RIX Release to the Wind*/
+UPDATE cards SET mcinumber='169' WHERE id='fad24f789ef19c317968e3c47f0e7f9d67ca176d'; /*RIX Relentless Raptor*/
+UPDATE cards SET mcinumber='170' WHERE id='47cb577c4f939d485b443660374c3da236ecb1fd'; /*RIX Resplendent Griffin*/
+UPDATE cards SET mcinumber='47' WHERE id='dfa48c23f469a36b56842ea9bf040822f9e29ace'; /*RIX River Darter*/
+UPDATE cards SET mcinumber='48' WHERE id='ba9e1b470216f2c714e44c2ce3e5b04e3184bf25'; /*RIX Riverwise Augur*/
+UPDATE cards SET mcinumber='85' WHERE id='ee422f3748333b04056e7c4b48f86e6d5a963b92'; /*RIX Sadistic Skymarcher*/
+UPDATE cards SET mcinumber='49' WHERE id='50874b0750fbf1d751582ee800bf40d935a21a55'; /*RIX Sailor of Means*/
+UPDATE cards SET mcinumber='176b' WHERE id='70f2f9cfd9db0c55c665ef269d24cd47243a56ea'; /*RIX Sanctum of the Sun*/
+UPDATE cards SET mcinumber='20' WHERE id='37a28b5b3f43062846ee6a9e1339957447466d77'; /*RIX Sanguine Glorifier*/
+UPDATE cards SET mcinumber='50' WHERE id='e3d6896e3033fc5b59cf07bbb2cf5a8b8ae4dcdb'; /*RIX Sea Legs*/
+UPDATE cards SET mcinumber='51' WHERE id='e6203c1a5aed25d9a69e7fff28b01f20a90ce873'; /*RIX Seafloor Oracle*/
+UPDATE cards SET mcinumber='52' WHERE id='9d718d6a0f63ed51a1c3712a0e48f5b97dc7bc3d'; /*RIX Secrets of the Golden City*/
+UPDATE cards SET mcinumber='112' WHERE id='051cbb42e8803dd90e72de4af1ff724dffb2d148'; /*RIX See Red*/
+UPDATE cards SET mcinumber='113' WHERE id='7fe7033faec5e3bb8885200b3d2daa1c019178c2'; /*RIX Shake the Foundations*/
+UPDATE cards SET mcinumber='114' WHERE id='37a5afc98254d0a265624386bd6968cf22a856e8'; /*RIX Shatter*/
+UPDATE cards SET mcinumber='171' WHERE id='b1a98ea5c03fe577d85164ad63e0062f5b4f9b8a'; /*RIX Siegehorn Ceratops*/
+UPDATE cards SET mcinumber='182' WHERE id='140e7fca1f2559c364e6fd52b1231fe2f40509de'; /*RIX Silent Gravestone*/
+UPDATE cards SET mcinumber='115' WHERE id='c10ce02301c23ede5c0128587ad70310567c795a'; /*RIX Silverclad Ferocidons*/
+UPDATE cards SET mcinumber='53' WHERE id='95838f54aaba979527b354164d7a3c39050d1e7e'; /*RIX Silvergill Adept*/
+UPDATE cards SET mcinumber='54' WHERE id='794a90efa5ae4a8e77ffedfed491f9af8f009ce9'; /*RIX Siren Reaver*/
+UPDATE cards SET mcinumber='21' WHERE id='d92f9e438fd64a66ed5699afdddce29abd6310ef'; /*RIX Skymarcher Aspirant*/
+UPDATE cards SET mcinumber='22' WHERE id='6bed3d0b8bbf35278f892f4d174b705e1d22dcd5'; /*RIX Slaughter the Strong*/
+UPDATE cards SET mcinumber='55' WHERE id='fa181fe0bf6cb5d2f1358cf5253a5bb5ac54d799'; /*RIX Slippery Scoundrel*/
+UPDATE cards SET mcinumber='23' WHERE id='4e3a5bba66d64a617f781b3bfa2c42f922dfde84'; /*RIX Snubhorn Sentry*/
+UPDATE cards SET mcinumber='56' WHERE id='534599a2c5cb65182f791a4aa9d742a88398b041'; /*RIX Soul of the Rapids*/
+UPDATE cards SET mcinumber='24' WHERE id='0fed63102fea6f38531e7eb0bf5e3e408ee9ecdd'; /*RIX Sphinx's Decree*/
+UPDATE cards SET mcinumber='57' WHERE id='16748c961fc571733400bca1d91283c5832726bc'; /*RIX Spire Winder*/
+UPDATE cards SET mcinumber='25' WHERE id='74dc15d7475d8a1b6a63f3edc447e5393d46be32'; /*RIX Squire's Devotion*/
+UPDATE cards SET mcinumber='116' WHERE id='831c14d97d558a32f82a00d6f2797f1ef97a80d7'; /*RIX Stampeding Horncrest*/
+UPDATE cards SET mcinumber='190' WHERE id='ebbcf84c184d5a5726237c3070e36a08ac973fcf'; /*RIX Stone Quarry*/
+UPDATE cards SET mcinumber='172' WHERE id='6d52206be9b4931e3844cc3cd663ec821b05c41c'; /*RIX Storm Fleet Sprinter*/
+UPDATE cards SET mcinumber='117' WHERE id='b04ef3fb902d9ab3731c4e7b00e59f8ba3066a41'; /*RIX Storm Fleet Swashbuckler*/
+UPDATE cards SET mcinumber='173a' WHERE id='ccbde0b2faa03ce6032a62095178190244088af2'; /*RIX Storm the Vault*/
+UPDATE cards SET mcinumber='145' WHERE id='5a5baaa0db564d12fafe31b588cb8d77623d20a6'; /*RIX Strength of the Pack*/
+UPDATE cards SET mcinumber='183' WHERE id='7d1aa171998019b7ae39521a1a6c06dfce55ea34'; /*RIX Strider Harness*/
+UPDATE cards SET mcinumber='26' WHERE id='fcafba9b70012468fd3a9b60bcafa5a0c0bf6660'; /*RIX Sun Sentinel*/
+UPDATE cards SET mcinumber='118' WHERE id='8c2a11657ebf1eecd19222854c550744a3b96008'; /*RIX Sun-Collared Raptor*/
+UPDATE cards SET mcinumber='27' WHERE id='bc60b9f251ac15675edae8dd9d4dacfa7e282eae'; /*RIX Sun-Crested Pterodon*/
+UPDATE cards SET mcinumber='203' WHERE id='8be95cf1525ea7c98872ae0ce9277d1621e7703a'; /*RIX Swab Goblin*/
+UPDATE cards SET mcinumber='119' WHERE id='db65b38dd67ba70cd3a6633e2c2f0f84fe749307'; /*RIX Swaggering Corsair*/
+UPDATE cards SET mcinumber='194' WHERE id='b0f785cf46e39a7d2304397cca5b075ebb9433d1'; /*RIX Swamp*/
+UPDATE cards SET mcinumber='146' WHERE id='cd8abc98b1d488c225a01ffd73cdc4e0c335b2ad'; /*RIX Swift Warden*/
+UPDATE cards SET mcinumber='58' WHERE id='335df6ae7bd67993673f5b7be35fa240c064169d'; /*RIX Sworn Guardian*/
+UPDATE cards SET mcinumber='28' WHERE id='2e6fefe0231a8926a7ec4fc2fbc685ce4cd656e7'; /*RIX Temple Altisaur*/
+UPDATE cards SET mcinumber='147' WHERE id='8cb58eb5a204ac41dce504346610ae4720fa1ba9'; /*RIX Tendershoot Dryad*/
+UPDATE cards SET mcinumber='86' WHERE id='8a6f005dd27eb315a3fa898fc08f8025cb11b44a'; /*RIX Tetzimoc, Primal Death*/
+UPDATE cards SET mcinumber='180' WHERE id='d379bdea248c831b4367004c428eccfd46caf7fc'; /*RIX The Immortal Sun*/
+UPDATE cards SET mcinumber='148' WHERE id='c8f6fdc294f500187b47441baffdd5d708451940'; /*RIX Thrashing Brontodon*/
+UPDATE cards SET mcinumber='149' WHERE id='70847e321636d02382d70c3d8ec6149d648f2b41'; /*RIX Thunderherd Migration*/
+UPDATE cards SET mcinumber='120' WHERE id='6b105eba2258e8b0600f721e14951a10b4d2e65b'; /*RIX Tilonalli's Crown*/
+UPDATE cards SET mcinumber='121' WHERE id='a00be9c0ace0ca0ff1c3f59853beb5c71c34e2a2'; /*RIX Tilonalli's Summoner*/
+UPDATE cards SET mcinumber='59' WHERE id='934247e4c6756f4827f173da6613485727e0d321'; /*RIX Timestream Navigator*/
+UPDATE cards SET mcinumber='166b' WHERE id='005d4fbf1eb09e6b876b665b5282591df76f8fe9'; /*RIX Tomb of the Dusk Rose*/
+UPDATE cards SET mcinumber='87' WHERE id='9a6aae5c03e63fb04f42dfefa72bd3813e17bd7c'; /*RIX Tomb Robber*/
+UPDATE cards SET mcinumber='29' WHERE id='b5534679367f04ab9001b8a54306d80c5fe266f4'; /*RIX Trapjaw Tyrant*/
+UPDATE cards SET mcinumber='184' WHERE id='f1c2e1725af8f6548ce63961374406fd0f4648fa'; /*RIX Traveler's Amulet*/
+UPDATE cards SET mcinumber='88' WHERE id='9446d1ab8a2e39818a3c069b90c4be28e40a4464'; /*RIX Twilight Prophet*/
+UPDATE cards SET mcinumber='198' WHERE id='14677ea15c085efee59a650f59831c8a14634f03'; /*RIX Vampire Champion*/
+UPDATE cards SET mcinumber='89' WHERE id='61494ba3c5b0127174940ebfb6343ecdb8b08f61'; /*RIX Vampire Revenant*/
+UPDATE cards SET mcinumber='173b' WHERE id='10e1cf96466a1a94ad9556f31f1d50469fa9e6ad'; /*RIX Vault of Catlacan*/
+UPDATE cards SET mcinumber='90' WHERE id='37ae1960ff79271aaef05f7048ab4818862c2929'; /*RIX Vona's Hunger*/
+UPDATE cards SET mcinumber='91' WHERE id='29f384f0603dd73457bdfd3f46d57e30ecbe6150'; /*RIX Voracious Vampire*/
+UPDATE cards SET mcinumber='197' WHERE id='bcfb65372d9fc1826fa9feccaddcca2350c65d0c'; /*RIX Vraska, Scheming Gorgon*/
+UPDATE cards SET mcinumber='199' WHERE id='e6a9b6b20b35bab9bf000cb81fa1a067386447cb'; /*RIX Vraska's Conquistador*/
+UPDATE cards SET mcinumber='200' WHERE id='4ec51bb5ad93272150ceefa4d4f5db7e948ceea5'; /*RIX Vraska's Scorn*/
+UPDATE cards SET mcinumber='60' WHERE id='9b911212bef4298602ebd24ee7f2cd7ee4066655'; /*RIX Warkite Marauder*/
+UPDATE cards SET mcinumber='61' WHERE id='20beccb4d0a14612fbd215cae46723e8e43322aa'; /*RIX Waterknot*/
+UPDATE cards SET mcinumber='150' WHERE id='10e0c2d16a81c2151f706e326de863055e954f06'; /*RIX Wayward Swordtooth*/
+UPDATE cards SET mcinumber='158b' WHERE id='ebeba3a04750398bcd25d27d3390a1c75d79f7e0'; /*RIX Winged Temple of Orazca*/
+UPDATE cards SET mcinumber='191' WHERE id='eebc5b0b382ea054e085f24541b2d9425796ef29'; /*RIX Woodland Stream*/
+UPDATE cards SET mcinumber='151' WHERE id='748d800b57a00ce5b173f0c21641aea204d85523'; /*RIX World Shaper*/
+UPDATE cards SET mcinumber='174' WHERE id='593bc9bad76f5484c7bf82f8f49de45bd9558d47'; /*RIX Zacama, Primal Calamity*/
+UPDATE cards SET mcinumber='30' WHERE id='44cdb7d132dc616e2c4ebe3ad7bb3710a09180ea'; /*RIX Zetalpa, Primal Dawn*/
+
