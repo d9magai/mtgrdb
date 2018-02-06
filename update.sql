@@ -2942,3 +2942,24 @@ UPDATE cards SET mcinumber='151' WHERE id='748d800b57a00ce5b173f0c21641aea204d85
 UPDATE cards SET mcinumber='174' WHERE id='593bc9bad76f5484c7bf82f8f49de45bd9558d47'; /*RIX Zacama, Primal Calamity*/
 UPDATE cards SET mcinumber='30' WHERE id='44cdb7d132dc616e2c4ebe3ad7bb3710a09180ea'; /*RIX Zetalpa, Primal Dawn*/
 
+UPDATE cards SET mcinumber='276' WHERE id='db0e352c6f81bea629d6f967fb2c9994fc9053ed'; /*XLN Forest*/
+UPDATE cards SET mcinumber='277' WHERE id='0fca635fd6f9410bba87626e588c4b0c899cc240'; /*XLN Forest*/
+UPDATE cards SET mcinumber='278' WHERE id='846542dc7aa62cabb5672f4b14e2e3d12bc9af09'; /*XLN Forest*/
+UPDATE cards SET mcinumber='279' WHERE id='c702208ef329640db3e95f4328fd675ec987c202'; /*XLN Forest*/
+UPDATE cards SET mcinumber='264' WHERE id='091bc22a54a2d373f93edad0ea405ad5f26b6082'; /*XLN Island*/
+UPDATE cards SET mcinumber='265' WHERE id='2729d4c8097517ff0ed578fac732cfc33a8fe30d'; /*XLN Island*/
+UPDATE cards SET mcinumber='266' WHERE id='c230217e8fa9fde0001facdc74e5063ef4fab37d'; /*XLN Island*/
+UPDATE cards SET mcinumber='267' WHERE id='af09100e5e7431840f506dd07f70211a9007482e'; /*XLN Island*/
+UPDATE cards SET mcinumber='272' WHERE id='2f45bb16f48f1018918561583f0be3050579df7f'; /*XLN Mountain*/
+UPDATE cards SET mcinumber='273' WHERE id='739188325c9d5de53ac15479b8d57fb6779c2cb4'; /*XLN Mountain*/
+UPDATE cards SET mcinumber='274' WHERE id='5a97c916dbbc489c8fc5a48cea603c9ed8062016'; /*XLN Mountain*/
+UPDATE cards SET mcinumber='275' WHERE id='428234854617b5b91ea16c4d485eb1ce05fa5528'; /*XLN Mountain*/
+UPDATE cards SET mcinumber='260' WHERE id='ea68837eb02719d0029a298eef7c502002cd2dab'; /*XLN Plains*/
+UPDATE cards SET mcinumber='261' WHERE id='8d16d2f4a3ffe24114aac3c6a94d76ab67ce4590'; /*XLN Plains*/
+UPDATE cards SET mcinumber='262' WHERE id='5a7afbd5698e9d1891a60ee8253c1a64baccf172'; /*XLN Plains*/
+UPDATE cards SET mcinumber='263' WHERE id='853c5a9bf8f1e2bffa3078a824ef2fc67333fdc2'; /*XLN Plains*/
+UPDATE cards SET mcinumber='268' WHERE id='0fc6cf4bc9b29800fd0789632b1e1812afbf4bc5'; /*XLN Swamp*/
+UPDATE cards SET mcinumber='269' WHERE id='84a4ca8ecce1539150e60b194157b0a74d82ea39'; /*XLN Swamp*/
+UPDATE cards SET mcinumber='270' WHERE id='60079669e970c86a5158bb6d05d3d257228ec51c'; /*XLN Swamp*/
+UPDATE cards SET mcinumber='271' WHERE id='7fff5e1b8a970a55e931e554cb08c47b15aa0a48'; /*XLN Swamp*/
+
