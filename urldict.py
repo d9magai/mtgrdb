@@ -28,6 +28,7 @@ id,
 setcode,
 type,
 types,
+multiverseid,
 'https://magiccards.info/scans/en/' ||
 CASE setcode
   WHEN 'p15A' THEN '15ann'
@@ -154,7 +155,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP'))
+WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP', 'VAN'))
 ''')
 
 
@@ -178,6 +179,7 @@ def get_dict_resultset():
         'setcode',
         'type',
         'types',
+        'multiverseid',
         'url',
     )
     results = []
@@ -202,6 +204,12 @@ def get_url(dic):
         url = 'https://magiccards.info/extras/plane/{}/{}.jpg'.format(
             plane_table[dic['setcode']],
             dic['name'].translate(table).lower().replace(" ", "-"),
+        )
+        return url
+
+    if len(dic['types']) == 1 and dic['types'][0] == 'Vanguard':
+        url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
+            dic['multiverseid'],
         )
         return url
 
