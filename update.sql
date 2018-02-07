@@ -2973,3 +2973,9 @@ UPDATE cards SET mcinumber='29' WHERE id='42f2ff9b8a6b0cc068fa57ccadb7cfd1905746
 UPDATE cards SET mcinumber='30' WHERE id='dfdf0d7bb85288330e9373daa27311cfeb895ce1'; /*DDT Island*/
 UPDATE cards SET mcinumber='31' WHERE id='12801f0b891559e347cc3e5968e5bf23be3833c5'; /*DDT Island*/
 
+UPDATE cards SET mcinumber='28' WHERE id='293e696af02708e7c1f06263ac6aa0f88619c26b'; /*UGL B.F.M.*/
+UPDATE cards SET mcinumber='28' WHERE id='bfab02632795e6f03465f19a702af12536eedccd'; /*UGL B.F.M.*/
+UPDATE cards SET mcinumber='29' WHERE id='f507bc33e26dff35c3715e99025d19c567ab6966'; /*UGL B.F.M.*/
+UPDATE cards SET mcinumber='29' WHERE id='0f4bb07c3fa89b82277f825e8d82adce70a918a7'; /*UGL B.F.M.*/
+
+UPDATE cards SET mcinumber='73' WHERE id='da0c2e1d365ecbe9f857cc8611a26a4942123486'; /*UNH Curse of the Fire Penguin Creature*/
