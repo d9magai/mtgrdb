@@ -2963,3 +2963,19 @@ UPDATE cards SET mcinumber='269' WHERE id='84a4ca8ecce1539150e60b194157b0a74d82e
 UPDATE cards SET mcinumber='270' WHERE id='60079669e970c86a5158bb6d05d3d257228ec51c'; /*XLN Swamp*/
 UPDATE cards SET mcinumber='271' WHERE id='7fff5e1b8a970a55e931e554cb08c47b15aa0a48'; /*XLN Swamp*/
 
+
+UPDATE cards SET mcinumber='60' WHERE id='c002bd4e0cc87a2e0b3623003a91ba2559b5fd43'; /*DDT Mountain*/
+UPDATE cards SET mcinumber='61' WHERE id='cb5a0236e5efe6ad803a2feecf6380767102c0f4'; /*DDT Mountain*/
+UPDATE cards SET mcinumber='62' WHERE id='a6207d6655f473705cbfe6c5c9838e2762642796'; /*DDT Mountain*/
+UPDATE cards SET mcinumber='63' WHERE id='bf1164c2b874f512d4b5adb11567d37ae249be33'; /*DDT Mountain*/
+UPDATE cards SET mcinumber='28' WHERE id='b3a41527969d46abb00ae2af610718ee1fbf97d5'; /*DDT Island*/
+UPDATE cards SET mcinumber='29' WHERE id='42f2ff9b8a6b0cc068fa57ccadb7cfd190574636'; /*DDT Island*/
+UPDATE cards SET mcinumber='30' WHERE id='dfdf0d7bb85288330e9373daa27311cfeb895ce1'; /*DDT Island*/
+UPDATE cards SET mcinumber='31' WHERE id='12801f0b891559e347cc3e5968e5bf23be3833c5'; /*DDT Island*/
+
+UPDATE cards SET mcinumber='28' WHERE id='293e696af02708e7c1f06263ac6aa0f88619c26b'; /*UGL B.F.M.*/
+UPDATE cards SET mcinumber='28' WHERE id='bfab02632795e6f03465f19a702af12536eedccd'; /*UGL B.F.M.*/
+UPDATE cards SET mcinumber='29' WHERE id='f507bc33e26dff35c3715e99025d19c567ab6966'; /*UGL B.F.M.*/
+UPDATE cards SET mcinumber='29' WHERE id='0f4bb07c3fa89b82277f825e8d82adce70a918a7'; /*UGL B.F.M.*/
+
+UPDATE cards SET mcinumber='73' WHERE id='da0c2e1d365ecbe9f857cc8611a26a4942123486'; /*UNH Curse of the Fire Penguin Creature*/
