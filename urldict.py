@@ -1,11 +1,11 @@
+from requests import get
+from string import punctuation
 import aiohttp
 import asyncio
 import os
 import psycopg2
 import random
-from requests import get
 import requests
-from string import punctuation
 import string
 import textwrap
 import tqdm
@@ -125,7 +125,6 @@ CASE setcode
   WHEN 'PCY' THEN 'pr'
   WHEN 'pREL' THEN 'rep'
   WHEN '3ED' THEN 'rv'
-  WHEN 'RQS' THEN ''
   WHEN 'SCG' THEN 'sc'
   WHEN '7ED' THEN '7e'
   WHEN 'S99' THEN 'st'
@@ -159,7 +158,7 @@ END
 || mcinumber || '.jpg' AS url
 FROM cards
 WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP', 'VAN', 'DD2') AND 1=0) OR
-(setcode IN ('PC2', 'PCA'))
+(setcode IN ('RQS'))
 ''')
 
 
@@ -228,6 +227,12 @@ def get_url(dic):
         return url
 
     if dic['layout'] == 'token':
+        url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
+            dic['multiverseid'],
+        )
+        return url
+
+    if dic['setcode'] == 'S00' and dic['multiverseid'] == '':
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
