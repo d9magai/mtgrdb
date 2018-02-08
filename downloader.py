@@ -1,15 +1,15 @@
+from string import punctuation
 import aiofiles
 import aiohttp
 import async_timeout
 import asyncio
 import os
-from string import punctuation
 import tqdm
 
 from urldict import *
 
 
-sema = asyncio.BoundedSemaphore(5)
+sema = asyncio.BoundedSemaphore(3)
 
 
 def get(session, url):
@@ -26,18 +26,14 @@ async def download_coroutine(session, dic):
         os.mkdir(dirname)
     filename = '{}/{}.jpg'.format(
         dirname,
-        dic['name'],
+        dic['id'],
     )
 
     with async_timeout.timeout(None):
         async with sema, get(session, url) as response:
             async with aiofiles.open(filename, 'wb') as fd:
                 while True:
-                    try:
-                        chunk = await response.content.read(1024)
-                    except Exception:
-                        print(url)
-                        pass
+                    chunk = await response.content.read(1024)
                     if not chunk:
                         break
                     await fd.write(chunk)
@@ -48,7 +44,10 @@ async def download_coroutine(session, dic):
 @asyncio.coroutine
 def wait_with_progress(coros):
     for f in tqdm.tqdm(asyncio.as_completed(coros), total=len(coros)):
-        yield from f
+        try:
+            yield from f
+        except Exception:
+            print(f)
 
 
 if __name__ == '__main__':

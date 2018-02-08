@@ -157,8 +157,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE COALESCE(mcinumber, '')!='' AND 1=0 OR (setcode IN ('E01', 'ARC', 'HOP', 'VAN', 'DD2') AND 1=0) OR
-(setcode IN ('RQS'))
+WHERE setcode NOT IN ('RQS') AND setcode IN ('ITP', 'DDR', 'UST', 'pPRE', 'DKM')
 ''')
 
 
@@ -196,6 +195,9 @@ def get_dict_resultset():
 
 def get_url(dic):
     types = dic.get('types', [])
+    if not types:
+        types = ['undefined']
+
     if types[0] == 'Scheme':
         table = str.maketrans('', '', punctuation)
         url = 'https://magiccards.info/extras/scheme/{}/{}.jpg'.format(
@@ -233,6 +235,12 @@ def get_url(dic):
         return url
 
     if dic['setcode'] == 'S00' and dic['multiverseid'] == '':
+        url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
+            dic['multiverseid'],
+        )
+        return url
+
+    if dic['multiverseid'] == '':
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
