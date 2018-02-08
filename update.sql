@@ -2463,10 +2463,10 @@ UPDATE cards SET mcinumber='160' WHERE id='a7adfad246222e32e6c815805cbfaf7b0c82f
 UPDATE cards SET mcinumber='167' WHERE id='2265c9e282460835b64ada8256b3a185e4b3a79d'; /*UST Accessories to Murder*/
 UPDATE cards SET mcinumber='1' WHERE id='95ebdf85f4ea74d584dfdfb72e3de5001d0748a9'; /*UST Adorable Kitten*/
 UPDATE cards SET mcinumber='2' WHERE id='9bf93829d5f697e3d6324c439a932804bdfdec3f'; /*UST Aerial Toastmaster*/
-UPDATE cards SET mcinumber='3a' WHERE id='2a9816c2e1f13beb49f4aa4517fc0eec18efe9a1'; /*UST Amateur Auteur*/
-UPDATE cards SET mcinumber='3b' WHERE id='be5620e0c33888cebfcc16cc8f8638a9a5d0012f'; /*UST Amateur Auteur*/
-UPDATE cards SET mcinumber='3c' WHERE id='b4b1553f73f2aa2cc8f9c89be34ea40d891f490f'; /*UST Amateur Auteur*/
-UPDATE cards SET mcinumber='3d' WHERE id='26f6d44a6ce1f84f1df55818331608ac1fabd288'; /*UST Amateur Auteur*/
+UPDATE cards SET mcinumber='3a' WHERE id='be5620e0c33888cebfcc16cc8f8638a9a5d0012f'; /*UST Amateur Auteur*/
+UPDATE cards SET mcinumber='3b' WHERE id='2a9816c2e1f13beb49f4aa4517fc0eec18efe9a1'; /*UST Amateur Auteur*/
+UPDATE cards SET mcinumber='3c' WHERE id='26f6d44a6ce1f84f1df55818331608ac1fabd288'; /*UST Amateur Auteur*/
+UPDATE cards SET mcinumber='3d' WHERE id='b4b1553f73f2aa2cc8f9c89be34ea40d891f490f'; /*UST Amateur Auteur*/
 UPDATE cards SET mcinumber='139' WHERE id='7e185cc67b340c337049d65a60cdd25f4b126135'; /*UST Angelic Rocket*/
 UPDATE cards SET mcinumber='26' WHERE id='33e966139895bbeb803ca28d3517c2adea6be752'; /*UST Animate Library*/
 UPDATE cards SET mcinumber='168' WHERE id='041ad3ed79b514e436227bc85c88a7d64c18051a'; /*UST Applied Aeronautics*/
@@ -2494,8 +2494,8 @@ UPDATE cards SET mcinumber='28' WHERE id='6e2f7e718cbe35bc6706c921dc53083aab92dd
 UPDATE cards SET mcinumber='104' WHERE id='c2249f13507fd8e4ac807054a94a6d960b113b25'; /*UST Chittering Doom*/
 UPDATE cards SET mcinumber='5' WHERE id='c2ec96c070907abfd16eed0dd2886589e9f4f4b3'; /*UST Chivalrous Chevalier*/
 UPDATE cards SET mcinumber='105' WHERE id='111f0194b8f3bceb4f5aedad4fdb23bc82da216d'; /*UST Clever Combo*/
-UPDATE cards SET mcinumber='142' WHERE id='d8a5cb9b297b01bc999519b38d2e1bf0666fb8a7'; /*UST Clocknapper*/
-UPDATE cards SET mcinumber='29' WHERE id='d1702d8b65b9527d4e41fcb5126de5328dd2ee1b'; /*UST Clock of DOOOOOOOOOOOOM!*/
+UPDATE cards SET mcinumber='29' WHERE id='d8a5cb9b297b01bc999519b38d2e1bf0666fb8a7'; /*UST Clocknapper*/
+UPDATE cards SET mcinumber='142' WHERE id='d1702d8b65b9527d4e41fcb5126de5328dd2ee1b'; /*UST Clock of DOOOOOOOOOOOOM!*/
 UPDATE cards SET mcinumber='143' WHERE id='31791d8a3ff973ed08fb63c77a7a854c52151c58'; /*UST Cogmentor*/
 UPDATE cards SET mcinumber='79' WHERE id='7d7bd0ee44bcd4e1d0f74f6441a2435d03a729ca'; /*UST Common Iguana*/
 UPDATE cards SET mcinumber='144' WHERE id='0143e16ede1ba9baab26a5e895c20a70c03fc955'; /*UST Contraption Cannon*/
@@ -2511,8 +2511,8 @@ UPDATE cards SET mcinumber='175' WHERE id='a1bc419cba15a1648ae375ce2ee9e507b12ef
 UPDATE cards SET mcinumber='53' WHERE id='ff325490c01309d08c50ca9a2e9ddc4445624460'; /*UST Dirty Rat*/
 UPDATE cards SET mcinumber='176' WHERE id='7cbfd6afdcc211c44c7b5d611d5630bf3ea60d97'; /*UST Dispatch Dispensary*/
 UPDATE cards SET mcinumber='177' WHERE id='bb61f608e45580e7030c6df20785ab4532c5e5cc'; /*UST Division Table*/
-UPDATE cards SET mcinumber='6' WHERE id='ad41b1c8bf220e1ec6f925147709d4faa3dd700f'; /*UST Dogsnail Engine*/
-UPDATE cards SET mcinumber='178' WHERE id='670816ec292583c1e93f4facae8f8fb64eb32577'; /*UST Do-It-Yourself Seraph*/
+UPDATE cards SET mcinumber='178' WHERE id='ad41b1c8bf220e1ec6f925147709d4faa3dd700f'; /*UST Dogsnail Engine*/
+UPDATE cards SET mcinumber='6' WHERE id='670816ec292583c1e93f4facae8f8fb64eb32577'; /*UST Do-It-Yourself Seraph*/
 UPDATE cards SET mcinumber='130' WHERE id='b365c187725c797ae24b724793ae612380b1af5e'; /*UST Dr. Julius Jumblemorph*/
 UPDATE cards SET mcinumber='106' WHERE id='62c0d4b7dd49a96f0bd0392e6e437bf4945f0f25'; /*UST Druid of the Sacred Beaker*/
 UPDATE cards SET mcinumber='179' WHERE id='959865fb83edc39c92266332e8108d2909876884'; /*UST Dual Doomsuits*/
@@ -2527,10 +2527,10 @@ UPDATE cards SET mcinumber='147c' WHERE id='d667b8c6793c162a23315dd0d401a2e495cd
 UPDATE cards SET mcinumber='147d' WHERE id='a6642db82b2ef3903bf0c515ead493be32854c56'; /*UST Everythingamajig (d)*/
 UPDATE cards SET mcinumber='147e' WHERE id='a61081333ab8779583cb272bf16cbd7fdba359d8'; /*UST Everythingamajig (e)*/
 UPDATE cards SET mcinumber='147f' WHERE id='056420bf24b637df1b27539549b9084bd4f119ee'; /*UST Everythingamajig (f)*/
-UPDATE cards SET mcinumber='54a' WHERE id='52507923aa50149f368521bd3e65e2fd46ca317f'; /*UST Extremely Slow Zombie*/
-UPDATE cards SET mcinumber='54b' WHERE id='f7f8d1ab2a404af96c2ad38be3b8a2c4626cbeb3'; /*UST Extremely Slow Zombie*/
-UPDATE cards SET mcinumber='54c' WHERE id='c4217f94987a430c6dca0b1b0721ddcf4d5a3d0c'; /*UST Extremely Slow Zombie*/
-UPDATE cards SET mcinumber='54d' WHERE id='e1c139adc3b4a403ed0b7186c2215fa9b19d3a62'; /*UST Extremely Slow Zombie*/
+UPDATE cards SET mcinumber='54a' WHERE id='c4217f94987a430c6dca0b1b0721ddcf4d5a3d0c'; /*UST Extremely Slow Zombie*/
+UPDATE cards SET mcinumber='54b' WHERE id='52507923aa50149f368521bd3e65e2fd46ca317f'; /*UST Extremely Slow Zombie*/
+UPDATE cards SET mcinumber='54c' WHERE id='e1c139adc3b4a403ed0b7186c2215fa9b19d3a62'; /*UST Extremely Slow Zombie*/
+UPDATE cards SET mcinumber='54d' WHERE id='f7f8d1ab2a404af96c2ad38be3b8a2c4626cbeb3'; /*UST Extremely Slow Zombie*/
 UPDATE cards SET mcinumber='181' WHERE id='45fa68a6897c4d176766cfea6cb86f38230a4900'; /*UST Faerie Aerie*/
 UPDATE cards SET mcinumber='81' WHERE id='ac8495b2c391d8cd879846baad5c070ebbc26691'; /*UST Feisty Stegosaurus*/
 UPDATE cards SET mcinumber='55' WHERE id='c5e0986ab99abbcb98e59fb7396c495be54ec19a'; /*UST Finders, Keepers*/
@@ -2546,11 +2546,11 @@ UPDATE cards SET mcinumber='82f' WHERE id='bf81b4e9357ce98e844c8c03b07da82829718
 UPDATE cards SET mcinumber='182' WHERE id='11a34de031d88abeb4d5b85092fca2aac1315685'; /*UST Genetic Recombinator*/
 UPDATE cards SET mcinumber='183' WHERE id='3286a006834fc79c1fe792ca28cd03951c0f695f'; /*UST Gift Horse*/
 UPDATE cards SET mcinumber='7' WHERE id='2fb7a44528894b69d7fd1a14fe2bb8df5748162c'; /*UST Gimme Five*/
-UPDATE cards SET mcinumber='148' WHERE id='5b5e87aa5bfdb98195d231ec6571ba1782ef717a'; /*UST Gnomeball Machine*/
-UPDATE cards SET mcinumber='184' WHERE id='37a698716207213e7f6112cf265366805f4f309d'; /*UST Gnome-Made Engine*/
-UPDATE cards SET mcinumber='8' WHERE id='05600229b1bf187aa724ab452451e5bf820c539a'; /*UST Goblin Haberdasher*/
-UPDATE cards SET mcinumber='83' WHERE id='bb340eb8e2a983cc704f21db5d7b8fffb5d3dc51'; /*UST Goblin Slingshot*/
-UPDATE cards SET mcinumber='185' WHERE id='e02465a426b288c5a29e58c7b4811761888ca96f'; /*UST GO TO JAIL*/
+UPDATE cards SET mcinumber='184' WHERE id='5b5e87aa5bfdb98195d231ec6571ba1782ef717a'; /*UST Gnomeball Machine*/
+UPDATE cards SET mcinumber='148' WHERE id='37a698716207213e7f6112cf265366805f4f309d'; /*UST Gnome-Made Engine*/
+UPDATE cards SET mcinumber='83' WHERE id='05600229b1bf187aa724ab452451e5bf820c539a'; /*UST Goblin Haberdasher*/
+UPDATE cards SET mcinumber='185' WHERE id='bb340eb8e2a983cc704f21db5d7b8fffb5d3dc51'; /*UST Goblin Slingshot*/
+UPDATE cards SET mcinumber='8' WHERE id='e02465a426b288c5a29e58c7b4811761888ca96f'; /*UST GO TO JAIL*/
 UPDATE cards SET mcinumber='34' WHERE id='e004b43925c8e96171f4e004e72f9810746f5f01'; /*UST Graveyard Busybody*/
 UPDATE cards SET mcinumber='110' WHERE id='b673ec0115898a751dae633eba2457360c813a96'; /*UST Ground Pounder*/
 UPDATE cards SET mcinumber='132' WHERE id='8f119578115ab321897c58bea2d357b9ea88fcff'; /*UST Grusilda, Monster Masher*/
@@ -2559,9 +2559,9 @@ UPDATE cards SET mcinumber='9' WHERE id='9576b7f72e0e87262f4bf6e76b1037adc6ce6ac
 UPDATE cards SET mcinumber='84' WHERE id='fd984bfee4b30ce7398bedb912e438b329f7121a'; /*UST Half-Orc, Half-*/
 UPDATE cards SET mcinumber='35' WHERE id='31a28d4339c437d527d152c8c5a97b87ef15f3a0'; /*UST Half-Shark, Half-*/
 UPDATE cards SET mcinumber='111' WHERE id='65d8afa020949aaf54d6e08634e3ce07d2ee75fe'; /*UST Half-Squirrel, Half-*/
-UPDATE cards SET mcinumber='85' WHERE id='e917b5ebc8947c186289a4bdd1a02ea7d3208cc2'; /*UST Hammerfest Boomtacular*/
-UPDATE cards SET mcinumber='86' WHERE id='60885568c559b65d9c7df40d879c335956e03457'; /*UST Hammer Helper*/
-UPDATE cards SET mcinumber='87' WHERE id='a2da896ae8390a5bc465f744b9d19aaff0db7581'; /*UST Hammer Jammer*/
+UPDATE cards SET mcinumber='87' WHERE id='e917b5ebc8947c186289a4bdd1a02ea7d3208cc2'; /*UST Hammerfest Boomtacular*/
+UPDATE cards SET mcinumber='85' WHERE id='60885568c559b65d9c7df40d879c335956e03457'; /*UST Hammer Helper*/
+UPDATE cards SET mcinumber='86' WHERE id='a2da896ae8390a5bc465f744b9d19aaff0db7581'; /*UST Hammer Jammer*/
 UPDATE cards SET mcinumber='149' WHERE id='ea4f5833db494ab3e2afbd7e89e31ff7ad461f07'; /*UST Handy Dandy Clone Machine*/
 UPDATE cards SET mcinumber='56' WHERE id='63672eda54f6e1a4d86b6a4907f834e686427dee'; /*UST Hangman*/
 UPDATE cards SET mcinumber='187' WHERE id='a261ffa964673aeb5319c86a1d115b724ba9436a'; /*UST Hard Hat Area*/
@@ -2617,16 +2617,16 @@ UPDATE cards SET mcinumber='215' WHERE id='83345253cf2ac7c3ea2fce2fa186f7afd6a84
 UPDATE cards SET mcinumber='117' WHERE id='9b4d9800a67fdd0005c2421ca0d2fb02766c3cdc'; /*UST Multi-Headed*/
 UPDATE cards SET mcinumber='195' WHERE id='bc86d080700a03e006ca9b9bf494729a2a7ff543'; /*UST Neural Network*/
 UPDATE cards SET mcinumber='61' WHERE id='a797c14be88f27aa2eef813cb9b382fffac1acbe'; /*UST Ninja*/
-UPDATE cards SET mcinumber='41a' WHERE id='d89a641ad1f6be21191c4681d6f6f50f7eefa1dd'; /*UST Novellamental*/
+UPDATE cards SET mcinumber='41a' WHERE id='fd57e4f7b0686a54fc467ee1653a7aeb55d0c169'; /*UST Novellamental*/
 UPDATE cards SET mcinumber='41b' WHERE id='16f6177a902937dad25cb39d597abd37e5098d8e'; /*UST Novellamental*/
-UPDATE cards SET mcinumber='41c' WHERE id='fd57e4f7b0686a54fc467ee1653a7aeb55d0c169'; /*UST Novellamental*/
+UPDATE cards SET mcinumber='41c' WHERE id='d89a641ad1f6be21191c4681d6f6f50f7eefa1dd'; /*UST Novellamental*/
 UPDATE cards SET mcinumber='41d' WHERE id='a42e861bf62bf2c7ab4a9dc27c6a95e365682ad2'; /*UST Novellamental*/
 UPDATE cards SET mcinumber='42' WHERE id='ae42424f75b1853df27a021b7df62bcd98179c59'; /*UST Numbing Jellyfish*/
 UPDATE cards SET mcinumber='196' WHERE id='fcd4f74f82e7b4a8a7dd192042e8134b29848a7b'; /*UST Oaken Power Suit*/
 UPDATE cards SET mcinumber='15' WHERE id='f646942d4ffe8845d5dc4309414d66dc1718305a'; /*UST Oddly Uneven*/
 UPDATE cards SET mcinumber='134' WHERE id='542e2aee278a58a72235e3b1621eae26aacb0831'; /*UST Ol' Buzzbark*/
-UPDATE cards SET mcinumber='16' WHERE id='7da81122b7dfe8f8d60a378ef21978b845d12db3'; /*UST Old-Fashioned Vampire*/
-UPDATE cards SET mcinumber='62' WHERE id='9757a5ba588d459ffb595b7d55a9606c15a79422'; /*UST Old Guard*/
+UPDATE cards SET mcinumber='62' WHERE id='7da81122b7dfe8f8d60a378ef21978b845d12db3'; /*UST Old-Fashioned Vampire*/
+UPDATE cards SET mcinumber='16' WHERE id='9757a5ba588d459ffb595b7d55a9606c15a79422'; /*UST Old Guard*/
 UPDATE cards SET mcinumber='197' WHERE id='be9420da2b8d14f99b987c9e88247da1077443fc'; /*UST Optical Optimizer*/
 UPDATE cards SET mcinumber='17' WHERE id='94d8456cfadf9781927f2755fb077c04dde7c75f'; /*UST Ordinary Pony*/
 UPDATE cards SET mcinumber='63' WHERE id='5d10852c4ced5abbb304aaad1a4bc29630e6a623'; /*UST Over My Dead Bodies*/
@@ -2647,27 +2647,27 @@ UPDATE cards SET mcinumber='19' WHERE id='9f924fcae58d743347ee131234cd3a077f1d69
 UPDATE cards SET mcinumber='157' WHERE id='357d68bb8afd1603ececfca3d69322ef0b4ed986'; /*UST Robo-*/
 UPDATE cards SET mcinumber='20' WHERE id='0196f9bc90cb76748c9d8ca2dc72a046b1ce5123'; /*UST Rules Lawyer*/
 UPDATE cards SET mcinumber='65' WHERE id='d345f7cb7b9388213afca0b8982806b1f9e130a8'; /*UST Rumors of My Death . . .*/
-UPDATE cards SET mcinumber='43' WHERE id='9ffaa3a04e16132786e4e60be903fdeaa88f6d81'; /*UST Sacrifice Play*/
-UPDATE cards SET mcinumber='21' WHERE id='dba4f52d8840a09c51d1fd98ef1aaf7a51daf17a'; /*UST Sap Sucker*/
-UPDATE cards SET mcinumber='203' WHERE id='d9b9d23724fcb63c1640a52d139febfbabc8bf35'; /*UST Secret Base*/
+UPDATE cards SET mcinumber='21' WHERE id='9ffaa3a04e16132786e4e60be903fdeaa88f6d81'; /*UST Sacrifice Play*/
+UPDATE cards SET mcinumber='203' WHERE id='dba4f52d8840a09c51d1fd98ef1aaf7a51daf17a'; /*UST Sap Sucker*/
 UPDATE cards SET mcinumber='165a' WHERE id='8559dbb13999ebe1dedd73df335c1e3a7a5cb82c'; /*UST Secret Base*/
-UPDATE cards SET mcinumber='165b' WHERE id='7901ed980cb6d79891abc735112d379b13040fe1'; /*UST Secret Base*/
-UPDATE cards SET mcinumber='165c' WHERE id='4d05cc8f1841d29078c3808f175ea1f1bbe1faa5'; /*UST Secret Base*/
-UPDATE cards SET mcinumber='165d' WHERE id='169fec29748aa5f149a22852f0021b9eaa7f1155'; /*UST Secret Base*/
-UPDATE cards SET mcinumber='165e' WHERE id='9a7d5aef61b09db4b26034df881549fbab1eb7f5'; /*UST Selfie Preservation*/
-UPDATE cards SET mcinumber='119' WHERE id='93fe6f1170b7de30ecfd733e51689737d709596d'; /*UST Serpentine*/
-UPDATE cards SET mcinumber='120' WHERE id='7a235bc598233c98e4c93f5f270a029f80eccf7f'; /*UST Shaggy Camel*/
-UPDATE cards SET mcinumber='22' WHERE id='4599f09ee2a3ae4edfda32c45fe1a2013a3a0450'; /*UST Shellephant*/
-UPDATE cards SET mcinumber='121' WHERE id='2f03ec07ae907d66c5231587c1208108368af52c'; /*UST Side Quest*/
-UPDATE cards SET mcinumber='23' WHERE id='dc31dde433af7ee633043a35a011e9db48ac8183'; /*UST Skull Saucer*/
-UPDATE cards SET mcinumber='66' WHERE id='bd13a4a966f64f8f1ad3ef8c153ac7af3aba2121'; /*UST Slaying Mantis*/
-UPDATE cards SET mcinumber='122' WHERE id='520a73ed79ccae19d96842c0d695b7c319f1bda5'; /*UST Sly Spy (a)*/
-UPDATE cards SET mcinumber='67a' WHERE id='22d4864d2e79a13c6cb4856e51b22fca5d296a77'; /*UST Sly Spy (b)*/
-UPDATE cards SET mcinumber='67b' WHERE id='c24ee4228cf44fc16e8b4b0ef9d7b5d2e78b7b3e'; /*UST Sly Spy (c)*/
-UPDATE cards SET mcinumber='67c' WHERE id='63139b63d0f90bdae99292a091e7279ab421a9b9'; /*UST Sly Spy (d)*/
-UPDATE cards SET mcinumber='67d' WHERE id='cfee9df85434ca60c5536d9403e1d4ef91e5d7de'; /*UST Sly Spy (e)*/
-UPDATE cards SET mcinumber='67e' WHERE id='f4ab621ea807a02eefd76118bf3e3d50087f34d2'; /*UST Sly Spy (f)*/
-UPDATE cards SET mcinumber='67f' WHERE id='dca79c909323bb9ff4929c211130fc3db2922931'; /*UST S.N.E.A.K. Dispatcher*/
+UPDATE cards SET mcinumber='165b' WHERE id='4d05cc8f1841d29078c3808f175ea1f1bbe1faa5'; /*UST Secret Base*/
+UPDATE cards SET mcinumber='165c' WHERE id='7901ed980cb6d79891abc735112d379b13040fe1'; /*UST Secret Base*/
+UPDATE cards SET mcinumber='165d' WHERE id='d9b9d23724fcb63c1640a52d139febfbabc8bf35'; /*UST Secret Base*/
+UPDATE cards SET mcinumber='165e' WHERE id='169fec29748aa5f149a22852f0021b9eaa7f1155'; /*UST Secret Base*/
+UPDATE cards SET mcinumber='119' WHERE id='9a7d5aef61b09db4b26034df881549fbab1eb7f5'; /*UST Selfie Preservation*/
+UPDATE cards SET mcinumber='120' WHERE id='93fe6f1170b7de30ecfd733e51689737d709596d'; /*UST Serpentine*/
+UPDATE cards SET mcinumber='22' WHERE id='7a235bc598233c98e4c93f5f270a029f80eccf7f'; /*UST Shaggy Camel*/
+UPDATE cards SET mcinumber='121' WHERE id='4599f09ee2a3ae4edfda32c45fe1a2013a3a0450'; /*UST Shellephant*/
+UPDATE cards SET mcinumber='23' WHERE id='2f03ec07ae907d66c5231587c1208108368af52c'; /*UST Side Quest*/
+UPDATE cards SET mcinumber='66' WHERE id='dc31dde433af7ee633043a35a011e9db48ac8183'; /*UST Skull Saucer*/
+UPDATE cards SET mcinumber='122' WHERE id='bd13a4a966f64f8f1ad3ef8c153ac7af3aba2121'; /*UST Slaying Mantis*/
+UPDATE cards SET mcinumber='67a' WHERE id='520a73ed79ccae19d96842c0d695b7c319f1bda5'; /*UST Sly Spy (a)*/
+UPDATE cards SET mcinumber='67b' WHERE id='22d4864d2e79a13c6cb4856e51b22fca5d296a77'; /*UST Sly Spy (b)*/
+UPDATE cards SET mcinumber='67c' WHERE id='c24ee4228cf44fc16e8b4b0ef9d7b5d2e78b7b3e'; /*UST Sly Spy (c)*/
+UPDATE cards SET mcinumber='67d' WHERE id='63139b63d0f90bdae99292a091e7279ab421a9b9'; /*UST Sly Spy (d)*/
+UPDATE cards SET mcinumber='67e' WHERE id='cfee9df85434ca60c5536d9403e1d4ef91e5d7de'; /*UST Sly Spy (e)*/
+UPDATE cards SET mcinumber='67f' WHERE id='f4ab621ea807a02eefd76118bf3e3d50087f34d2'; /*UST Sly Spy (f)*/
+UPDATE cards SET mcinumber='43' WHERE id='dca79c909323bb9ff4929c211130fc3db2922931'; /*UST S.N.E.A.K. Dispatcher*/
 UPDATE cards SET mcinumber='68' WHERE id='cab6836c1a951030ac6e1512a30ef44d1d388eea'; /*UST Snickering Squirrel*/
 UPDATE cards SET mcinumber='44' WHERE id='93edc2a01930a06bac3d9e4fc2e3232f7507347a'; /*UST Socketed Sprocketer*/
 UPDATE cards SET mcinumber='45' WHERE id='4a8b04db77c1cfb235eb6d992edd19628454a08b'; /*UST Spell Suck*/
@@ -2679,12 +2679,12 @@ UPDATE cards SET mcinumber='70' WHERE id='d8c09c7a4489ce50daaaf36754b1e414b481b6
 UPDATE cards SET mcinumber='159' WHERE id='4ef7ea7de5f6985f55fdc0568eb65e0a45448b5e'; /*UST Staff of the Letter Magus*/
 UPDATE cards SET mcinumber='160' WHERE id='7f72f7830f750a3e8b6de78cc357ad10bd985832'; /*UST Stamp of Approval*/
 UPDATE cards SET mcinumber='71' WHERE id='7821e8e65b0bad740cc74ae8b003fceaed0ea2e3'; /*UST Steady-Handed Mook*/
-UPDATE cards SET mcinumber='161' WHERE id='b2a2dab489d61162ba4afecb13b92355beb175ed'; /*UST Steamflogger Boss*/
-UPDATE cards SET mcinumber='93' WHERE id='a2fd464a440b66ec3f2c740b2fda0c5b0c0844fe'; /*UST Steamflogger of the Month*/
-UPDATE cards SET mcinumber='94' WHERE id='878f739439ad2993c6ed520d99e41d9a8f11d6b7'; /*UST Steamflogger Service Rep*/
-UPDATE cards SET mcinumber='124' WHERE id='d763f1b58d098f1065c7d54437f66c34f2bb7b9f'; /*UST Steamflogger Temp*/
-UPDATE cards SET mcinumber='95' WHERE id='a17be656db4034960dade833aad17b3b5b6b2ae8'; /*UST Steamfloggery*/
-UPDATE cards SET mcinumber='96' WHERE id='5fbdc708fa987186b43fc9cc560c6a914d3a2ef5'; /*UST Steam-Powered*/
+UPDATE cards SET mcinumber='93' WHERE id='b2a2dab489d61162ba4afecb13b92355beb175ed'; /*UST Steamflogger Boss*/
+UPDATE cards SET mcinumber='94' WHERE id='a2fd464a440b66ec3f2c740b2fda0c5b0c0844fe'; /*UST Steamflogger of the Month*/
+UPDATE cards SET mcinumber='124' WHERE id='878f739439ad2993c6ed520d99e41d9a8f11d6b7'; /*UST Steamflogger Service Rep*/
+UPDATE cards SET mcinumber='95' WHERE id='d763f1b58d098f1065c7d54437f66c34f2bb7b9f'; /*UST Steamflogger Temp*/
+UPDATE cards SET mcinumber='96' WHERE id='a17be656db4034960dade833aad17b3b5b6b2ae8'; /*UST Steamfloggery*/
+UPDATE cards SET mcinumber='161' WHERE id='5fbdc708fa987186b43fc9cc560c6a914d3a2ef5'; /*UST Steam-Powered*/
 UPDATE cards SET mcinumber='162' WHERE id='235fed54f2b1a5e2cec9d08e264e3e828ab5eeca'; /*UST Steel Squirrel*/
 UPDATE cards SET mcinumber='72' WHERE id='45980f14f3aeb113391234a791b10a8930f569e4'; /*UST Stinging Scorpion*/
 UPDATE cards SET mcinumber='73' WHERE id='512c4dcf77a771d037b67525f87ae5343415ef67'; /*UST Subcontract*/
@@ -2695,11 +2695,11 @@ UPDATE cards SET mcinumber='97' WHERE id='968da4925d9d1991de548c2a2bcf273668a728
 UPDATE cards SET mcinumber='47' WHERE id='b96f70749bc098a8e4132af5732120002215a80c'; /*UST Suspicious Nanny*/
 UPDATE cards SET mcinumber='214' WHERE id='7210d09e2bd2613adb39795e0f216cc20c6dba0c'; /*UST Swamp*/
 UPDATE cards SET mcinumber='163' WHERE id='16b6ae18f9d44b3933dcf94958fce4a8a7f9937d'; /*UST Sword of Dungeons & Dragons*/
-UPDATE cards SET mcinumber='98a' WHERE id='dadd12c062603976c5b20d45e5272d42c4f7d1d7'; /*UST Targeting Rocket*/
-UPDATE cards SET mcinumber='98b' WHERE id='7a6839e482b86de38d6f2fd513c3c675e597a132'; /*UST Target Minotaur*/
-UPDATE cards SET mcinumber='98c' WHERE id='79eedbf2c9e873e6e3846f8a631973b0f623ca30'; /*UST Target Minotaur*/
-UPDATE cards SET mcinumber='98d' WHERE id='8d32ab820cab5db302e2ef6448a1601cb675b0f7'; /*UST Target Minotaur*/
-UPDATE cards SET mcinumber='205' WHERE id='ee0307bb49e6419b9bbbdb8d94c983c558a942d7'; /*UST Target Minotaur*/
+UPDATE cards SET mcinumber='205' WHERE id='dadd12c062603976c5b20d45e5272d42c4f7d1d7'; /*UST Targeting Rocket*/
+UPDATE cards SET mcinumber='98a' WHERE id='7a6839e482b86de38d6f2fd513c3c675e597a132'; /*UST Target Minotaur*/
+UPDATE cards SET mcinumber='98b' WHERE id='ee0307bb49e6419b9bbbdb8d94c983c558a942d7'; /*UST Target Minotaur*/
+UPDATE cards SET mcinumber='98c' WHERE id='8d32ab820cab5db302e2ef6448a1601cb675b0f7'; /*UST Target Minotaur*/
+UPDATE cards SET mcinumber='98d' WHERE id='79eedbf2c9e873e6e3846f8a631973b0f623ca30'; /*UST Target Minotaur*/
 UPDATE cards SET mcinumber='25' WHERE id='19f3cfbed9b6814cd64b79cf3d7f28f22688b948'; /*UST Teacher's Pet*/
 UPDATE cards SET mcinumber='76' WHERE id='9bcce3da22f727711b882c84e3b103d5f85b53a8'; /*UST The Big Idea*/
 UPDATE cards SET mcinumber='80' WHERE id='41aa53a3de6095329e7765d218c48f651d5f3439'; /*UST The Countdown Is at One*/
@@ -2708,26 +2708,26 @@ UPDATE cards SET mcinumber='99' WHERE id='8faa02991135b723e9f08e93b9f391067be653
 UPDATE cards SET mcinumber='206' WHERE id='9a0b37b8a7ac6cd22dc3ea83132281b099f3b951'; /*UST Thud-for-Duds*/
 UPDATE cards SET mcinumber='48' WHERE id='b45940bf6979a251c6ec5426ad4d482718ed507a'; /*UST Time Out*/
 UPDATE cards SET mcinumber='207' WHERE id='d7a45c6406c2af46df8bb871c1a4029a88dd9e67'; /*UST Top-Secret Tunnel*/
-UPDATE cards SET mcinumber='287' WHERE id='c6c6a2b86a9cd2c3b0faa03fd9fc7ea27470dc4d'; /*UST Tread Mill*/
-UPDATE cards SET mcinumber='34' WHERE id='040cd82d38b6a494412debf1d10f399324d463ee'; /*UST Turbo-Thwacking Auto-Hammer*/
-UPDATE cards SET mcinumber='208' WHERE id='925e4181932af33d72a85a11582cb5f120e030b8'; /*UST Twiddlestick Charger*/
-UPDATE cards SET mcinumber='209' WHERE id='a3923c94fbb5534e419d59a08977d498319a69c2'; /*UST Urza, Academy Headmaster*/
-UPDATE cards SET mcinumber='210' WHERE id='80357df8d37077125aa2f76602ee2359e5fd9529'; /*UST Very Cryptic Command (a)*/
-UPDATE cards SET mcinumber='26' WHERE id='ce867f89c4eea389f92eaf29f3e5eca60db255b8'; /*UST Very Cryptic Command (b)*/
-UPDATE cards SET mcinumber='50' WHERE id='3b56e0e2b16c17133f28e9e1539b5fc1d66d4f14'; /*UST Very Cryptic Command (c)*/
-UPDATE cards SET mcinumber='143' WHERE id='7e70b405a3d9393de09084182ccf6d4dbb06610f'; /*UST Very Cryptic Command (d)*/
-UPDATE cards SET mcinumber='97' WHERE id='f5801b2c2f2605d4226c929f9960a1365dad4f1b'; /*UST Very Cryptic Command (e)*/
-UPDATE cards SET mcinumber='128' WHERE id='f2a48daf1170b98aa25f5964a03d3a70cd074edc'; /*UST Very Cryptic Command (f)*/
-UPDATE cards SET mcinumber='98' WHERE id='968b0d189a3c10a3a72efdb7b37b195226963542'; /*UST Voracious Vacuum*/
-UPDATE cards SET mcinumber='229' WHERE id='0819e11a0fd314bd882f9900514d4d28334557f8'; /*UST Wall of Fortune*/
-UPDATE cards SET mcinumber='27' WHERE id='2f9b2d42e65df39092dae0bafa48ab29b9cbf140'; /*UST Watermarket*/
-UPDATE cards SET mcinumber='288' WHERE id='62f8f9fafbc6f5c3560fd2c7e189514c22ae976d'; /*UST Widget Contraption*/
-UPDATE cards SET mcinumber='136' WHERE id='e6e906b6418b065454ae650b68673c3dd80bb0bb'; /*UST Wild Crocodile*/
-UPDATE cards SET mcinumber='144' WHERE id='84459d7760cda1b6789f011006e95facaf33be54'; /*UST Willing Test Subject*/
-UPDATE cards SET mcinumber='129' WHERE id='98c8bee0c8ceb1a73c1fc7f2d5b15d40eb094779'; /*UST Work a Double*/
-UPDATE cards SET mcinumber='99' WHERE id='8884473a508d2c6e8dc7e8186be4b21b012b804f'; /*UST Wrench-Rigger*/
-UPDATE cards SET mcinumber='130' WHERE id='b4340a578475edd9a68deaee223155e387f7f405'; /*UST X*/
-UPDATE cards SET mcinumber='201' WHERE id='1b1f9cf5274739637dc5524af7334ec89f9cd49b'; /*UST Zombified*/
+UPDATE cards SET mcinumber='208' WHERE id='c6c6a2b86a9cd2c3b0faa03fd9fc7ea27470dc4d'; /*UST Tread Mill*/
+UPDATE cards SET mcinumber='209' WHERE id='040cd82d38b6a494412debf1d10f399324d463ee'; /*UST Turbo-Thwacking Auto-Hammer*/
+UPDATE cards SET mcinumber='210' WHERE id='925e4181932af33d72a85a11582cb5f120e030b8'; /*UST Twiddlestick Charger*/
+UPDATE cards SET mcinumber='136' WHERE id='a3923c94fbb5534e419d59a08977d498319a69c2'; /*UST Urza, Academy Headmaster*/
+UPDATE cards SET mcinumber='49a' WHERE id='80357df8d37077125aa2f76602ee2359e5fd9529'; /*UST Very Cryptic Command (a)*/
+UPDATE cards SET mcinumber='49b' WHERE id='ce867f89c4eea389f92eaf29f3e5eca60db255b8'; /*UST Very Cryptic Command (b)*/
+UPDATE cards SET mcinumber='49c' WHERE id='3b56e0e2b16c17133f28e9e1539b5fc1d66d4f14'; /*UST Very Cryptic Command (c)*/
+UPDATE cards SET mcinumber='49d' WHERE id='7e70b405a3d9393de09084182ccf6d4dbb06610f'; /*UST Very Cryptic Command (d)*/
+UPDATE cards SET mcinumber='49e' WHERE id='f5801b2c2f2605d4226c929f9960a1365dad4f1b'; /*UST Very Cryptic Command (e)*/
+UPDATE cards SET mcinumber='49f' WHERE id='f2a48daf1170b98aa25f5964a03d3a70cd074edc'; /*UST Very Cryptic Command (f)*/
+UPDATE cards SET mcinumber='164' WHERE id='968b0d189a3c10a3a72efdb7b37b195226963542'; /*UST Voracious Vacuum*/
+UPDATE cards SET mcinumber='50' WHERE id='0819e11a0fd314bd882f9900514d4d28334557f8'; /*UST Wall of Fortune*/
+UPDATE cards SET mcinumber='166' WHERE id='2f9b2d42e65df39092dae0bafa48ab29b9cbf140'; /*UST Watermarket*/
+UPDATE cards SET mcinumber='211' WHERE id='62f8f9fafbc6f5c3560fd2c7e189514c22ae976d'; /*UST Widget Contraption*/
+UPDATE cards SET mcinumber='125' WHERE id='e6e906b6418b065454ae650b68673c3dd80bb0bb'; /*UST Wild Crocodile*/
+UPDATE cards SET mcinumber='126' WHERE id='84459d7760cda1b6789f011006e95facaf33be54'; /*UST Willing Test Subject*/
+UPDATE cards SET mcinumber='100' WHERE id='98c8bee0c8ceb1a73c1fc7f2d5b15d40eb094779'; /*UST Work a Double*/
+UPDATE cards SET mcinumber='101' WHERE id='8884473a508d2c6e8dc7e8186be4b21b012b804f'; /*UST Wrench-Rigger*/
+UPDATE cards SET mcinumber='137' WHERE id='b4340a578475edd9a68deaee223155e387f7f405'; /*UST X*/
+UPDATE cards SET mcinumber='75' WHERE id='1b1f9cf5274739637dc5524af7334ec89f9cd49b'; /*UST Zombified*/
 
 UPDATE cards SET mcinumber='31' WHERE id='4ae5d8e2fa3d327826129438603eb13939ddc504'; /*RIX Admiral's Order*/
 UPDATE cards SET mcinumber='122' WHERE id='4c3fc427d61ec814d8885646a9dcead8e66dee70'; /*RIX Aggressive Urge*/
