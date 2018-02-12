@@ -30,6 +30,7 @@ id,
 setcode,
 type,
 types,
+mcinumber,
 multiverseid,
 layout,
 'https://magiccards.info/scans/en/' ||
@@ -157,7 +158,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE setcode NOT IN ('RQS') AND setcode IN ('ITP', 'DDR', 'UST', 'pPRE', 'DKM')
+WHERE setcode NOT IN ('RQS') AND setcode IN ('DDR', 'ITP', 'DDP', 'DPA', 'pPRE')
 ''')
 
 
@@ -181,6 +182,7 @@ def get_dict_resultset():
         'setcode',
         'type',
         'types',
+        'mcinumber',
         'multiverseid',
         'layout',
         'url',
@@ -228,7 +230,7 @@ def get_url(dic):
         )
         return url
 
-    if dic['layout'] == 'token':
+    if dic['layout'] == 'token' and dic['mcinumber'] == '':
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
@@ -240,7 +242,7 @@ def get_url(dic):
         )
         return url
 
-    if dic['multiverseid'] == '':
+    if dic['mcinumber'] == '':
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
