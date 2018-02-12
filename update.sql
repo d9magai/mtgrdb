@@ -683,22 +683,6 @@ UPDATE cards SET mcinumber='33' WHERE id='025e9b2e7ef3645b832009460cb21e37fd54cf
 UPDATE cards SET mcinumber='60' WHERE id='8c41161886c3cf8188f0c60f3a443072c7748095'; /*DDS mountain4*/
 UPDATE cards SET mcinumber='61' WHERE id='b288b18617f21f33ef4195a47f91e4dde082ae55'; /*DDS mountain5*/
 UPDATE cards SET mcinumber='62' WHERE id='c6ab023159bea0b40a1af63945f525daee341230'; /*DDS mountain6*/
-UPDATE cards SET mcinumber='110' WHERE id='bd14944ec7e66b18b1b74a67f67cd3953798160a'; /*DPA forest1*/
-UPDATE cards SET mcinumber='111' WHERE id='e62834cff28391f823f6952b6f7c23c1efe75104'; /*DPA forest2*/
-UPDATE cards SET mcinumber='112' WHERE id='1c3c629ecc38e73522b96ef004b6121d4468db95'; /*DPA forest3*/
-UPDATE cards SET mcinumber='113' WHERE id='7bf2113ca7508f473d37493b0ea069b80bc19853'; /*DPA forest4*/
-UPDATE cards SET mcinumber='98' WHERE id='c1c84cc1129d2ca2e4c9896c20e3ded15db0a1e5'; /*DPA island1*/
-UPDATE cards SET mcinumber='99' WHERE id='945e99ceb0a0c04c617d844ef153f6c32956b609'; /*DPA island2*/
-UPDATE cards SET mcinumber='100' WHERE id='b0d2d8ee5046b2c3d943d1dbf13c9193634fcd1d'; /*DPA island3*/
-UPDATE cards SET mcinumber='101' WHERE id='1e145efc6761a6192fe60d7dc390848b82c07a4f'; /*DPA island4*/
-UPDATE cards SET mcinumber='106' WHERE id='0548b952a18c4d32b3681232e97b3dfba5c1e1a1'; /*DPA mountain1*/
-UPDATE cards SET mcinumber='107' WHERE id='32429e12ef3eb451f896d3effaf5d071ab7be4ad'; /*DPA mountain2*/
-UPDATE cards SET mcinumber='108' WHERE id='a65a8a20fbe5b5e0e0474e583bb5864b92607447'; /*DPA mountain3*/
-UPDATE cards SET mcinumber='109' WHERE id='9f2174ad3fa5ee878b1ce7c0b55f3549e4a7f068'; /*DPA mountain4*/
-UPDATE cards SET mcinumber='102' WHERE id='edcb786d6ac7ae470e81ab741dd69e164029c033'; /*DPA swamp1*/
-UPDATE cards SET mcinumber='103' WHERE id='fa07beee2909b64c9f5a93440932e08d2ccb199c'; /*DPA swamp2*/
-UPDATE cards SET mcinumber='104' WHERE id='0231b9101ca6a857c22882cf6f4efa5f0ee0a366'; /*DPA swamp3*/
-UPDATE cards SET mcinumber='105' WHERE id='b2f46cdc400376a026e05f3fc3b54a2258239475'; /*DPA swamp4*/
 UPDATE cards SET mcinumber='262' WHERE id='219c67c7af510d9a0705e0a3780a2755a56d6c76'; /*DTK forest1*/
 UPDATE cards SET mcinumber='263' WHERE id='944d0c8fc1fb55f1dcb022295f983136ffc8ad11'; /*DTK forest2*/
 UPDATE cards SET mcinumber='264' WHERE id='626ca0f9676aba92aba86dae779378162d4e035e'; /*DTK forest3*/
@@ -2979,3 +2963,118 @@ UPDATE cards SET mcinumber='29' WHERE id='f507bc33e26dff35c3715e99025d19c567ab69
 UPDATE cards SET mcinumber='29' WHERE id='0f4bb07c3fa89b82277f825e8d82adce70a918a7'; /*UGL B.F.M.*/
 
 UPDATE cards SET mcinumber='73' WHERE id='da0c2e1d365ecbe9f857cc8611a26a4942123486'; /*UNH Curse of the Fire Penguin Creature*/
+
+UPDATE cards SET (mcinumber, artist) = ('18', 'Michael Sutfin') WHERE id='50c76a5a12f36d77afbd7291ae37f5b84dbbbc68'; /*DPA Abyssal Specter*/
+UPDATE cards SET mcinumber='37' WHERE id='7be42cffba290c95a999a1ede6658be2c90b2ade'; /*DPA Act of Treason*/
+UPDATE cards SET mcinumber='1' WHERE id='aa85002a00296b04099edcdc8c957d2f08f94264'; /*DPA Air Elemental*/
+UPDATE cards SET mcinumber='19' WHERE id='f3a553606242a9555aec122ff7c1f7f0301644e1'; /*DPA Ascendant Evincar*/
+UPDATE cards SET mcinumber='38' WHERE id='51fa54f4bdd31d6827c935bf424c6a2373b35dd2'; /*DPA Banefire*/
+UPDATE cards SET (mcinumber, artist) = ('55', 'Parente') WHERE id='b84770f4ab67d082e3cc0ab2a1da0b26f854ca63'; /*DPA Blanchwood Armor*/
+UPDATE cards SET mcinumber='39' WHERE id='167ef367830b51afdc6a0f3717c8c8f504078e97'; /*DPA Blaze*/
+UPDATE cards SET mcinumber='40' WHERE id='a7d8b9bbc8b3bf744d0eb1dfe4c37d42b19bcf86'; /*DPA Bloodmark Mentor*/
+UPDATE cards SET mcinumber='2' WHERE id='72f89b131fe685013c5628917f58a5917cb643a2'; /*DPA Boomerang*/
+UPDATE cards SET (mcinumber, artist) = ('3', 'David Palumbo') WHERE id='d011ffd264bbfbf361639d1f31d758a5ac672daf'; /*DPA Cancel*/
+UPDATE cards SET mcinumber='41' WHERE id='f9a7719b8203f9383b17472fd6ae30449b7430a9'; /*DPA Cinder Pyromancer*/
+UPDATE cards SET mcinumber='56' WHERE id='76044dcc1d50f23a0cbe7e55d669b994e1b73ec6'; /*DPA Civic Wayfinder*/
+UPDATE cards SET mcinumber='4' WHERE id='0deefc4218caf2d60fd152d35c78bb8f6db49988'; /*DPA Cloud Sprite*/
+UPDATE cards SET mcinumber='90' WHERE id='f6d94f70f275559e23480437494653c69b09b3f4'; /*DPA Coat of Arms*/
+UPDATE cards SET (mcinumber, artist) = ('20', 'Justin Sweet') WHERE id='9f3f7ae58a25d198765cb5742f53ef900420a368'; /*DPA Consume Spirit*/
+UPDATE cards SET mcinumber='5' WHERE id='756fbd446b3e4c66ddf0db1b209d73ed81cd2c55'; /*DPA Counterbore*/
+UPDATE cards SET mcinumber='21' WHERE id='b8e36114a7f31abd7ce78bba88daf280781d4ccb'; /*DPA Crowd of Cinders*/
+UPDATE cards SET mcinumber='6' WHERE id='6c0b056e72fcc9758d5110908c138377060f0121'; /*DPA Deluge*/
+UPDATE cards SET mcinumber='91' WHERE id='8b70c08a82e8925c6f54ba68217d2bc2c3745767'; /*DPA Demon's Horn*/
+UPDATE cards SET mcinumber='7' WHERE id='a2fbe913831ce0974854d5b1d5bf9695a4a2b95c'; /*DPA Denizen of the Deep*/
+UPDATE cards SET mcinumber='92' WHERE id='03d4d791c094b7de3148e588beb878ebda6c6515'; /*DPA Dragon's Claw*/
+UPDATE cards SET mcinumber='57' WHERE id='0f3f3326655e3b68e94bd46a195a69ceadce996d'; /*DPA Drove of Elves*/
+UPDATE cards SET (mcinumber, artist) = ('22', 'Daarken') WHERE id='a0830feb75776a4bd38166a5aa496df7ea271541'; /*DPA Drudge Skeletons*/
+UPDATE cards SET mcinumber='58' WHERE id='da0b4097d71399f7218821cf3a136d54a7f14976'; /*DPA Duskdale Wurm*/
+UPDATE cards SET mcinumber='23' WHERE id='baa705e813f031a079f7501eb3a1a676a952bd86'; /*DPA Dusk Imp*/
+UPDATE cards SET mcinumber='42' WHERE id='36d0896bdff327677e0746074b8e40687c7d35b0'; /*DPA Earth Elemental*/
+UPDATE cards SET mcinumber='59' WHERE id='e31c145525e206e657eb3f16dc2875ef8b7385d4'; /*DPA Elven Riders*/
+UPDATE cards SET mcinumber='60' WHERE id='e87ede3a4e20e20542ca053ed4bbfd2ae3fd0a0e'; /*DPA Elvish Champion*/
+UPDATE cards SET mcinumber='61' WHERE id='00053bd196176580f01eae8436ebfe180b6d5e43'; /*DPA Elvish Eulogist*/
+UPDATE cards SET mcinumber='62' WHERE id='f9e4cb82c38634d04e7f8483cb3f1c526592142b'; /*DPA Elvish Promenade*/
+UPDATE cards SET mcinumber='63' WHERE id='aa2ba2717f0f3d24b0f924ffe80454a3b49b857d'; /*DPA Elvish Visionary*/
+UPDATE cards SET mcinumber='64' WHERE id='d1d411d0258203a1b040a1ff99372656ed8f1ff6'; /*DPA Elvish Warrior*/
+UPDATE cards SET mcinumber='43' WHERE id='dff04c90c17b7b3679146f70c1b966e7a01aa58b'; /*DPA Enrage*/
+UPDATE cards SET mcinumber='24' WHERE id='faf43618da6ecd04d8716cc36198e589b848f0f1'; /*DPA Essence Drain*/
+UPDATE cards SET mcinumber='8' WHERE id='fdbf4a0a45898e51ff885e88a2bf4a4546ad4ac5'; /*DPA Essence Scatter*/
+UPDATE cards SET mcinumber='9' WHERE id='04faa6a178cc65f52ee0ff9519635d69394180a2'; /*DPA Evacuation*/
+UPDATE cards SET mcinumber='25' WHERE id='10101587772f77c73d69ea7927963486a51ac82b'; /*DPA Eyeblight's Ending*/
+UPDATE cards SET (mcinumber, artist) = ('110', 'Glen Angus') WHERE id='bd14944ec7e66b18b1b74a67f67cd3953798160a'; /*DPA Forest1*/
+UPDATE cards SET (mcinumber, artist) = ('111', 'John Avon') WHERE id='e62834cff28391f823f6952b6f7c23c1efe75104'; /*DPA Forest2*/
+UPDATE cards SET (mcinumber, artist) = ('112', 'Steve Belledin') WHERE id='1c3c629ecc38e73522b96ef004b6121d4468db95'; /*DPA Forest3*/
+UPDATE cards SET (mcinumber, artist) = ('113', 'Jim Nelson') WHERE id='7bf2113ca7508f473d37493b0ea069b80bc19853'; /*DPA Forest4*/
+UPDATE cards SET mcinumber='44' WHERE id='98acacfa4fd5a68eee509b8e919cd208bad548a7'; /*DPA Furnace of Rath*/
+UPDATE cards SET mcinumber='65' WHERE id='7f38637a58d6146df2e8b052215081482c6b12d9'; /*DPA Gaea's Herald*/
+UPDATE cards SET mcinumber='66' WHERE id='bd994f31763d81622c837c04c43d3aaa5598c1f9'; /*DPA Giant Growth*/
+UPDATE cards SET mcinumber='67' WHERE id='d0915411037e66374a363ba04c525c2137d28925'; /*DPA Giant Spider*/
+UPDATE cards SET mcinumber='45' WHERE id='b875ca546a7548372c797ed95187a58a72f7aca3'; /*DPA Goblin Piker*/
+UPDATE cards SET mcinumber='46' WHERE id='40692d655f7df4ba7834effefd7d6b3f61d3d532'; /*DPA Goblin Sky Raider*/
+UPDATE cards SET mcinumber='68' WHERE id='aa61092317b6d906f3ec5acea7a254d6edadb8ba'; /*DPA Greenweaver Druid*/
+UPDATE cards SET mcinumber='47' WHERE id='b595ec9424f4b4efdf577a452cca461930cb21c8'; /*DPA Hill Giant*/
+UPDATE cards SET mcinumber='69' WHERE id='a998fafa4d94aacf4cd4f63016d76b2485d6dbc1'; /*DPA Howl of the Night Pack*/
+UPDATE cards SET mcinumber='70' WHERE id='4acd3b15bcac6b59d1c972f46b2fdb716789e8db'; /*DPA Immaculate Magistrate*/
+UPDATE cards SET mcinumber='71' WHERE id='be7076db5e2154f3ab38ef35d0598d9e01a1f7d9'; /*DPA Imperious Perfect*/
+UPDATE cards SET mcinumber='48' WHERE id='ea405a01eeb532cee611a374c1e3352bce4428d8'; /*DPA Incinerate*/
+UPDATE cards SET (mcinumber, artist) = ('98', 'Rob Alexander') WHERE id='c1c84cc1129d2ca2e4c9896c20e3ded15db0a1e5'; /*DPA Island1*/
+UPDATE cards SET (mcinumber, artist) = ('99', 'John Avon') WHERE id='945e99ceb0a0c04c617d844ef153f6c32956b609'; /*DPA Island2*/
+UPDATE cards SET (mcinumber, artist) = ('100', 'Scott Bailey') WHERE id='b0d2d8ee5046b2c3d943d1dbf13c9193634fcd1d'; /*DPA Island3*/
+UPDATE cards SET (mcinumber, artist) = ('101', 'Fred Fields') WHERE id='1e145efc6761a6192fe60d7dc390848b82c07a4f'; /*DPA Island4*/
+UPDATE cards SET (mcinumber, artist) = ('72', 'Parente') WHERE id='38aa793f2fc68e9b6087effdc34102d2168ef344'; /*DPA Jagged-Scar Archers*/
+UPDATE cards SET mcinumber='49' WHERE id='823299f850933f3c6319ae822ea3e5c0e77a36cb'; /*DPA Kamahl, Pit Fighter*/
+UPDATE cards SET mcinumber='93' WHERE id='5c1a90379d4026ac60141ec040045192d881aaf7'; /*DPA Kraken's Eye*/
+UPDATE cards SET mcinumber='50' WHERE id='708d587748fc9f703c7328a565d90ec9d11f264f'; /*DPA Lightning Elemental*/
+UPDATE cards SET mcinumber='94' WHERE id='ab54c4edd01edc1360f68a1aa4518c95fa67f8d6'; /*DPA Loxodon Warhammer*/
+UPDATE cards SET mcinumber='73' WHERE id='2253b5f1851350fb664ddae09c5516e0d3522cda'; /*DPA Lys Alana Huntmaster*/
+UPDATE cards SET mcinumber='10' WHERE id='e3233ef2de95ab79b59abe31c2de69e0b59880b4'; /*DPA Mahamoti Djinn*/
+UPDATE cards SET mcinumber='26' WHERE id='f29c4dca34af7c4c058c324f724a13a863ec72ea'; /*DPA Megrim*/
+UPDATE cards SET mcinumber='11' WHERE id='ec413c018a9d474e4c1b6a74b62b55e862c5121c'; /*DPA Mind Control*/
+UPDATE cards SET mcinumber='27' WHERE id='51ed53926bbaefde5887fd48e4bb84e29826788a'; /*DPA Mind Rot*/
+UPDATE cards SET mcinumber='28' WHERE id='8ba71663bf7872d59f0ca84fb156d088344785ca'; /*DPA Mind Shatter*/
+UPDATE cards SET mcinumber='12' WHERE id='ae1cbbc22ba69c16a8981b1da9ff4b75a0d3cb59'; /*DPA Mind Spring*/
+UPDATE cards SET mcinumber='74' WHERE id='117a822921f2b848280239a4cc31426c5128ba1c'; /*DPA Molimo, Maro-Sorcerer*/
+UPDATE cards SET mcinumber='29' WHERE id='0881e5560b92b20e88a084960c024a1d73cde85f'; /*DPA Moonglove Winnower*/
+UPDATE cards SET mcinumber='30' WHERE id='70cf234c90dc795d875dfae311c1c32d04394c82'; /*DPA Mortivore*/
+UPDATE cards SET (mcinumber, artist) = ('106', 'Rob Alexander') WHERE id='0548b952a18c4d32b3681232e97b3dfba5c1e1a1'; /*DPA Mountain1*/
+UPDATE cards SET (mcinumber, artist) = ('107', 'Nils Hamm') WHERE id='32429e12ef3eb451f896d3effaf5d071ab7be4ad'; /*DPA Mountain2*/
+UPDATE cards SET (mcinumber, artist) = ('108', 'Karl Kopinski') WHERE id='a65a8a20fbe5b5e0e0474e583bb5864b92607447'; /*DPA Mountain3*/
+UPDATE cards SET (mcinumber, artist) = ('109', 'Sam Wood') WHERE id='9f2174ad3fa5ee878b1ce7c0b55f3549e4a7f068'; /*DPA Mountain4*/
+UPDATE cards SET mcinumber='76' WHERE id='90670b4d56d81f134c252cffb7acc40acad3d68a'; /*DPA Naturalize*/
+UPDATE cards SET mcinumber='75' WHERE id='f9edb587cf893ef0f21e8a6dafc91a7854faff54'; /*DPA Natural Spring*/
+UPDATE cards SET mcinumber='77' WHERE id='0f133d78b811f25c8ff74d0cf054265eb47a8e59'; /*DPA Nature's Spiral*/
+UPDATE cards SET mcinumber='13' WHERE id='d29b3edd364064f0b3018af82959239f084193b1'; /*DPA Negate*/
+UPDATE cards SET mcinumber='78' WHERE id='96b25cf9c81f73c4ae13bb80008577f2c2651794'; /*DPA Overrun*/
+UPDATE cards SET mcinumber='14' WHERE id='130be916fa51e2232fcddcbe90de32db2c7351f3'; /*DPA Phantom Warrior*/
+UPDATE cards SET mcinumber='51' WHERE id='2a5dcb48e1e80976d653ee5ed65f60c33a7d40ee'; /*DPA Prodigal Pyromancer*/
+UPDATE cards SET mcinumber='52' WHERE id='cace44db5b6f5a9fc5d7ad98db6bc66efeb4ae7e'; /*DPA Rage Reflection*/
+UPDATE cards SET mcinumber='79' WHERE id='cb57032f2913dc110135264268355d9d65917620'; /*DPA Rampant Growth*/
+UPDATE cards SET mcinumber='31' WHERE id='1a6a314e1fafa47130f6f3ffb5ded1e7ff6bc69c'; /*DPA Ravenous Rats*/
+UPDATE cards SET mcinumber='80' WHERE id='bd1b7c9579efe6ff58a0b5dcdb9d87555708d4fc'; /*DPA River Boa*/
+UPDATE cards SET mcinumber='81' WHERE id='d6c7ba655c320a7e9404df044c74557f0b7f8cba'; /*DPA Roughshod Mentor*/
+UPDATE cards SET mcinumber='82' WHERE id='80dfb8391d5a3127c166e842eab234efe1534c5a'; /*DPA Runeclaw Bear*/
+UPDATE cards SET mcinumber='32' WHERE id='4de5ce8236004f83671d3ce82b41d2a95b7fa9a5'; /*DPA Sengir Vampire*/
+UPDATE cards SET mcinumber='33' WHERE id='bcb4d141e512f2f1312edef60b1e1ec5425d0328'; /*DPA Severed Legion*/
+UPDATE cards SET mcinumber='53' WHERE id='2132105c721a0972071d833979323c49f19c5800'; /*DPA Shivan Dragon*/
+UPDATE cards SET mcinumber='54' WHERE id='98aab383d85e66cbb47d6d18027ef2ee23eb85a4'; /*DPA Shock*/
+UPDATE cards SET (mcinumber, artist) = ('15', 'Todd Lockwood') WHERE id='b79cee89becb0320f6a2e9c2a5a18d6b4b0d88c8'; /*DPA Snapping Drake*/
+UPDATE cards SET mcinumber='83' WHERE id='e62998a340e80927e983563ef7efe52fea0d7516'; /*DPA Spined Wurm*/
+UPDATE cards SET (mcinumber, artist) = ('102', 'Dan Frazier') WHERE id='edcb786d6ac7ae470e81ab741dd69e164029c033'; /*DPA Swamp1*/
+UPDATE cards SET (mcinumber, artist) = ('103', 'Alex Horley-Orlandelli') WHERE id='fa07beee2909b64c9f5a93440932e08d2ccb199c'; /*DPA Swamp2*/
+UPDATE cards SET (mcinumber, artist) = ('104', 'Jim Pavelec') WHERE id='0231b9101ca6a857c22882cf6f4efa5f0ee0a366'; /*DPA Swamp3*/
+UPDATE cards SET (mcinumber, artist) = ('105', 'Alan Pollack') WHERE id='b2f46cdc400376a026e05f3fc3b54a2258239475'; /*DPA Swamp4*/
+UPDATE cards SET mcinumber='84' WHERE id='b92ba037619be4cbd84e3a8a38c1e3054e9764d4'; /*DPA Talara's Battalion*/
+UPDATE cards SET mcinumber='34' WHERE id='a3b4e3d334fd29e0cb572487431977a3e4ea687b'; /*DPA Terror*/
+UPDATE cards SET mcinumber='95' WHERE id='c5d464937e431b289288f2fc7b812186bf5891fb'; /*DPA The Rack*/
+UPDATE cards SET mcinumber='16' WHERE id='5206e4d657a3b06ed464fea8670da3f12c7d0aa3'; /*DPA Thieving Magpie*/
+UPDATE cards SET mcinumber='85' WHERE id='178da8038a787936a36ecc033f4abde6b65e6a98'; /*DPA Trained Armodon*/
+UPDATE cards SET mcinumber='86' WHERE id='83240f49fa68d0160323f6fb5861177baf761d14'; /*DPA Troll Ascetic*/
+UPDATE cards SET mcinumber='35' WHERE id='f90013bf926827ca2668f4b92622d3e3233ce2c7'; /*DPA Underworld Dreams*/
+UPDATE cards SET mcinumber='36' WHERE id='458530920adf3598be98375f0abbe4dee0bf5795'; /*DPA Unholy Strength*/
+UPDATE cards SET (mcinumber, artist) = ('17', 'Izzy') WHERE id='e7c5a179976e195ad445405d4afb320eeeeb0917'; /*DPA Unsummon*/
+UPDATE cards SET mcinumber='87' WHERE id='ce2076c75c6fa6d4a8332920ca1a1567ce38ca45'; /*DPA Verdant Force*/
+UPDATE cards SET mcinumber='88' WHERE id='632a77e203d8a2806eff52deea8f53970da198c3'; /*DPA Vigor*/
+UPDATE cards SET (mcinumber, artist) = ('96', 'Christopher Moeller') WHERE id='6d3a12ae55a9458126c33f05cca0c8265e41b0fd'; /*DPA Wall of Spears*/
+UPDATE cards SET mcinumber='89' WHERE id='fae254b39ef83e89e0cd8929d35a75a01db2aa14'; /*DPA Wall of Wood*/
+UPDATE cards SET mcinumber='97' WHERE id='71c635842210526a67f318a13e500ab83ec6781c'; /*DPA Wurm's Tooth*/
+
