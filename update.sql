@@ -819,11 +819,6 @@ UPDATE cards SET mcinumber='252' WHERE id='0a9414ac9892bfa078059e6fdbb4b973515f8
 UPDATE cards SET mcinumber='256' WHERE id='879285d7ada62b81797d9aec0427783df258f3ff'; /*ISD swamp1*/
 UPDATE cards SET mcinumber='257' WHERE id='11f88cc29e85d0a34009c28fc56e46653b0e788f'; /*ISD swamp2*/
 UPDATE cards SET mcinumber='258' WHERE id='c86c944e167401698985486f476176aa087575a8'; /*ISD swamp3*/
-UPDATE cards SET mcinumber='18' WHERE id='5a3e0b7747e7e6ef9dd2954330d94fe92c87ff09'; /*ITP forest1*/
-UPDATE cards SET mcinumber='26' WHERE id='46e6956d625e51e2d00d836736c1c7d20e350c0d'; /*ITP island1*/
-UPDATE cards SET mcinumber='34' WHERE id='e2b3649ee6b1998f53904e5eaa95cecb435adb4f'; /*ITP mountain1*/
-UPDATE cards SET mcinumber='42' WHERE id='96f839810a6fe15b0e3d07d26f652f0a60ace3a5'; /*ITP plains1*/
-UPDATE cards SET mcinumber='52' WHERE id='07bfa66e2224f0b1a557ce8fec64fc275e4a81eb'; /*ITP swamp1*/
 UPDATE cards SET mcinumber='262' WHERE id='2b038f6d34d18ce021045f9dde31d07880032ddc'; /*KLD forest1*/
 UPDATE cards SET mcinumber='263' WHERE id='e1a38b5bdeb8450eb8e26e98fea2c9f02807570d'; /*KLD forest2*/
 UPDATE cards SET mcinumber='264' WHERE id='39005241028ff1bbc35ff2272f03070c4d0f5d23'; /*KLD forest3*/
@@ -3077,4 +3072,72 @@ UPDATE cards SET mcinumber='88' WHERE id='632a77e203d8a2806eff52deea8f53970da198
 UPDATE cards SET (mcinumber, artist) = ('96', 'Christopher Moeller') WHERE id='6d3a12ae55a9458126c33f05cca0c8265e41b0fd'; /*DPA Wall of Spears*/
 UPDATE cards SET mcinumber='89' WHERE id='fae254b39ef83e89e0cd8929d35a75a01db2aa14'; /*DPA Wall of Wood*/
 UPDATE cards SET mcinumber='97' WHERE id='71c635842210526a67f318a13e500ab83ec6781c'; /*DPA Wurm's Tooth*/
+
+UPDATE cards SET mcinumber='1' WHERE id='54854318213f48b6e9326fb14899961203ae8ead'; /*ITP Alabaster Potion*/
+UPDATE cards SET mcinumber='2' WHERE id='85c5c7ff0f016748813d0ddeac35319722b89fc5'; /*ITP Battering Ram*/
+UPDATE cards SET mcinumber='3' WHERE id='b472b933887b7bc5cbf269874b83b6c9117a1b6f'; /*ITP Bog Imp*/
+UPDATE cards SET mcinumber='4' WHERE id='45279696119b2a702d271c4e4497c0c5955cdba9'; /*ITP Bog Wraith*/
+UPDATE cards SET mcinumber='5' WHERE id='80f2af08d1f4cd04e0c533b2f401d449edba2b35'; /*ITP Circle of Protection: Black*/
+UPDATE cards SET mcinumber='6' WHERE id='8eb0037c0a60a3f23913ae6415b08ad109fb298f'; /*ITP Circle of Protection: Red*/
+UPDATE cards SET mcinumber='7' WHERE id='ed288fe76d1542a817fac71eec737ed740c5587b'; /*ITP Clockwork Beast*/
+UPDATE cards SET mcinumber='8' WHERE id='142ba7c04ae5f5172ddeb5576600748605c54f28'; /*ITP Cursed Land*/
+UPDATE cards SET mcinumber='9' WHERE id='3bfbb3fa67d93b1dadf1ed6046a16359efc8ca00'; /*ITP Dark Ritual*/
+UPDATE cards SET mcinumber='10' WHERE id='864f19013e9b20af41980f1d49776de1ea98f397'; /*ITP Detonate*/
+UPDATE cards SET mcinumber='11' WHERE id='2272c2604b3e5ea713e90354601668f7d5a58743'; /*ITP Disintegrate*/
+UPDATE cards SET mcinumber='12' WHERE id='e7ce291fb3d68875744b82a14640a19e6dfab861'; /*ITP Durkwood Boars*/
+UPDATE cards SET mcinumber='13' WHERE id='618d344180076627ff012a95562a8f4d70c4adc8'; /*ITP Elven Riders*/
+UPDATE cards SET mcinumber='14' WHERE id='08f193544108c49c792e5cf27816ccf74cc0692a'; /*ITP Elvish Archers*/
+UPDATE cards SET mcinumber='15' WHERE id='6e8f6e6f6c32848823fb6aad979bacdddd444e32'; /*ITP Energy Flux*/
+UPDATE cards SET mcinumber='16' WHERE id='086de8ae59dd2d27bc74d6b0f8bb8d08b7fa7a01'; /*ITP Feedback*/
+UPDATE cards SET mcinumber='17' WHERE id='078196dec7769aa9e81c730d0635a16b9b06f241'; /*ITP Fireball*/
+UPDATE cards SET mcinumber='18' WHERE id='5a3e0b7747e7e6ef9dd2954330d94fe92c87ff09'; /*ITP Forest*/
+UPDATE cards SET mcinumber='19' WHERE id='1100328e8f5bf652e25b485da6e7e79736ae7e52'; /*ITP Forest*/
+UPDATE cards SET mcinumber='20' WHERE id='94a0ec49b6daca217c5da5cd9c6c243b3098bd75'; /*ITP Forest*/
+UPDATE cards SET mcinumber='21' WHERE id='a1a5e62261379880b59d9684246a85cc1a960a63'; /*ITP Glasses of Urza*/
+UPDATE cards SET mcinumber='22' WHERE id='9b5903a69e3e0fee9b90945d0bcff7925a0e6948'; /*ITP Grizzly Bears*/
+UPDATE cards SET mcinumber='23' WHERE id='1c270887f4b1a0efcc0a82e5251e4ffab68de91a'; /*ITP Healing Salve*/
+UPDATE cards SET mcinumber='24' WHERE id='d9c352d9cfc6b123145639f502f624389b619915'; /*ITP Hill Giant*/
+UPDATE cards SET mcinumber='25' WHERE id='2719fbb57812bc6df1fcd87c8429bf68bd685faf'; /*ITP Ironclaw Orcs*/
+UPDATE cards SET mcinumber='26' WHERE id='5c432e17d28a211532b335d204eb843a94144c42'; /*ITP Island*/
+UPDATE cards SET mcinumber='27' WHERE id='46e6956d625e51e2d00d836736c1c7d20e350c0d'; /*ITP Island*/
+UPDATE cards SET mcinumber='28' WHERE id='b16dcc86499f5058cb769b741db1fa901853182a'; /*ITP Island*/
+UPDATE cards SET mcinumber='29' WHERE id='71c59e83ffb70c84c87d4d602007d3ca023576f5'; /*ITP Jayemdae Tome*/
+UPDATE cards SET mcinumber='30' WHERE id='8a686041e2f11a63036406ac2a17b737e2e951bd'; /*ITP Lost Soul*/
+UPDATE cards SET mcinumber='31' WHERE id='7facfcccbf86fc743acfc814b3287865e8457a88'; /*ITP Merfolk of the Pearl Trident*/
+UPDATE cards SET mcinumber='32' WHERE id='3effbc6d44473cddae0893e070bd9f3fd1693763'; /*ITP Mesa Pegasus*/
+UPDATE cards SET mcinumber='33' WHERE id='6e17b4ae84426825c6e182c044e18e633d8d4bfd'; /*ITP Mons's Goblin Raiders*/
+UPDATE cards SET mcinumber='34' WHERE id='0c098cbb9fdb2ed51d4a1d0158701a551abfbd39'; /*ITP Mountain*/
+UPDATE cards SET mcinumber='35' WHERE id='bfc5608258e02da23c5730990a35b7820c12e6b7'; /*ITP Mountain*/
+UPDATE cards SET mcinumber='36' WHERE id='e2b3649ee6b1998f53904e5eaa95cecb435adb4f'; /*ITP Mountain*/
+UPDATE cards SET mcinumber='37' WHERE id='e0a4f3a06b34c0ea63ce46dcf020b4975c93a890'; /*ITP Murk Dwellers*/
+UPDATE cards SET mcinumber='38' WHERE id='b18e2118900231103cdaa8137da1e42772c8cf8a'; /*ITP Orcish Artillery*/
+UPDATE cards SET mcinumber='39' WHERE id='c2c3486a0fd32470049265c42c3f96a9fd4b0ce8'; /*ITP Orcish Oriflamme*/
+UPDATE cards SET mcinumber='40' WHERE id='4b4ae8cc9e5dcbb4b0cf54b18ce4eff1d58cdf99'; /*ITP Pearled Unicorn*/
+UPDATE cards SET mcinumber='41' WHERE id='9bfbdba14ebdd69d81d89a599ccfba7f88642560'; /*ITP Phantom Monster*/
+UPDATE cards SET mcinumber='42' WHERE id='912d58716d3d01a33b02ffa6e425b2e122992716'; /*ITP Plains*/
+UPDATE cards SET mcinumber='43' WHERE id='453ff59305d8d4082f2e12df24b53a48676760f5'; /*ITP Plains*/
+UPDATE cards SET mcinumber='44' WHERE id='96f839810a6fe15b0e3d07d26f652f0a60ace3a5'; /*ITP Plains*/
+UPDATE cards SET mcinumber='45' WHERE id='8e89ec8c29d83f4e836a16054159a970fd86fcd2'; /*ITP Power Sink*/
+UPDATE cards SET mcinumber='46' WHERE id='22a89324b4ffd50bcf94f40b004d66b34e7ac7bd'; /*ITP Pyrotechnics*/
+UPDATE cards SET mcinumber='47' WHERE id='f370667fe98bd62bff936650324e870d3268959d'; /*ITP Raise Dead*/
+UPDATE cards SET mcinumber='48' WHERE id='27e1d8c426a32a03dc1f22163491e6c2c6c4eb28'; /*ITP Reverse Damage*/
+UPDATE cards SET mcinumber='49' WHERE id='018e041fc131ec2e3690957f9ee0064b06cc64df'; /*ITP Rod of Ruin*/
+UPDATE cards SET mcinumber='50' WHERE id='c8a5e17a71f7eb29b8603b60ac3de77c45c1bbcd'; /*ITP Scathe Zombies*/
+UPDATE cards SET mcinumber='67' WHERE id='14dd4165b85c1fc105407901e1d6688921718a19'; /*ITP Scryb Sprites*/
+UPDATE cards SET mcinumber='51' WHERE id='beafb2867b2704b3c84050d69216269da38410f9'; /*ITP Sorceress Queen*/
+UPDATE cards SET mcinumber='52' WHERE id='1bd3adfb2ae0c46d37446de286aea3e1d2b282e6'; /*ITP Swamp*/
+UPDATE cards SET mcinumber='53' WHERE id='07bfa66e2224f0b1a557ce8fec64fc275e4a81eb'; /*ITP Swamp*/
+UPDATE cards SET mcinumber='54' WHERE id='b893495d80920a22cbe24c974ad07923524d943c'; /*ITP Swamp*/
+UPDATE cards SET mcinumber='55' WHERE id='c9c1df12441ac480e3383289aee7ad2e2741b93a'; /*ITP Terror*/
+UPDATE cards SET mcinumber='56' WHERE id='1599e1c9ef7e988e5c6eaecc9eeb295ad888e4bf'; /*ITP Twiddle*/
+UPDATE cards SET mcinumber='57' WHERE id='ee4b668e628d48415539cd4735dfa5bd31e5dc23'; /*ITP Unsummon*/
+UPDATE cards SET mcinumber='58' WHERE id='675f82847bc617360dc1a49d3d24d59e03063405'; /*ITP Untamed Wilds*/
+UPDATE cards SET mcinumber='59' WHERE id='56434f26b7c1147224068e870191d87add7629a1'; /*ITP Vampire Bats*/
+UPDATE cards SET mcinumber='60' WHERE id='929d6299c321aa9eaa27dc0e9ef96d3746a81527'; /*ITP Wall of Bone*/
+UPDATE cards SET mcinumber='61' WHERE id='546dc3d6bd20d9f7f8a3086a4d4d0b9722ef0eb6'; /*ITP War Mammoth*/
+UPDATE cards SET mcinumber='62' WHERE id='d819e3b3804bcfdbd959c197136677f07ea0ee5a'; /*ITP Warp Artifact*/
+UPDATE cards SET mcinumber='63' WHERE id='7ff9b48f2d93e36f2242f7a142676c94f4f12b44'; /*ITP Weakness*/
+UPDATE cards SET mcinumber='64' WHERE id='a46a55c1e2dec9a7ed8caefb8ce70e7150508fd5'; /*ITP Whirling Dervish*/
+UPDATE cards SET mcinumber='65' WHERE id='b3ef31825694f72d1ab60717515589c3cd4eda28'; /*ITP Winter Blast*/
+UPDATE cards SET mcinumber='66' WHERE id='ddb397a7e23b0a2964b53592560c03f80421ad88'; /*ITP Zephyr Falcon*/
 
