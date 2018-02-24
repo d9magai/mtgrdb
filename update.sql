@@ -3141,3 +3141,44 @@ UPDATE cards SET mcinumber='64' WHERE id='a46a55c1e2dec9a7ed8caefb8ce70e7150508f
 UPDATE cards SET mcinumber='65' WHERE id='b3ef31825694f72d1ab60717515589c3cd4eda28'; /*ITP Winter Blast*/
 UPDATE cards SET mcinumber='66' WHERE id='ddb397a7e23b0a2964b53592560c03f80421ad88'; /*ITP Zephyr Falcon*/
 
+UPDATE cards SET mcinumber='30' WHERE id='5c6c480df91541d964fc9312d2e8a05bc755fd08'; /*DKM Woolly Spider*/
+UPDATE cards SET mcinumber='11' WHERE id='8a0d657ae94f98890e458c9d33da5e8049f27d1b'; /*DKM Death Spark*/
+UPDATE cards SET mcinumber='22' WHERE id='791a20acb908b77a6d359b94ad7059b0d92005b1'; /*DKM Balduvian Bears*/
+UPDATE cards SET mcinumber='10' WHERE id='3596d21e338bfc528e1719173ce7e1f11a18655a'; /*DKM Balduvian Horde*/
+UPDATE cards SET mcinumber='34' WHERE id='489c1308161adb4705095fb471785b48da110ea6'; /*DKM Barbed Sextant*/
+UPDATE cards SET mcinumber='23' WHERE id='26e53f1edc1c62ffd69570dd137e3c5260203538'; /*DKM Bounty of the Hunt*/
+UPDATE cards SET mcinumber='35' WHERE id='b13a05f57ceb8b419cfa182e552868bf62ec50a3'; /*DKM Elkin Bottle*/
+UPDATE cards SET mcinumber='24' WHERE id='f276a66d856800f1dc213de20d2b6af32204ef8e'; /*DKM Elvish Bard*/
+UPDATE cards SET mcinumber='25' WHERE id='3eefa8a7625794739c482c573b1a2dcccc5cd2ee'; /*DKM Folk of the Pines*/
+UPDATE cards SET mcinumber='48' WHERE id='641f133e7a7cc08b47d7922aef93eb8f0f77e4cb'; /*DKM Forest*/
+UPDATE cards SET mcinumber='27' WHERE id='3e76628a5245122218c4dee83dd65a78a91d9b90'; /*DKM Giant Growth*/
+UPDATE cards SET mcinumber='33' WHERE id='4e97e57b9d30f02c6c0a751b5dfdeb4c72d4db71'; /*DKM Giant Trap Door Spider*/
+UPDATE cards SET mcinumber='12' WHERE id='20f09ddeff1756f74d707cf57ddd9d38a2932969'; /*DKM Goblin Mutant*/
+UPDATE cards SET mcinumber='28' WHERE id='06a6f1e16ba733ad4bba9ef6f0be563d4b55f058'; /*DKM Hurricane*/
+UPDATE cards SET mcinumber='36' WHERE id='490a71b17b82821a083237fac98228b091839ae3'; /*DKM Icy Manipulator*/
+UPDATE cards SET mcinumber='14' WHERE id='4c0489bd86da7a603c5b8a9ce069da3a72750ba8'; /*DKM Incinerate*/
+UPDATE cards SET mcinumber='15' WHERE id='4bca9df7016fbe16bb711a285dfea9d3d1dd6e19'; /*DKM Jokulhaups*/
+UPDATE cards SET mcinumber='39' WHERE id='8ee60aba9ce2bceec8e14d1ccd85a3b89c049569'; /*DKM Karplusan Forest*/
+UPDATE cards SET mcinumber='16' WHERE id='67c99a649547ed3b3d534b9d7bd8bdda4f622a9a'; /*DKM Lava Burst*/
+UPDATE cards SET mcinumber='29' WHERE id='b837af2305c10d2303ad265ec066b806346a0595'; /*DKM Lhurgoyf*/
+UPDATE cards SET mcinumber='17' WHERE id='7cd9a8876745f47f74559ef3bac17907cef3d041'; /*DKM Orcish Cannoneers*/
+UPDATE cards SET mcinumber='18' WHERE id='f54cd61dbc5ba8f083707a034810f404006db373'; /*DKM Pillage*/
+UPDATE cards SET mcinumber='19' WHERE id='29b743694615b978362f36f5dd54aa978777f065'; /*DKM Pyroclasm*/
+UPDATE cards SET mcinumber='20' WHERE id='13fe474d2f876a819001ab10b2ea321791a79f9c'; /*DKM Shatter*/
+UPDATE cards SET mcinumber='40' WHERE id='9dc83efe367d7b7a6603e4ecb42c639bdcf51fde'; /*DKM Sulfurous Springs*/
+UPDATE cards SET mcinumber='41' WHERE id='46369359ff63bc8707d1590c1328c849468fda17'; /*DKM Underground River*/
+UPDATE cards SET mcinumber='38' WHERE id='5adae53c1e5f04aeda51fbdda770a9285594f7de'; /*DKM Walking Wall*/
+UPDATE cards SET mcinumber='32' WHERE id='5843416e3ece83751b3c2568ae2e18b2ee81f050'; /*DKM Yavimaya Ants*/
+UPDATE cards SET mcinumber='2' WHERE id='bef404176238e78f84dc0492a2f0b7c342a6f3bd'; /*DKM Contagion*/
+UPDATE cards SET mcinumber='3' WHERE id='a59cc3770bc40141f9a2abc60c867e0a83645530'; /*DKM Dark Banishing*/
+UPDATE cards SET mcinumber='4' WHERE id='dc2114218e35dcbc4142ae912cca94927118e8e0'; /*DKM Dark Ritual*/
+UPDATE cards SET mcinumber='5' WHERE id='414153f9f4b0fc6e97ec583b91ebda8558fa51e5'; /*DKM Foul Familiar*/
+UPDATE cards SET mcinumber='26' WHERE id='641f133e7a7cc08b47d7922aef93eb8f0f77e4cb'; /*DKM Fyndhorn Elves*/
+UPDATE cards SET mcinumber='45' WHERE id='5c3be8eddc35d8d5f6947feca192882819edb863'; /*DKM Mountain*/
+UPDATE cards SET mcinumber='46' WHERE id='8d0422a888cd14fccbf5da5c9b1c7cd513cdd6e3'; /*DKM Mountain*/
+UPDATE cards SET mcinumber='47' WHERE id='f00399da2020bc0d60ad97d65d8f65860a65d4b6'; /*DKM Mountain*/
+UPDATE cards SET mcinumber='7' WHERE id='76749e9b57540145e054c3366f132365d5bc89b7'; /*DKM Necropotence*/
+UPDATE cards SET mcinumber='9' WHERE id='eb0ee1e78b727df9309ca0d371bc8e0edb62ef01'; /*DKM Soul Burn*/
+UPDATE cards SET mcinumber='43' WHERE id='185f5652aca9c14ce1b38e388141bae39e16a269'; /*DKM Swamp*/
+UPDATE cards SET mcinumber='44' WHERE id='53b990ae931735da1d8ace0d5e25e0685ca99d35'; /*DKM Swamp*/
+
