@@ -48,6 +48,62 @@ class TestTashizan(unittest.TestCase):
         }
         self.assertEqual('https://magiccards.info/extras/plane/planechase-anthology/planewide-disaster.jpg', get_url(dic))
 
+    def test_vanguard(self):
+        dic = {
+            'name': 'Serra Angel Avatar',
+            'id': '59f7d4bdeb18b5962817ae60d94878ee558bcc50',
+            'setcode': 'VAN',
+            'type': 'Vanguard',
+            'types': ['Vanguard'],
+            'mcinumber': None,
+            'multiverseid': '205492',
+            'layout': 'vanguard',
+            'url': None,
+        }
+        self.assertEqual('http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=205492&type=card', get_url(dic))
+
+    def test_token(self):
+        dic = {
+            'name': 'Elemental Shaman',
+            'id': '39bde9d9c9d90d2008870efbafb9ee53a3a6a408',
+            'setcode': 'DD2',
+            'type': 'Creature — Elemental Shaman',
+            'types': ['Creature'],
+            'mcinumber': None,
+            'multiverseid': '190199',
+            'layout': 'token',
+            'url': None
+        }
+        self.assertEqual('http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=190199&type=card', get_url(dic))
+
+    def test_s00(self):
+        dic = {
+            'name': 'Orcish Oriflamme',
+            'id': '83fa833e814302fab6ac41e2db0e76c276d14b2a',
+            'setcode': 'S00',
+            'type': 'Enchantment',
+            'types': ['Enchantment'],
+            'mcinumber': None,
+            'multiverseid': '25540',
+            'layout': 'normal',
+            'url': None
+        }
+        self.assertEqual('http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=25540&type=card', get_url(dic))
+
+    def test_not_mcinumber(self):
+        dic = {
+            'name': "Urza's Mine",
+            'id': '7c921a805e6b8b0dd67233b3cfee38d48c6eaeb6',
+            'setcode': 'ME4',
+            'type': 'Land — Urza’s Mine',
+            'types': ['Land'],
+            'mcinumber': None,
+            'multiverseid': '220947',
+            'layout': 'normal',
+            'url': None
+        }
+        self.assertEqual('http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=220947&type=card', get_url(dic))
+
     def test_basic(self):
         dic = {
             'name': "Ancestor's Chosen",
