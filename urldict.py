@@ -10,6 +10,126 @@ import string
 import textwrap
 import tqdm
 
+magiccardsinfo_table = {
+    'p15A': '15ann',
+    'ALL': 'ai',
+    'MPS_AKH': 'mpsakh',
+    'ATH': 'at',
+    'ATQ': 'aq',
+    'APC': 'ap',
+    'ARN': 'an',
+    'pARL': 'arena',
+    'pALP': 'apac',
+    'BRB': 'br',
+    'BTD': 'bd',
+    'pCEL': 'uqc',
+    'pCMP': 'cp',
+    'CHR': 'ch',
+    'CP1': 'clash',
+    'CP2': 'clash',
+    'CP3': 'mbp',
+    '6ED': '6e',
+    'CSP': 'cs',
+    'CST': 'cstd',
+    'CM1': 'cma',
+    'CON': 'cfx',
+    'DST': 'ds',
+    'DKM': 'dm',
+    'DIS': 'di',
+    'pDRC': 'drc',
+    'DD3_DVD': 'ddadvd',
+    'DD3_EVG': 'ddaevg',
+    'DD3_GVL': 'ddagvl',
+    'DD3_JVC': 'ddajvc',
+    'DDC': 'dvd',
+    'DDD': 'gvl',
+    'DD2': 'jvc',
+    'DDE': 'pvc',
+    '8ED': '8e',
+    'undef': '8eb',
+    'pELP': 'euro',
+    'EXO': 'ex',
+    'FEM': 'fe',
+    '5ED': '5e',
+    '4ED': '4e',
+    'pFNM': 'fnmp',
+    'DRB': 'fvd',
+    'V09': 'fve',
+    'V11': 'fvl',
+    'V10': 'fvr',
+    'pGPX': 'gpx',
+    'GPT': 'gp',
+    'pGRU': 'guru',
+    'pGTW': 'grc',
+    'pWPN': 'grc',
+    'pHHO': 'hho',
+    'HML': 'hl',
+    'ICE': 'ia',
+    'CEI': 'cedi',
+    'INV': 'in',
+    'pJGP': 'jr',
+    'JUD': 'ju',
+    'MPS': 'mpskld',
+    'pLGM': 'dcilm',
+    'pLPA': 'mlp',
+    'LEG': 'lg',
+    'LGN': 'le',
+    'LEA': 'al',
+    'LEB': 'be',
+    'LRW': 'lw',
+    'pMGD': 'mgdc',
+    'pMPR': 'mprp',
+    'pMEI': 'mbp',
+    'MMQ': 'mm',
+    'MIR': 'mr',
+    'MRD': 'mi',
+    'MOR': 'mt',
+    'MGB': 'mgbc',
+    'NMS': 'ne',
+    '9ED': '9e',
+    'undef': '9eb',
+    'ODY': 'od',
+    'ONS': 'on',
+    'PLC': 'pc',
+    'HOP': 'pch',
+    'PLS': 'ps',
+    'POR': 'po',
+    'pPOD': 'pot',
+    'PTK': 'p3k',
+    'H09': 'pds',
+    'pPRE': 'ptc',
+    'pPRO': 'pro',
+    'PCY': 'pr',
+    'pREL': 'rep',
+    '3ED': 'rv',
+    'SCG': 'sc',
+    '7ED': '7e',
+    'S99': 'st',
+    'S00': 'st2k',
+    'STH': 'sh',
+    'pSUM': 'sum',
+    'pSUS': 'sus',
+    'TMP': 'tp',
+    'DRK': 'dk',
+    'TSP': 'ts',
+    'TSB': 'tsts',
+    'TOR': 'tr',
+    'p2HG': 'thgt',
+    'FRF_UGIN': 'ugin',
+    'UGL': 'ug',
+    'UNH': 'uh',
+    '2ED': 'un',
+    'undef': 'uhaa',
+    'UDS': 'ud',
+    'ULG': 'ul',
+    'USG': 'us',
+    'VIS': 'vi',
+    'VAN': '',
+    'WTH': 'wl',
+    'pWCQ': 'wmcq',
+    'pWOR': 'wrl',
+    'pWOS': 'wotc',
+}
 
 scheme_archemy = {
     'ARC': 'archenemy',
@@ -158,7 +278,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE setcode NOT IN ('RQS', 'pPRE') 
+WHERE setcode NOT IN ('RQS', 'pPRE')
 ''')
 
 
@@ -224,25 +344,25 @@ def get_url(dic):
         )
         return url
 
-    if len(getattr(dic, 'types', [])) == 1 and dic['types'][0] == 'Vanguard':
+    if dic['types'][0] == 'Vanguard':
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
         return url
 
-    if dic['layout'] == 'token' and dic['mcinumber'] == '':
+    if dic['layout'] == 'token' and not dic['mcinumber']:
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
         return url
 
-    if dic['setcode'] == 'S00' and dic['multiverseid'] == '':
+    if dic['setcode'] == 'S00' and not dic['mcinumber']:
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
         return url
 
-    if dic['mcinumber'] == '':
+    if not dic['mcinumber']:
         url = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid={}&type=card'.format(
             dic['multiverseid'],
         )
