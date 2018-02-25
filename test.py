@@ -48,6 +48,20 @@ class TestTashizan(unittest.TestCase):
         }
         self.assertEqual('https://magiccards.info/extras/plane/planechase-anthology/planewide-disaster.jpg', get_url(dic))
 
+    def test_basic(self):
+        dic = {
+            'name': "Ancestor's Chosen",
+            'id': 'ab1ab474019e4e76c66e2b524d354cb7c3212616',
+            'setcode': '10E',
+            'type': 'Creature — Human Cleric',
+            'types': ['Creature'],
+            'mcinumber': '1',
+            'multiverseid': '130550',
+            'layout': 'normal',
+            'url': 'https://magiccards.info/scans/en/10e/1.jpg'
+        }
+        self.assertEqual('https://magiccards.info/scans/en/10e/1.jpg', get_url(dic))
+
 
 if __name__ == "__main__":
     unittest.main()
