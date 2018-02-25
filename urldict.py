@@ -158,7 +158,7 @@ END
 || '/'
 || mcinumber || '.jpg' AS url
 FROM cards
-WHERE setcode NOT IN ('RQS') AND setcode IN ('DDR', 'ITP', 'DDP', 'DPA', 'pPRE')
+WHERE setcode NOT IN ('RQS', 'pPRE') 
 ''')
 
 

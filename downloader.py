@@ -47,7 +47,7 @@ def wait_with_progress(coros):
         try:
             yield from f
         except Exception:
-            print(f)
+            pass
 
 
 if __name__ == '__main__':
