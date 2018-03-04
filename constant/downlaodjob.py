@@ -1,4 +1,6 @@
 from collections import defaultdict
+import textwrap
+
 
 EXTRAS_CARDTYPE = [
     'Scheme',
@@ -135,3 +137,17 @@ MAGICCARDSINFO_TABLE = {
     'pWOR': 'wrl',
     'pWOS': 'wotc',
 }
+
+SQL_QUERY = textwrap.dedent('''
+SELECT
+name,
+id,
+setcode,
+type,
+types,
+mcinumber,
+multiverseid,
+layout
+FROM cards
+WHERE setcode NOT IN ('RQS', 'pPRE')
+''')
