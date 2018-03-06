@@ -1,10 +1,5 @@
 from string import punctuation
-
-from constant import EXTRAS_CARDTYPE
-from constant import EXTRAS_PATH
-from constant import GATHERER_WIZARDS_ENDPOINT
-from constant import MAGICCARDSINFO_TABLE
-from constant import MAGICCARDS_ENDPOINT
+from constant.downlaodjob import *
 
 
 class DownloadJob(object):
