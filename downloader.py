@@ -4,9 +4,11 @@ import async_timeout
 import asyncio
 import os
 import psycopg2
+import tqdm
 
 from constant.downlaodjob import *
 from constant.dsn import *
+
 
 MTG_DOWNLOADS_PATH = 'mtgdownloads'
 SEMAPHORE = asyncio.BoundedSemaphore(3)
@@ -123,6 +125,15 @@ async def download_coroutine(session, downloadjob):
                     await fd.write(chunk)
 
             return await response.release()
+
+
+@asyncio.coroutine
+def wait_with_progress(coros):
+    for f in tqdm.tqdm(asyncio.as_completed(coros), total=len(coros)):
+        try:
+            yield from f
+        except Exception:
+            pass
 
 
 if __name__ == '__main__':
