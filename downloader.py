@@ -1,5 +1,6 @@
 from string import punctuation
 import aiofiles
+import aiohttp
 import async_timeout
 import asyncio
 import os
@@ -139,3 +140,9 @@ def wait_with_progress(coros):
 if __name__ == '__main__':
     dbclient = DbClient()
     init(dbclient)
+    loop = asyncio.get_event_loop()
+    session = aiohttp.ClientSession(loop=loop)
+    coroutines = [download_coroutine(session, downloadjob) for downloadjob in dbclient.get_downloadjobs()]
+    loop.run_until_complete(wait_with_progress(coroutines))
+    session.close()
+    loop.close()
