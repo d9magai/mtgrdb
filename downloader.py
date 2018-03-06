@@ -10,9 +10,13 @@ class DownloadJob(object):
 
     def __init__(self, dic):
         self.__url = self.__get_url(dic)
+        self.__dst = self.__get_dst(dic)
 
     def url(self):
         return self.__url
+
+    def dst(self):
+        return self.__dst
 
     def __get_extras_name_format(self, name):
         t = str.maketrans('', '', punctuation)
@@ -40,6 +44,12 @@ class DownloadJob(object):
             MAGICCARDS_ENDPOINT,
             MAGICCARDSINFO_TABLE.get(dic['setcode'], dic['setcode'].lower()),
             dic['mcinumber'],
+        )
+
+    def __get_dst(self, dic):
+        return 'mtgdownloads/{}/{}.jpg'.format(
+            dic['setcode'],
+            dic['id']
         )
 
 
