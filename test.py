@@ -124,6 +124,20 @@ class TestDownloadJob(unittest.TestCase):
         }
         self.assertEqual('http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=5607&type=card', DownloadJob(dic).url())
 
+    def test_dst(self):
+        dic = {
+            'name': 'Squirrel token card',
+            'id': 'a47493808a9b33587743267eb4934b8de4ce09fc',
+            'setcode': 'UGL',
+            'type': '',
+            'types': None,
+            'mcinumber': None,
+            'multiverseid': '5607',
+            'layout': 'token',
+            'url': None
+        }
+        self.assertEqual('mtgdownloads/UGL/a47493808a9b33587743267eb4934b8de4ce09fc.jpg', DownloadJob(dic).dst())
+
 
 if __name__ == "__main__":
     unittest.main()
