@@ -2,6 +2,7 @@ AllSets-x.json
 json/
 run.sql
 dump.sql
+mtgdownloads/
 
 
 # Created by https://www.gitignore.io/api/python,pydev,pycharm+all,ruby
