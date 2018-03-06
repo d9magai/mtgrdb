@@ -1,4 +1,5 @@
 from string import punctuation
+import os
 import psycopg2
 
 from constant.downlaodjob import *
@@ -79,3 +80,18 @@ class DbClient(object):
             dic = dict(zip(columns, row))
             downloadjobs.append(DownloadJob(dic))
         return downloadjobs
+
+
+def init(dbclient):
+    downloadsdir_path = '{}/mtgdownloads/'.format(os.getcwd())
+    if not os.path.exists(downloadsdir_path):
+        os.mkdir(downloadsdir_path)
+    for set_name in dbclient.get_sets():
+        setdir_path = '{}/{}/'.format(downloadsdir_path, set_name)
+        if not os.path.exists(setdir_path):
+            os.mkdir(setdir_path)
+
+
+if __name__ == '__main__':
+    dbclient = DbClient()
+    init(dbclient)
