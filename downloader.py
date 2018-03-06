@@ -5,6 +5,8 @@ import psycopg2
 from constant.downlaodjob import *
 from constant.dsn import *
 
+MTG_DOWNLOADS_PATH = 'mtgdownloads'
+
 
 class DownloadJob(object):
 
@@ -47,7 +49,8 @@ class DownloadJob(object):
         )
 
     def __get_dst(self, dic):
-        return 'mtgdownloads/{}/{}.jpg'.format(
+        return '{}/{}/{}.jpg'.format(
+            MTG_DOWNLOADS_PATH,
             dic['setcode'],
             dic['id']
         )
@@ -93,7 +96,10 @@ class DbClient(object):
 
 
 def init(dbclient):
-    downloadsdir_path = '{}/mtgdownloads/'.format(os.getcwd())
+    downloadsdir_path = '{}/{}/'.format(
+        os.getcwd(),
+        MTG_DOWNLOADS_PATH,
+    )
     if not os.path.exists(downloadsdir_path):
         os.mkdir(downloadsdir_path)
     for set_name in dbclient.get_sets():
