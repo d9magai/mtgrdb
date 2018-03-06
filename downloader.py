@@ -1,5 +1,8 @@
 from string import punctuation
+import psycopg2
+
 from constant.downlaodjob import *
+from constant.dsn import *
 
 
 class DownloadJob(object):
@@ -37,3 +40,42 @@ class DownloadJob(object):
             MAGICCARDSINFO_TABLE.get(dic['setcode'], dic['setcode'].lower()),
             dic['mcinumber'],
         )
+
+
+class DbClient(object):
+
+    def __init__(self):
+        self.__cur = self.get_cursor()
+
+    def get_cursor(self):
+        return psycopg2.connect(
+            'host={} port={} dbname={} user={} password={}'.format(
+                HOST,
+                PORT,
+                DBNAME,
+                USER,
+                PASSWORD,
+            )
+        ).cursor()
+
+    def get_sets(self):
+        self.__cur.execute('SELECT code FROM sets')
+        return [row[0] for row in self.__cur.fetchall()]
+
+    def get_downloadjobs(self):
+        self.__cur.execute(SQL_QUERY)
+        columns = (
+            'name',
+            'id',
+            'setcode',
+            'type',
+            'types',
+            'mcinumber',
+            'multiverseid',
+            'layout',
+        )
+        downloadjobs = []
+        for row in self.__cur.fetchall():
+            dic = dict(zip(columns, row))
+            downloadjobs.append(DownloadJob(dic))
+        return downloadjobs
