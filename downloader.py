@@ -3,6 +3,7 @@ import aiofiles
 import aiohttp
 import async_timeout
 import asyncio
+import logging
 import os
 import psycopg2
 import tqdm
@@ -123,8 +124,8 @@ def wait_with_progress(coros):
     for f in tqdm.tqdm(asyncio.as_completed(coros), total=len(coros)):
         try:
             yield from f
-        except Exception:
-            pass
+        except Exception as e:
+            logging.exception('Error dosomething: %s', e)
 
 
 if __name__ == '__main__':
