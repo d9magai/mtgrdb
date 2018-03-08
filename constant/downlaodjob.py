@@ -138,16 +138,17 @@ MAGICCARDSINFO_TABLE = {
     'pWOS': 'wotc',
 }
 
-SQL_QUERY = textwrap.dedent('''
-SELECT
-name,
-id,
-setcode,
-type,
-types,
-mcinumber,
-multiverseid,
-layout
-FROM cards
-WHERE setcode NOT IN ('RQS', 'pPRE')
-''')
+COLUMN = (
+    'name',
+    'id',
+    'setcode',
+    'type',
+    'types',
+    'mcinumber',
+    'multiverseid',
+    'layout',
+)
+
+SQL_QUERY = "SELECT {} FROM cards WHERE setcode NOT IN ('RQS', 'pPRE')".format(
+    ','.join(COLUMN)
+)
