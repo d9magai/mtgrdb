@@ -85,19 +85,9 @@ class DbClient(object):
 
     def get_downloadjobs(self):
         self.__cur.execute(SQL_QUERY)
-        columns = (
-            'name',
-            'id',
-            'setcode',
-            'type',
-            'types',
-            'mcinumber',
-            'multiverseid',
-            'layout',
-        )
         downloadjobs = []
         for row in self.__cur.fetchall():
-            dic = dict(zip(columns, row))
+            dic = dict(zip(COLUMN, row))
             downloadjobs.append(DownloadJob(dic))
         return downloadjobs
 
