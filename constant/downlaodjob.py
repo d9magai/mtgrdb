@@ -141,6 +141,7 @@ MAGICCARDSINFO_TABLE = {
 COLUMN = (
     'name',
     'id',
+    'magiccardsinfocode',
     'setcode',
     'type',
     'types',
@@ -149,6 +150,19 @@ COLUMN = (
     'layout',
 )
 
-SQL_QUERY = "SELECT {} FROM cards WHERE setcode NOT IN ('RQS', 'pPRE')".format(
-    ','.join(COLUMN)
-)
+
+SQL_QUERY = textwrap.dedent('''
+SELECT
+c.name,
+c.id,
+s.magiccardsinfocode,
+c.setcode,
+c.type,
+c.types,
+c.mcinumber,
+c.multiverseid,
+c.layout
+FROM cards c
+JOIN sets AS s ON s.code=c.setcode
+WHERE setcode NOT IN ('RQS', 'pPRE', 'A25')
+''')
