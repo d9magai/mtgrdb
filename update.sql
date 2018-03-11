@@ -3182,3 +3182,7 @@ UPDATE cards SET mcinumber='9' WHERE id='eb0ee1e78b727df9309ca0d371bc8e0edb62ef0
 UPDATE cards SET mcinumber='43' WHERE id='185f5652aca9c14ce1b38e388141bae39e16a269'; /*DKM Swamp*/
 UPDATE cards SET mcinumber='44' WHERE id='53b990ae931735da1d8ace0d5e25e0685ca99d35'; /*DKM Swamp*/
 
+/* insert 8EB, 9EB sets */
+INSERT INTO sets(code,name,magiccardsinfocode,releasedate,border,type) VALUES('8EB','Eighth Edition Box Set', '8eb', '2003-07-28', 'white', 'box');
+INSERT INTO sets(code,name,magiccardsinfocode,releasedate,border,type) VALUES('9EB','Ninth Edition Box Set ', '9eb', '2005-07-29', 'white', 'box');
+
