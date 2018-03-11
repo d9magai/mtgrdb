@@ -52,7 +52,7 @@ class DownloadJob(object):
 
         return '{}/scans/en/{}/{}.jpg'.format(
             MAGICCARDS_ENDPOINT,
-            MAGICCARDSINFO_TABLE.get(dic['setcode'], dic['setcode'].lower()),
+            dic['magiccardsinfocode'],
             dic['mcinumber'],
         )
 
