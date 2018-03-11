@@ -10,6 +10,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': 'Realms Befitting My Majesty',
             'id': 'f1b860777f4f774d7a3adcf41291006f84df7424',
+            'magiccardsinfocode': 'arc',
             'setcode': 'ARC',
             'type': 'Scheme',
             'types': ['Scheme'],
@@ -23,6 +24,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': 'Bloodhill Bastion',
             'id': 'ecd7436040a3d511ba4825a4b2ecf0ce3f2deccf',
+            'magiccardsinfocode': 'pca',
             'setcode': 'PCA',
             'type': 'Plane — Equilor',
             'types': ['Plane'],
@@ -36,6 +38,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': 'Planewide Disaster',
             'id': '921befc6dd3a37e65eaba484721f573c8172d16f',
+            'magiccardsinfocode': 'pc2',
             'setcode': 'PC2',
             'type': 'Phenomenon',
             'types': ['Phenomenon'],
@@ -49,6 +52,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': 'Serra Angel Avatar',
             'id': '59f7d4bdeb18b5962817ae60d94878ee558bcc50',
+            'magiccardsinfocode': '',
             'setcode': 'VAN',
             'type': 'Vanguard',
             'types': ['Vanguard'],
@@ -62,6 +66,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': 'Elemental Shaman',
             'id': '39bde9d9c9d90d2008870efbafb9ee53a3a6a408',
+            'magiccardsinfocode': 'jvc',
             'setcode': 'DD2',
             'type': 'Creature — Elemental Shaman',
             'types': ['Creature'],
@@ -75,6 +80,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': 'Orcish Oriflamme',
             'id': '83fa833e814302fab6ac41e2db0e76c276d14b2a',
+            'magiccardsinfocode': 'st2k',
             'setcode': 'S00',
             'type': 'Enchantment',
             'types': ['Enchantment'],
@@ -88,6 +94,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': "Urza's Mine",
             'id': '7c921a805e6b8b0dd67233b3cfee38d48c6eaeb6',
+            'magiccardsinfocode': 'me4',
             'setcode': 'ME4',
             'type': 'Land — Urza’s Mine',
             'types': ['Land'],
@@ -101,6 +108,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': "Ancestor's Chosen",
             'id': 'ab1ab474019e4e76c66e2b524d354cb7c3212616',
+            'magiccardsinfocode': '10e',
             'setcode': '10E',
             'type': 'Creature — Human Cleric',
             'types': ['Creature'],
@@ -114,6 +122,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': 'Squirrel token card',
             'id': 'a47493808a9b33587743267eb4934b8de4ce09fc',
+            'magiccardsinfocode': 'ug',
             'setcode': 'UGL',
             'type': '',
             'types': None,
@@ -128,6 +137,7 @@ class TestDownloadJob(unittest.TestCase):
         dic = {
             'name': 'Squirrel token card',
             'id': 'a47493808a9b33587743267eb4934b8de4ce09fc',
+            'magiccardsinfocode': 'ug',
             'setcode': 'UGL',
             'type': '',
             'types': None,
