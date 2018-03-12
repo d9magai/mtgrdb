@@ -10,6 +10,8 @@ import tqdm
 
 from constant.downlaodjob import *
 from constant.dsn import *
+import cv2
+import numpy as np
 
 
 MTG_DOWNLOADS_PATH = 'mtgdownloads'
@@ -109,13 +111,11 @@ def init(dbclient):
 async def download_coroutine(session, downloadjob):
     with async_timeout.timeout(None):
         async with SEMAPHORE, session.get(downloadjob.url()) as response:
-            async with aiofiles.open(downloadjob.dst(), 'wb') as fd:
-                while True:
-                    chunk = await response.content.read(1024)
-                    if not chunk:
-                        break
-                    await fd.write(chunk)
-
+            chunk = await response.content.read()
+            nparr = np.fromstring(chunk, np.uint8)
+            img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+            crop = img[44:249, 18:293]
+            cv2.imwrite(downloadjob.dst(), crop)
             return await response.release()
 
 
